@@ -22,6 +22,6 @@ The sourcecode of this project is licensed under the [GNU General Public License
 This project uses [Next.js](https://github.com/vercel/next.js) licensed under the [MIT License](https://github.com/vercel/next.js/blob/canary/license.md).
 This project uses [next-pwa](https://github.com/shadowwalker/next-pwa) licensed under the [MIT License](https://github.com/shadowwalker/next-pwa/blob/master/LICENSE).
 This project uses [Tailwind](https://github.com/tailwindlabs/tailwindcss) licensed under the [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE).
-This project uses [shadcn-ui](https://github.com/shadcn-ui/ui) licensed under the MIT License](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
+This project uses [shadcn-ui](https://github.com/shadcn-ui/ui) licensed under the [MIT License](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
 
 *All game assests inside of [mh](https://github.com/reDBo0n/bg_handler/tree/main/public/mh) are property of CAPCOM.*
