@@ -11,7 +11,7 @@ export default function DayTracḱer() {
 		if(local) {
 			setDays(Number(local));
 		}
-	})
+	},[])
 
 	const subOne = () => {
 		const newVal = days - 1;

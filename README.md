@@ -10,6 +10,7 @@ There's an GitHub pages hosted version of this app [here](https://redbo0n.github
 ### Build it yourself
 Clone this repository and run 
 ```
+pnpm install
 pnpm run build
 npx serve@latest out
 ```

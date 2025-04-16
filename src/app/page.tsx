@@ -85,7 +85,7 @@ export default function Home() {
 	};
 
 	const gitHub= () => {
-
+		open("https://github.com/reDBo0n/bg_handler", "_blank")?.focus();
 	};
 
 	return(
