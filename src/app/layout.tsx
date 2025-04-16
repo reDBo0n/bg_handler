@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   title: "BG Handler",
   description: "MHW:BG Companion App",
   icons: {
-    icon: "/mh/icons/favicon.ico",
-    shortcut: "/mh/icons/favicon-32x32.png",
-    apple: "/mh/icons/apple-touch-icon.png"
+    icon: "/bg_handler/mh/icons/favicon.ico",
+    shortcut: "/bg_handler/mh/icons/favicon-32x32.png",
+    apple: "/bg_handler/mh/icons/apple-touch-icon.png"
   },
-  manifest: "/manifest.json"
+  manifest: "/bg_handler/manifest.json"
 };
 
 export default function RootLayout({
