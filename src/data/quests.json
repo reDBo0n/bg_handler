@@ -1,0 +1,110 @@
+{
+	"jagras": {
+		"name":		"Great Jagras",
+		"image":	"jagras.png",
+		"max_diff":	3,
+		"expansion":"forest"
+	},
+	"tobi": {
+		"name":		"Tobi-Kadachi",
+		"image":	"tobi.png",
+		"max_diff":	3,
+		"expansion":"forest"
+	},
+	"anjanath": {
+		"name":		"Anjanath",
+		"image":	"anjanath.png",
+		"max_diff":	3,
+		"expansion":"forest"
+	},
+	"rathalos": {
+		"name":		"Rathalos",
+		"image":	"rathalos.png",
+		"max_diff":	4,
+		"expansion":"forest"
+	},
+	"a-rathalos": {
+		"name":		"Azure Rathalos",
+		"image":	"a-rathalos.png",
+		"max_diff":	4,
+		"expansion":"forest"
+	},
+	"barroth": {
+		"name":		"Barroth",
+		"image":	"barroth.png",
+		"max_diff":	3,
+		"expansion":"waste"
+	},
+	"pukei": {
+		"name":		"Pukei-Pukei",
+		"image":	"pukei.png",
+		"max_diff":	3,
+		"expansion":"waste"
+	},
+	"jyuratodus": {
+		"name":		"Jyuratodus",
+		"image":	"jyuratodus.png",
+		"max_diff":	3,
+		"expansion":"waste"
+	},
+	"diablos": {
+		"name":		"Diablos",
+		"image":	"diablos.png",
+		"max_diff":	4,
+		"expansion":"waste"
+	},
+	"b-diablos": {
+		"name":		"Black Diablos",
+		"image":	"b-diablos.png",
+		"max_diff":	4,
+		"expansion":"waste"
+	},
+	"kulu": {
+		"name":		"Kulu-Ya-Ku",
+		"image":	"kulu.png",
+		"max_diff": 3,
+		"expansion":"kulu"
+	},
+	"tzitzi": {
+		"name":		"Tzitzi-Ya-Ku",
+		"image":	"tzitzi.png",
+		"max_diff":	3,
+		"expansion":"bones"
+	},
+	"girros": {
+		"name":		"Great Girros",
+		"image":	"girros.png",
+		"max_diff":	3,
+		"expansion":"bones"
+	},
+	"radobaan": {
+		"name":		"Radobaan",
+		"image":	"radobaan.png",
+		"max_diff":	3,
+		"expansion":"bones"
+	},
+	"kushala": {
+		"name":		"Kushala Daora",
+		"image":	"kushala.png",
+		"max_diff":	5,
+		"expansion":"kushala"
+	},
+	"nergigante": {
+		"name":		"Nergigante",
+		"image":	"nergigante.png",
+		"max_diff":	5,
+		"expansion":"nergigante"
+	},
+	"teostra": {
+		"name":		"Teostra",
+		"image":	"teostra.png",
+		"max_diff":	5,
+		"expansion":"teostra"
+	},
+	"kirin": {
+		"name":		"Kirin",
+		"image":	"kirin.png",
+		"max_diff":	5,
+		"expansion":"kirin"
+	}
+}

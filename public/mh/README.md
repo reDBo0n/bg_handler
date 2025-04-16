@@ -1,0 +1,1 @@
+Files here are used by [Steamforged Games](https://steamforged.com) in [Monster Hunter World: The Board Game](https://steamforged.com/en-eu/pages/monster-hunter-world-board-game) and belong to the [Monster Hunter](https://www.monsterhunter.com) franchise, property of [CAPCOM](https://www.capcom.com).

@@ -1,0 +1,3382 @@
+{
+	"leather_helmet":{
+		"name":		"Leather Headgear",
+		"icon":		"helmet_white.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"leather_mail":{
+		"name":		"Leather Mail",
+		"icon":		"mail_white.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"leather_greaves":{
+		"name":		"Leather Trousers",
+		"icon":		"greaves_white.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"chain_helmet":{
+		"name":		"Chainmail Headgear",
+		"icon":		"helmet_white.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"chain_mail":{
+		"name":		"Chainmail Vest",
+		"icon":		"mail_white.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"chain_greaves":{
+		"name":		"Chainmail Trousers",
+		"icon":		"greaves_white.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"alloy_helmet":{
+		"name":		"Alloy Helm",
+		"icon":		"helmet_yellow.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"machalite":	2,
+			"carbalite":	1,
+			"dragonite":	1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"alloy_mail":{
+		"name":		"Alloy Mail",
+		"icon":		"mail_yellow.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"machalite":	1,
+			"carbalite":	2,
+			"dragonite":	1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"alloy_greaves":{
+		"name":		"Alloy Greaves",
+		"icon":		"greaves_yellow.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+			"machalite":	1,
+			"carbalite":	2,
+			"dragonite":	1
+		},
+		"skill":	{
+			"name":	"Poison Resistance",
+			"desc":	"You are immune to the poison status."
+		}
+	},
+	"bone_helmet":{
+		"name":		"Bone Helm",
+		"icon":		"helmet_yellow.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"bone_small":	2,
+			"ancient_bone":	2
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"bone_mail":{
+		"name":		"Bone Mail",
+		"icon":		"mail_yellow.png",
+		"type":		"armor",
+		"armor":	"0",
+		"recipe":{
+			"bone_small":	1,
+			"ancient_bone":	1
+		},
+		"skill":	{
+			"name":	"Slugger",
+			"desc":	"Once per queste, apply +1 stun token."
+		}
+	},
+	"bone_greaves":{
+		"name":		"Bone Greaves",
+		"icon":		"greaves_yellow.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"bone_small":	1,
+			"ancient_bone":	1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"barroth_helmet":{
+		"name":		"Barroth Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"barroth_ridge":	1,
+			"barroth_claw":		1,
+			"fertile_mud":		1
+		},
+		"skill":	{
+			"name":	"Guard",
+			"desc":	"Gain +1 armor when playing attacks that grant armor."
+		}
+	},
+	"barroth_mail":{
+		"name":		"Barroth Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"barroth_cara":	1,
+			"barroth_ridge":2,
+			"barroth_claw":	1,
+			"quality_bone":	2
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"barroth_greaves":{
+		"name":		"Barroth Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"barroth_ridge":	1,
+			"barroth_cara":		2,
+			"fertile_mud":		1,
+			"keenbone":			1
+		},
+		"skill":	{
+			"name":	"Stun Resistance",
+			"desc":	"You're immune to the stun status ailment."
+		}
+	},
+	"jagras_helmet":{
+		"name":		"Jagras Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"jagras_hide":	1,
+			"jagras_mane":	1,
+			"jagras_claw":	1,
+			"ancient_bone":	1
+		},
+		"skill":	{
+			"name":	"Speed Eating",
+			"desc":	"Once per quest, you may use combat actions and preparation actions during the same turn.",
+			"alt":	"Once per quest, if you play a potion or ration item card, resolve its effect at the end of this turn instead of at the start of your next turn."
+		}
+	},
+	"jagras_mail":{
+		"name":		"Jagras Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"jagras_hide":	1,
+			"jagras_claw":	1,
+			"jagras_scale":	1,
+			"bone_small":	1
+		},
+		"skill":	{
+			"name":	"Palico Rally",
+			"desc":	"You may use your Palico ability twice per quest."
+		}
+	},
+	"jagras_greaves":{
+		"name":		"Jagras Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"jagras_scale":	1,
+			"jagras_hide":	1,
+			"jagras_mane":	1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"kulu_helmet":{
+		"name":		"Kulu Headpiece",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"kulu_scale":	1,
+			"kulu_hide":	1,
+			"kulu_plume":	1
+		},
+		"skill":	{
+			"name":	"Weakness Exploit",
+			"desc":	"Attack cards with 2+ combo draw +1 damage."
+		}
+	},
+	"kulu_mail":{
+		"name":		"Kulu Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"kulu_hide":	2,
+			"kulu_plume":	1,
+			"kulu_beak":	1
+		},
+		"skill":	{
+			"name":	"Critical Eye",
+			"desc":	"When you draw damage, draw +1, then choose 1 to place on top of your damage deck before inflicting damage."
+		}
+	},
+	"kulu_greaves":{
+		"name":		"Kulu Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"kulu_hide":	1,
+			"kulu_scale":	2,
+			"wingdrake_hide":3,
+			"earth_crystal":1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"pukei_helmet":{
+		"name":		"Pukei Hood",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"pukei_cara":	1,
+			"pukei_tail":	1,
+			"pukei_wing":	1
+		},
+		"skill":	{
+			"name":	"Sporepuff Expert",
+			"desc":	"When you recover health from anything that isn't a potion, recover 1 additional health."
+		}
+	},
+	"pukei_mail":{
+		"name":		"Pukei Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"pukei_scale":	2,
+			"pukei_cara":	1,
+			"carbalite":	3
+		},
+		"skill":	{
+			"name":	"Botanist",
+			"desc":	"During the gathering phase, when the hunters gain a potion, they may all immediately recover to full health."
+		}
+	},
+	"pukei_greaves":{
+		"name":		"Pukei Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"pukei_cara":	2,
+			"pukei_sac":	2,
+			"pukei_scale":	3,
+			"keenbone":		1
+		},
+		"skill":	{
+			"name":	"Poison Resistance",
+			"desc":	"You are immune to the poison status."
+		}
+	},
+	"tobi_helmet":{
+		"name":		"Kadachi Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"0",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"tobi_pelt":	1,
+			"tobi_claw":	1,
+			"electro_sac":	1
+		},
+		"skill":	{
+			"name":	"Constitution",
+			"desc":	"Once per quest, discard attack cards when dodging."
+		}
+	},
+	"tobi_mail":{
+		"name":		"Kadachi Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"tobi_pelt":	1,
+			"tobi_electrode":	1,
+			"tobi_membrane":	2,
+			"wingdrake_hide":	1
+		},
+		"skill":	{
+			"name":	"Evade Extender",
+			"desc":	"Move +1 when dodging."
+		}
+	},
+	"tobi_greaves":{
+		"name":		"Kadachi Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"0",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"tobi_scale":	2,
+			"tobi_pelt":	1,
+			"warm_pelt":	1
+		},
+		"skill":	{
+			"name":	"Thunder Attack",
+			"desc":	"Draw +1 damage card on thunder attacks."
+		}
+	},
+	"anja_helmet":{
+		"name":		"Anja Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"anja_pelt":	1,
+			"anja_scale":	1,
+			"anja_tail":	1
+		},
+		"skill":	{
+			"name":	"Fire Attack",
+			"desc":	"Draw +1 damage card on fire attacks."
+		}
+	},
+	"anja_mail":{
+		"name":		"Anja Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"anja_pelt":	1,
+			"anja_fang":	1,
+			"anja_nose":	1
+		},
+		"skill":	{
+			"name":	"Marathon Runner",
+			"desc":	"Move 2 instead of 1 when walking."
+		}
+	},
+	"anja_greaves":{
+		"name":		"Anja Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"anja_scale":	1,
+			"anja_pelt":	1,
+			"flame_sac":	1,
+			"machalite":	2
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"jyura_helmet":{
+		"name":		"Jyura Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"jyura_scale":	1,
+			"jyura_cara":	1,
+			"jyura_fin":	1,
+			"gajau_scale":	1
+		},
+		"skill":	{
+			"name":	"Aquatic Expert",
+			"desc":	"Gain immunity to pond nodes."
+		}
+	},
+	"jyura_mail":{
+		"name":		"Jyura Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"jagras_scale":	1,
+			"jyura_fin":	1,
+			"jyura_fang":	1,
+			"torrent_sac":	2
+		},
+		"skill":	{
+			"name":	"Water Attack",
+			"desc":	"Draw +1 damage card on water attacks."
+		}
+	},
+	"jyura_greaves":{
+		"name":		"Jyura Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"jyura_cara":	1,
+			"jyura_fang":	1,
+			"jyura_fin":	1,
+			"wyvern_gem":	1
+		},
+		"skill":	{
+			"name":	"",
+			"desc":	""
+		}
+	},
+	"arath_helmet":{
+		"name":		"Rath Soul Helm",
+		"icon":		"helmet_purple.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"arath_scale":	1,
+			"arath_cara":	1,
+			"arath_marrow":	1
+		},
+		"skill":	{
+			"name":	"Intimidator",
+			"desc":	"You can't suffer damage durin the gathering phase."
+		}
+	},
+	"arath_mail":{
+		"name":		"Rath Soul Main",
+		"icon":		"mail_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"arath_scale":	1,
+			"arath_wing":	2,
+			"arath_plate":	1
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Azure Rathalos Mastery",
+			"desc":	"When resolving elemental damage, draw 3 and pick one."
+		}
+	},
+	"arath_greaves":{
+		"name":		"Rath Soul Greaves",
+		"icon":		"greaves_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"arath_cara":	1,
+			"arath_talon":	2,
+			"arath_tail":	1
+		},
+		"skill":	{
+			"name":	"Focus",
+			"desc":	"Reduce combo icons by 1. (Minimum of 1)"
+		}
+	},
+	"bdiablos_helmet":{
+		"name":		"Diablos Nero Helm",
+		"icon":		"helmet_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"bdiablos_ridge":	2,
+			"majestic_horn":	1,
+			"bdiablos_horn":1,
+			"novacrystal":		2
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Black Diablos Mastery",
+			"desc":	"Draw +1 damage card on non-elemental attacks"
+		}
+	},
+	"bdiablos_mail":{
+		"name":		"Diablos Nero Mail",
+		"icon":		"mail_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"bdiablos_cara":	1,
+			"bdiablos_horn":2,
+			"diablos_medulla":	1
+		},
+		"skill":	{
+			"name":	"Resentment",
+			"desc":	"If you recovered health during your previous turn, the first attack you play this turn gains +2 damage."
+		}
+	},
+	"bdiablos_greaves":{
+		"name":		"Diablos Nero Greaves",
+		"icon":		"greaves_purple.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"bdiablos_ridge":	1,
+			"bdiablos_cara":	2,
+			"bdiablos_horn":1,
+			"wyvern_gem":		1
+		},
+		"skill":	{
+			"name":	"Part Breaker",
+			"desc":	"Cards with break gain +1 break."
+		}
+	},
+	"diablos_helmet":{
+		"name":		"Diablos Helm",
+		"icon":		"helmet_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"diablos_ridge":	1,
+			"diablos_fang":		1,
+			"majestic_horn":	1,
+			"wyvern_gem":		2
+		},
+		"skill":	{
+			"name":	"Heroics",
+			"desc":	"While at 2 health or less, draw +1 damage on non-elemental attacks."
+		}
+	},
+	"diablos_mail":{
+		"name":		"Diablos Mail",
+		"icon":		"mail_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"diablos_cara":	2,
+			"diablos_ridge":1,
+			"majestic_horn":1,
+			"lightcrystal":	2
+		},
+		"skill":	{
+			"name":	"Slugger",
+			"desc":	"Once per quest, apply +1 stun token."
+		}
+	},
+	"diablos_greaves":{
+		"name":		"Diablos Greaves",
+		"icon":		"greaves_purple.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"diablos_ridge":	1,
+			"diablos_cara":		1,
+			"diablos_medulla":	1
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Diablos Mastery",
+			"desc":	"Draw +1 damage card on non-elemental attacks."
+		}
+	},
+	"rath_helmet":{
+		"name":		"Rathalos Helm",
+		"icon":		"helmet_purple.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"rath_scale":	1,
+			"rath_shell":	1,
+			"rath_marrow":	1
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Rathalos Mastery",
+			"desc":	"When applying fire, draw an elemental damage card instead of placing a fire token."
+		}
+	},
+	"rath_mail":{
+		"name":		"Rathalos Mail",
+		"icon":		"mail_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"rath_scale":	1,
+			"rath_web":		1,
+			"rath_plate":	1
+		},
+		"skill":	{
+			"name":	"Rathalos Power",
+			"desc":	"Once per quest, you may swap your hunter token with another player, maintaining token facing."
+		}
+	},
+	"rath_greaves":{
+		"name":		"Rathalos Greaves",
+		"icon":		"greaves_purple.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"rath_shell":	1,
+			"rath_talon":	1,
+			"rath_tail":	1
+		},
+		"skill":	{
+			"name":	"Sleep Resistance",
+			"desc":	"You're immune to the sleep status."
+		}
+	},
+	"kush_helmet":{
+		"name":		"Kushala Glar",
+		"icon":		"helmet_orange.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"daora_scale":	2,
+			"daora_cara":	1,
+			"daora_web":	1,
+			"dragon_bone":	2
+		},
+		"skill":	{
+			"name":	"Ice Attack",
+			"desc":	"Draw +1 damage card on ice attacks."
+		}
+	},
+	"kush_mail":{
+		"name":		"Kushala Cista",
+		"icon":		"mail_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"daora_cara":	1,
+			"daora_horn":	1,
+			"daora_claw":	1,
+			"daora_gem":	1
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Kushala Daora Flight",
+			"desc":	"Gain +1 agility when dodging or sprinting."
+		}
+	},
+	"kush_greaves":{
+		"name":		"Kushala Crus",
+		"icon":		"greaves_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"daora_cara":	1,
+			"daora_scale":	1,
+			"daora_web":	2,
+			"dragon_blood":	2
+		},
+		"skill":	{
+			"name":	"Handicraft",
+			"desc":	"Once per quest, reshuffle your empty damage dack during an attack."
+		}
+	},
+	"nerg_helmet":{
+		"name":		"Nergigante Helm",
+		"icon":		"helmet_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"nerg_horn":	1,
+			"nerg_cara":	1,
+			"nerg_scale":	2,
+			"nerg_gem":		1
+		},
+		"skill":	{
+			"name":	"Maximum Might",
+			"desc":	"Draw +2 damage cards, but return 2 to the deck."
+		}
+	},
+	"nerg_mail":{
+		"name":		"Nergigante Mail",
+		"icon":		"mail_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"ice_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"nerg_scale":	2,
+			"nerg_talon":	2,
+			"dragon_bone":	2
+		},
+		"skill":	{
+			"name":	"Agitator",
+			"desc":	"Draw +1 damage against broken parts."
+		}
+	},
+	"nerg_greaves":{
+		"name":		"Nergigante Greaves",
+		"icon":		"greaves_orange.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"nerg_cara":	1,
+			"nerg_scale":	1,
+			"nerg_replate":	2,
+			"dragon_blood":	2
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Nergigante Hunter",
+			"desc":	"If you inflict damage to the monster during your turn, recover 1 health."
+		}
+	},
+	"teo_helmet":{
+		"name":		"Kaiser Crown",
+		"icon":		"helmet_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"teo_cara":	1,
+			"teo_horn":	1,
+			"teo_tail":	1,
+			"firecell":	2
+		},
+		"skill":	{
+			"name":	"Latent Power",
+			"desc":	"Draw +1 damage on your first attack if you suffered damage last monster turn."
+		}
+	},
+	"teo_mail":{
+		"name":		"Kaiser Mail",
+		"icon":		"mail_orange.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"teo_web":	2,
+			"teo_powder":2,
+			"rath_plate":1
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Teostra Technique",
+			"desc":	"Once per quest, shuffle the damage cards from an attack back into the damage deck."
+		}
+	},
+	"teo_greaves":{
+		"name":		"Kaiser Greaves",
+		"icon":		"greaves_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"fire_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"teo_scale":	2,
+			"teo_mane":		1
+		},
+		"skill":	{
+			"name":	"Weakness Exploit",
+			"desc":	"Attack cards with 2+ combo draw +1 damage."
+		}
+	},
+	"tzitzi_helmet":{
+		"name":		"Tzitzi Headgear",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"tzitzi_scale":	1,
+			"tzitzi_hide":	2,
+			"coral_crystal":1
+		},
+		"skill":	{
+			"name":	"Stun Resistance",
+			"desc":	"This hunter can't suffer the Stun staus ailment."
+		}
+	},
+	"tzitzi_mail":{
+		"name":		"Tzitzi Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"tzitzi_hide":	1,
+			"tzitzi_claw":	1,
+			"tzitzi_photo":	1,
+			"lightcrystal":		1
+		},
+		"skill":	{
+			"name":	"Water Attack",
+			"desc":	"When this hunter plays a water elemental attack card, draw 1 additional Damge Card."
+		}
+	},
+	"tzitzi_greaves":{
+		"name":		"Tzitzi Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"recipe":{
+			"tzitzi_hide":	2,
+			"tzitzi_claw":	1
+		},
+		"skill":	{
+			"name":	"Sleep Resistance",
+			"desc":	"This hunter can't suffer the Sleep status ailment."
+		}
+	},
+	"girros_helmet":{
+		"name":		"Girros Mask",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"ggirros_scale":	2,
+			"ggirros_hide":		1,
+			"girros_scale":		1
+		},
+		"skill":	{
+			"name":	"Horn Maestro",
+			"desc":	"When this hunter plays a song, that song gains 1 additional Range."
+		}
+	},
+	"girros_mail":{
+		"name":		"Girros Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"ggirros_hide":		2,
+			"ggirros_tail":		1,
+			"para_sac":	1
+		},
+		"skill":	{
+			"name":	"Lesser Paralysis Resistance",
+			"desc":	"When this hunter suffers the Paralysis status ailment, discard down to 3 cards in your hand instead of 2."
+		}
+	},
+	"girros_greaves":{
+		"name":		"Girros Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"ggirros_hide":	2,
+			"ggirros_fang":	1,
+			"bone_medium":	1
+		},
+		"skill":	{
+			"name":	"Paralysis Attack",
+			"desc":	"Once per quest, when this hunter uses a Paralysis status ailment attack card, place 1 additional Paralysis token."
+		}
+	},
+	"radobaan_helmet":{
+		"name":		"Baan Helm",
+		"icon":		"helmet_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"rado_shell":	2,
+			"bonemass":		1
+		},
+		"skill":	{
+			"name":	"Slugger",
+			"desc":	"Once per quest, when this hunter uses a Stun status ailment attack card, place 1 additional Stun token."
+		}
+	},
+	"radobaan_mail":{
+		"name":		"Baan Mail",
+		"icon":		"mail_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"rado_scale":	1,
+			"rado_shell":	1,
+			"sleep_sac":	2
+		},
+		"skill":	{
+			"name":	"Sleep Attack",
+			"desc":	"Once per quest, when this hunter uses a Sleep status ailment attack card, place 1 additional Sleep token."
+		}
+	},
+	"radobaan_greaves":{
+		"name":		"Baan Greaves",
+		"icon":		"greaves_green.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"water_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"rado_scale":	1,
+			"bonemass":		2
+		},
+		"skill":	{
+			"name":	"Guard",
+			"desc":	"When this hunter plays an attack card which grant additional armour, the card gains 1 addtional Armour."
+		}
+	},
+	"kirin_helmet":{
+		"name":		"Kirin Horn",
+		"icon":		"helmet_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"kirin_hide":	2,
+			"kirin_tail":	2,
+			"lightcrystal":		1
+		},
+		"skill":	{
+			"name":	"Marathon Runner",
+			"desc":	"When this hunter walks, they move up to 2 nodes instead of 1."
+		}
+	},
+	"kirin_mail":{
+		"name":		"Kirin Jacket",
+		"icon":		"mail_orange.png",
+		"type":		"armor",
+		"armor":	"1",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"2"
+		},
+		"recipe":{
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"coral_bone":	2
+		},
+		"skill":	{
+			"name":	"Thunder Attack",
+			"desc":	"When this hunter plays a Thunder attack card, dra 1 additional Damage Card."
+		}
+	},
+	"kirin_greaves":{
+		"name":		"Kirin Leg Guards",
+		"icon":		"greaves_orange.png",
+		"type":		"armor",
+		"armor":	"2",
+		"res":{
+			"type":	"thunder_res.png",
+			"amnt":	"1"
+		},
+		"recipe":{
+			"kirin_hide":	2,
+			"kirin_thorn":	2
+		},
+		"skill":	{
+			"set":	true,
+			"name":	"Kirin Favour",
+			"desc":	"Once per quest, after the group have rolled on the monster's reward table, you may roll for rewards a second time."
+		}
+	},
+	"buster_sword":{
+		"name":		"Buster Sword",
+		"icon":		"g-sword_white.png",
+		"type":		"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	7,
+			"2":	4,
+			"3":	1
+		}
+	},
+	"buster_blade":{
+		"name":		"Buster Blade",
+		"icon":		"g-sword_yellow.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	4,
+			"2":	6,
+			"3":	2
+		},
+		"remove":{
+			"jumping_slash":			"2"
+		},
+		"add":{
+			"enhanced_jumping_slash":	"2"
+		}
+	},
+	"chrome_razor":{
+		"name":		"Chrome Razor",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"buster_blade",
+		"recipe":{
+			"fucium":		2,
+			"carbalite":	2,
+			"dragonite":	3,
+			"dragonvein":	2
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"remove":{
+			"jumping_slash":			"2",
+			"wide_slash":				"2"
+		},
+		"add":{
+			"enhanced_jumping_slash":	"2",
+			"heavy_slice":				"2"
+		}
+	},
+	"bone_blade":{
+		"name":		"Bone Blade",
+		"icon":		"g-sword_white.png",
+		"type":		"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	3,
+			"3":	2
+		}
+	},
+	"bone_slasher":{
+		"name":		"Bone Slasher",
+		"icon":		"g-sword_yellow.png",
+		"type":		"weapon",
+		"pre":		"bone_blade",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	3
+		},
+		"remove":{
+			"any":						"1"
+		},
+		"add":{
+			"greater_sword_block":		"1"
+		}
+	},
+	"giant_jawblade":{
+		"name":		"Giant Jawblade",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"bone_slasher",
+		"recipe":{
+			"hardbone":		2,
+			"keenbone":		2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	2,
+			"2":	4,
+			"3":	4
+		},
+		"remove":{
+			"any":						"1",
+			"overhead_slam":			"4"
+		},
+		"add":{
+			"greater_sword_block":		"1",
+			"enhanced_overhead_slam":	"4"
+		}
+	},
+	"jagras_blade":{
+		"name":		"Jagras Blade",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"jagras_claw":	2,
+			"jagras_hide":	1,
+			"jagras_scale":	2,
+			"sharp_claw":	1
+		},
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"rising_slash":	"3"
+		},
+		"add":{
+			"strong_rising_slash":	"3"
+		}
+	},
+	"jagras_hacker":{
+		"name":		"Jagras Hacker",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"jagras_blade",
+		"recipe":{
+			"jagras_scale":	2,
+			"jagras_claw":	2,
+			"jagras_mane":	2,
+			"piercing_claw":1
+		},
+		"damage":{
+			"2":	3,
+			"3":	9,
+			"4":	2
+		},
+		"remove":{
+			"rising_slash":	"3",
+			"any":			"2"
+		},
+		"add":{
+			"strong_rising_slash":	"3",
+			"strong_charge_up":		"2"
+		}
+	},
+	"flame_blade":{
+		"name":		"Flame Blade",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_web":		2,
+			"inferno_sac":	1,
+			"rath_marrow":	1
+		},
+		"damage":{
+			"2":	5,
+			"3":	5,
+			"4":	2
+		},
+		"remove":{
+			"overhead_slam":	"4"
+		},
+		"add":{
+			"blazing_slam":		"4"
+		}
+	},
+	"red_wing":{
+		"name":		"Red Wing",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"flame_blade",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_cara":	1,
+			"rath_wing":	1,
+			"rath_medulla":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	2,
+			"3":	6,
+			"4":	3
+		},
+		"remove":{
+			"overhead_slam":	"4",
+			"wide_slash":		"2"
+		},
+		"add":{
+			"blazing_slam":		"4",
+			"crushing_slash":	"2"
+		}
+	},
+	"blooming_blade":{
+		"name":		"Blooming Blade",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"pukei_quill":	2,
+			"pukei_scale":	2,
+			"poison_sac":	1,
+			"pukei_tail":	1
+		},
+		"damage":{
+			"2":	5,
+			"3":	6,
+			"4":	1
+		},
+		"remove":{
+			"true_charged_slash":	"2"
+		},
+		"add":{
+			"toxic_charged_slash":	"2"
+		}
+	},
+	"datura_blaze":{
+		"name":		"Datura Blaze",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"blooming_blade",
+		"recipe":{
+			"pukei_scale":	2,
+			"pukei_wing":	2,
+			"toxic_sac":	2,
+			"quality_bone":	3
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	3,
+			"3":	6,
+			"4":	3
+		},
+		"remove":{
+			"true_charged_slash":	"2",
+			"charge_up":			"2"
+		},
+		"add":{
+			"toxic_charged_slash":	"2",
+			"poisoned_charge_up":	"2"
+		}
+	},
+	"carapace_buster":{
+		"name":		"Carapace Buster",
+		"icon":		"g-sword_green.png",
+		"type":		"weapon",
+		"pre":		"bone_blade",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":3,
+			"barroth_ridge":3
+		},
+		"damage":{
+			"2":	5,
+			"3":	3,
+			"4":	1
+		},
+		"remove":{
+			"greatsword_block":	"2"
+		},
+		"add":{
+			"empowered_great_sword_block":	"2"
+		}
+	},
+	"barroth_shredder":{
+		"name":		"Barroth Shredder",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"carapace_buster",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":3
+		},
+		"damage":{
+			"2":	6,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"greatsword_block":	"2",
+			"any":				"2"
+		},
+		"add":{
+			"empowered_great_sword_block":	"2",
+			"paralysing_slash":				"2"
+		}
+	},
+	"icesteel_edge":{
+		"name":		"Icesteel Edge",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_cara":	1,
+			"daora_tail":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	4,
+			"3":	4,
+			"4":	5,
+			"5":	1
+		},
+		"remove":{
+			"charge_up":	"2"
+		},
+		"add":{
+			"frozen_charge_up":	"2"
+		}
+	},
+	"daora_decimator":{
+		"name":		"Daora's Decimator",
+		"icon":		"g-sword_orange.png",
+		"type":		"weapon",
+		"pre":		"icesteel_edge",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	6,
+			"4":	3,
+			"5":	2
+		},
+		"remove":{
+			"charge_up":	"2",
+			"overhead_slam":"4"
+		},
+		"add":{
+			"frozen_charge_up":	"2",
+			"frostbite_slam":	"4"
+		}
+	},
+	"nergal_judicator":{
+		"name":		"Nergal Judicator",
+		"icon":		"g-sword_purple.png",
+		"type":		"weapon",
+		"pre":		"buster_sword",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"armor":	1,
+		"damage":{
+			"2":	3,
+			"3":	5,
+			"4":	3,
+			"5":	1
+		},
+		"remove":{
+			"rising_slash":	"3"
+		},
+		"add":{
+			"dreaded_cleave":	"3"
+		}
+	},
+	"purgation_atrocity":{
+		"name":		"Purgation's Atrocity",
+		"icon":		"g-sword_orange.png",
+		"type":		"weapon",
+		"pre":		"nergal_judicator",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	3,
+			"3":	4,
+			"4":	3,
+			"5":	4
+		},
+		"remove":{
+			"rising_slash":			"3",
+			"true_charged_slash":	"2"
+		},
+		"add":{
+			"dreaded_cleave":		"3",
+			"dragon_charged_slash":	"2"
+		}
+	},
+	"matched_slicers":{
+		"name":	"Matched Slicers",
+		"icon":	"blades_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	10,
+			"2":	2
+		}
+	},
+	"dual_slicers":{
+		"name":	"Dual Slicers",
+		"icon":	"blades_yellow.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	8,
+			"2":	3,
+			"3":	1
+		},
+		"remove":{
+			"lunging_stab":	"2"
+		},
+		"add":{
+			"enhanced_lunging_stab":	"2"
+		}
+	},
+	"chrome_slicers":{
+		"name":	"Chrome Slicers",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"dual_slicers",
+		"recipe":{
+			"fucium":		2,
+			"carbalite":	2,
+			"dragonite":	3,
+			"dragonvein":	2
+		},
+		"damage":{
+			"1":	5,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"lunging_stab":	"2",
+			"blade_dance":	"4"
+		},
+		"add":{
+			"enhanced_lunging_stab":	"2",
+			"enhanced_blade_dance":		"4"
+		}
+	},
+	"bone_hatchets":{
+		"name":	"Bone Hatchets",
+		"icon":	"blades_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	7,
+			"2":	3
+		}
+	},
+	"wild_hatchets":{
+		"name":	"Wild Hatchets",
+		"icon":	"blades_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	5
+		},
+		"remove":{
+			"double_slash":	"2"
+		},
+		"add":{
+			"impact_double_slash":	"2"
+		}
+	},
+	"strong_hatchets":{
+		"name":	"Strong Hatchets",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"wild_hatchets",
+		"recipe":{
+			"hardbone":		2,
+			"keenbone":		2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"double_slash":	"2",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"impact_double_slash":	"2",
+			"strong_rapid_spin":	"2"
+		}
+	},
+	"pulsar_hatchets":{
+		"name":	"Pulsar Hatchets",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"tobi_electrode":	1,
+			"tobi_claw":		2,
+			"electro_sac":		2,
+			"coral_crystal":	2
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"bladed_fangs":	"2",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"shocking_rush":"4"
+		}
+	},
+	"kadachi_claws":{
+		"name":	"Kadachi Claws",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"pulsar_hatchets",
+		"recipe":{
+			"tobi_electrode":	2,
+			"tobi_claw":		2,
+			"thunder_sac":		1
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	5
+		},
+		"remove":{
+			"bladed_fangs":	"2",
+			"rapid_spin":	"2",
+			"demon_mode":	"2"
+		},
+		"add":{
+			"shocking_rush":		"4",
+			"enhanced_demon_mode":	"2"
+		}
+	},
+	"blazing_hatchets":{
+		"name":	"Blazing Hatchets",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"anja_scale":	3,
+			"anja_fang":	2,
+			"flame_sac":	1
+		},
+		"damage":{
+			"1":	1,
+			"2":	9,
+			"3":	2
+		},
+		"remove":{
+			"six_fold_slash":	"1",
+			"any":				"1"
+		},
+		"add":{
+			"blazing_fold_slash":	"2"
+		}
+	},
+	"anja_cyclone":{
+		"name":	"Anja Cyclone",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"blazing_hatchets",
+		"recipe":{
+			"anja_fang":	4,
+			"anja_pelt":	4,
+			"firecell":		2
+		},
+		"damage":{
+			"1":	1,
+			"2":	9,
+			"3":	4
+		},
+		"remove":{
+			"six_fold_slash":	"1",
+			"any":				"1",
+			"double_slash":		"2"
+		},
+		"add":{
+			"blazing_fold_slash":	"2",
+			"blazing_double_slash":	"2"
+		}
+	},
+	"madness_pangas":{
+		"name":	"Madness Pangas",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_shell":	2,
+			"jyura_scale":	3,
+			"aqua_sac":		1
+		},
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	3
+		},
+		"remove":{
+			"blade_dance":	"4"
+		},
+		"add":{
+			"water_dance":	"4"
+		}
+	},
+	"jyura_hatchets":{
+		"name":	"Jyura Hatchets",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"madness_pangas",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_cara":	2,
+			"jyura_scale":	2,
+			"aqua_sac":		1,
+			"gajau_scale":	1
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"remove":{
+			"blade_dance":	"4",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"water_dance":	"4",
+			"flurry_rush":	"2"
+		}
+	},
+	"diablos_hatchets":{
+		"name":	"Diablos Hatchets",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"twisted_horn":	1,
+			"diablos_fang":	2,
+			"diablos_shell":4,
+			"bone_large":	2
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"remove":{
+			"double_slash":	"2"
+		},
+		"add":{
+			"brutal_double_slash":	"2"
+		}
+	},
+	"diablos_clubs":{
+		"name":	"Diablos Clubs",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"diablos_hatchets",
+		"recipe":{
+			"majestic_horn":	2,
+			"diablos_cara":		2,
+			"diablos_ridge":	2,
+			"diablos_medulla":		1
+		},
+		"armor":"1",
+		"damage":{
+			"1":	2,
+			"2":	7,
+			"3":	5
+		},
+		"remove":{
+			"double_slash":	"2",
+			"demon_mode":	"2"
+		},
+		"add":{
+			"brutal_double_slash":	"2",
+			"brutal_demon_mode":	"2"
+		}
+	},
+	"rending_beaks":{
+		"name":	"Rending Beaks",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"kulu_beak":	1,
+			"kulu_hide":	2,
+			"kulu_scale":	4,
+			"earth_crystal":3
+		},
+		"damage":{
+			"1":	2,
+			"2":	10,
+			"3":	2
+		},
+		"remove":{
+			"lunging_stab":	"2"
+		},
+		"add":{
+			"evasive_stab":	"2"
+		}
+	},
+	"arcanaria":{
+		"name":	"Arcanaria",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"rending_beaks",
+		"recipe":{
+			"kulu_beak":	2,
+			"kulu_hide":	3,
+			"kulu_plume":	3,
+			"boulder_bone":	4
+		},
+		"damage":{
+			"1":	2,
+			"2":	10,
+			"3":	4
+		},
+		"remove":{
+			"lunging_stab":	"2",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"evasive_stab":	"2",
+			"dream_spin":	"2"
+		}
+	},
+	"twin_nails_t":{
+		"name":	"Twin Nails",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"teo_claw":		1,
+			"teo_mane":		1,
+			"teo_cara":		2,
+			"teo_powder":	1
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"any":	"2"
+		},
+		"add":{
+			"blast_wrath":	"2"
+		}
+	},
+	"fire_and_ice_t":{
+		"name":	"Fire and Ice",
+		"icon":	"blades_orange.png",
+		"type":	"weapon",
+		"pre":	"twin_nails",
+		"recipe":{
+			"teo_horn":	3,
+			"teo_claw":	2,
+			"teo_gem":	1
+		},
+		"damage":{
+			"2":	9,
+			"3":	4,
+			"4":	3
+		},
+		"remove":{
+			"any":	"2",
+			"six_fold_slash":	"1",
+			"double_slash":		"2"
+		},
+		"add":{
+			"blast_wrath":	"2",
+			"rending_slice":"3"
+		}
+	},
+	"twin_nails_k":{
+		"name":	"Twin Nails",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_cara":	1,
+			"daora_tail":	2
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"any":	"2"
+		},
+		"add":{
+			"blast_wrath":	"2"
+		}
+	},
+	"fire_and_ice_k":{
+		"name":	"Fire and Ice",
+		"icon":	"blades_orange.png",
+		"type":	"weapon",
+		"pre":	"twin_nails",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"damage":{
+			"2":	9,
+			"3":	4,
+			"4":	3
+		},
+		"remove":{
+			"any":	"2",
+			"six_fold_slash":	"1",
+			"double_slash":		"2"
+		},
+		"add":{
+			"blast_wrath":	"2",
+			"rending_slice":"3"
+		}
+	},
+	"nergal_gouge":{
+		"name":	"Nergal Gouge",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"damage":{
+			"2":	5,
+			"3":	6,
+			"4":	1
+		},
+		"remove":{
+			"blade_dance":	"4"
+		},
+		"add":{
+			"dragon_dance":	"4"
+		}
+	},
+	"decimation_claws":{
+		"name":	"Decimation Claws",
+		"icon":	"blades_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_gouge",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"damage":{
+			"2":	5,
+			"3":	7,
+			"4":	2
+		},
+		"remove":{
+			"blade_dance":	"4",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"dragon_dance":	"4",
+			"mid_air_slash":"2"
+		}
+	},
+	"chain_blitz":{
+		"name":	"Chain Blitz",
+		"icon":	"l-bowgun_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	10,
+			"2":	2
+		}
+	},
+	"high_chain_blitz":{
+		"name":	"High Chain Blitz",
+		"icon":	"l-bowgun_yellow.png",
+		"type":	"weapon",
+		"pre":	"chain_blitz",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	6,
+			"2":	6
+		},
+		"remove":{
+			"normal_1_l":	"5"
+		},
+		"add":{
+			"rapid_normal_1":	"5"
+		}
+	},
+	"cross_blitz":{
+		"name":	"Corss Blitz",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"high_chain_blitz",
+		"recipe":{
+			"fucium":		2,
+			"carbalite":	2,
+			"dragonite":	3,
+			"dragonvein":	2
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	6,
+			"2":	4,
+			"3":	2
+		},
+		"remove":{
+			"normal_1_l":	"5",
+			"normal_2_l":	"2"
+		},
+		"add":{
+			"rapid_normal_1":	"5",
+			"normal_3_l":		"2"
+		}
+	},
+	"hunter_rifle":{
+		"name":	"Hunter's Rifle",
+		"icon":	"l-bowgun_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	6,
+			"2":	4
+		}
+	},
+	"power_rifle":{
+		"name":	"Power Rifle",
+		"icon":	"l-bowgun_yellow.png",
+		"type":	"weapon",
+		"pre":	"hunter_rifle",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"poison_1_l":	"2"
+		},
+		"add":{
+			"recover_1_l":"2"
+		}
+	},
+	"sniper_shot":{
+		"name":	"Sniper Shot",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"power_rifle",
+		"recipe":{
+			"hardbone":		2,
+			"keenbone":		2,
+			"quality_bone":	3
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"poison_1_l":		"2",
+			"spread_1_l":	"2"
+		},
+		"add":{
+			"recover_1_l":	"2",
+			"spread_2_l":	"2"
+		}
+	},
+	"jagras_blitz":{
+		"name":	"Jagras Blitz",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"chain_blitz",
+		"recipe":{
+			"jagras_claw":	1,
+			"jagras_hide":	1,
+			"jagras_scale":	3,
+			"sharp_claw":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	3,
+			"2":	7,
+			"3":	2
+		},
+		"remove":{
+			"normal_1_l":	"5"
+		},
+		"add":{
+			"water_l":	"5"
+		}
+	},
+	"jagras_fire":{
+		"name":	"Jagras Fire",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"jagras_blitz",
+		"recipe":{
+			"jagras_scale":	3,
+			"jagras_claw":	1,
+			"jagras_mane":	2,
+			"piercing_claw":1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"2":	5,
+			"3":	8,
+			"4":	1
+		},
+		"remove":{
+			"normal_1_l":	"5",
+			"poison_1_l":		"2"
+		},
+		"add":{
+			"water_l":	"5",
+			"recover_2_l":"2"
+		}
+	},
+	"flame_blitz":{
+		"name":	"Flame Blitz",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"chain_blitz",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_web":		2,
+			"rath_marrow":	1,
+			"inferno_sac":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	4
+		},
+		"remove":{
+			"normal_1_l":	"5"
+		},
+		"add":{
+			"rapid_flaming_l":"5"
+		}
+	},
+	"rathbuster":{
+		"name":	"Rathbuster",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"flame_blitz",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_cara":	1,
+			"rath_wing":	1,
+			"rath_medulla":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	4,
+			"2":	4,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"normal_1_l":	"5",
+			"normal_2_l":	"2"
+		},
+		"add":{
+			"rapid_flaming_l":"5",
+			"flaming_l":		"2"
+		}
+	},
+	"carapace_rifle":{
+		"name":	"Carapace Rifle",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"hunter_rifle",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":3,
+			"barroth_ridge":2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	3,
+			"2":	2,
+			"3":	5
+		},
+		"remove":{
+			"poison_1_l":	"2"
+		},
+		"add":{
+			"armour_1_l":	"2"
+		}
+	},
+	"barroth_shot":{
+		"name":	"Barroth Shot",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"carapace_rifle",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"2":	9,
+			"3":	2,
+			"4":	1
+		},
+		"remove":{
+			"poison_1_l":	"2",
+			"pierce_1_l":	"2"
+		},
+		"add":{
+			"armour_1_l":	"2",
+			"paralysis_l":"2"
+		}
+	},
+	"madness_rifle":{
+		"name":	"Madness Rifle",
+		"icon":	"l-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"hunter_rifle",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_shell":	2,
+			"jyura_scale":	3,
+			"aqua_sac":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"3":	3
+		},
+		"remove":{
+			"normal_2_l":	"2"
+		},
+		"add":{
+			"rapid_water_l":	"2"
+		}
+	},
+	"jyura_bullet":{
+		"name":	"Jyura Bullet",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"madness_rifle",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_cara":	2,
+			"jyura_scale":	2,
+			"aqua_sac":		1,
+			"gajau_scale":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	4
+		},
+		"remove":{
+			"normal_2_l":	"2",
+			"poison_1_l":		"2"
+		},
+		"add":{
+			"rapid_water_l":	"2",
+			"sleep_l":		"2"
+		}
+	},
+	"icesteel_wasp":{
+		"name":	"Icesteel Wasp",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"chain_blitz",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_cara":	1,
+			"daora_tail":	2
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	1,
+			"2":	9,
+			"3":	2,
+			"4":	2
+		},
+		"remove":{
+			"poison_1_l":	"2"
+		},
+		"add":{
+			"freeze_l":	"2"
+		}
+	},
+	"daora_hornet":{
+		"name":	"Daora's Hornet",
+		"icon":	"l-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"daora_hornet",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	2,
+			"2":	9,
+			"3":	3,
+			"4":	2
+		},
+		"remove":{
+			"poison_1_l":	"2",
+			"wyvernblast_l":	"1",
+			"any":			"1"
+		},
+		"add":{
+			"freeze_l":	"2",
+			"freezing_wyvernblast_l":	"2"
+		}
+	},
+	"nergal_spitter":{
+		"name":	"Nergal Spitter",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"cahin_blitz",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	1,
+			"2":	7,
+			"3":	2,
+			"4":	2
+		},
+		"remove":{
+			"normal_1_l":	"5"
+		},
+		"add":{
+			"dragon_l":	"5"
+		}
+	},
+	"cataclysm_trigger":{
+		"name":	"Cataclysm's Trigger",
+		"icon":	"l-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_spitter",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"2":	2,
+			"3":	7,
+			"4":	5
+		},
+		"remove":{
+			"normal_1_l":	"5",
+			"poison_1_l":		"2"
+		},
+		"add":{
+			"dragon_l":	"5",
+			"armour_2_l":	"2"
+		}
+	},
+	"iron_assault":{
+		"name":	"Iron Assault",
+		"icon":	"h-bowgun_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	9,
+			"2":	3
+		}
+	},
+	"steel_assault":{
+		"name":	"Steel Assault",
+		"icon":	"h-bowgun_yellow.png",
+		"type":	"weapon",
+		"pre":	"iron_assault",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	7,
+			"2":	4,
+			"3":	1
+		},
+		"remove":{
+			"pierce_2_h":	"2"
+		},
+		"add":{
+			"pierce_3_h":	"2"
+		}
+	},
+	"chrome_assault":{
+		"name":	"Chrome Assault",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"steel_assault",
+		"recipe":{
+			"fucium":		2,
+			"carbalite":	2,
+			"dragonite":	3,
+			"dragonvein":	2
+		},
+		"dev":	"dev_yellow",
+		"damage":{
+			"1":	5,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"pierce_2_h":	"2",
+			"normal_2_h":	"2"
+		},
+		"add":{
+			"pierce_3_h":	"2",
+			"normal_3_h":	"2"
+		}
+	},
+	"bone_shooter":{
+		"name":	"Bone Shooter",
+		"icon":	"h-bowgun_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	6,
+			"2":	4
+		}
+	},
+	"heavy_shooter":{
+		"name":	"Heavy Shooter",
+		"icon":	"h-bowgun_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_shooter",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	4,
+			"2":	5,
+			"3":	1
+		},
+		"remove":{
+			"sticky_1_h":	"1",
+			"any":		"1"
+		},
+		"add":{
+			"sticky_2_h":	"2"
+		}
+	},
+	"power_shooter":{
+		"name":	"Power Shooter",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"heavy_shooter",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	4,
+			"2":	4,
+			"3":	2
+		},
+		"remove":{
+			"sticky_1_h":	"1",
+			"any":		"1",
+			"spread_1_h":	"2"
+		},
+		"add":{
+			"sticky_2_h":	"2",
+			"spread_2_h":	"2"
+		}
+	},
+	"jagras_assault":{
+		"name":	"Jagras Assault",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"iron_assault",
+		"recipe":{
+			"jagras_claw":	1,
+			"jagras_hide":	1,
+			"jagras_scale":	3,
+			"sharp_claw":	1
+		},
+		"dev":	"dev_green-png",
+		"damage":{
+			"1":	4,
+			"2":	4,
+			"3":	4
+		},
+		"remove":{
+			"pierce_1_h":	"2"
+		},
+		"add":{
+			"water_h":	"2"
+		}
+	},
+	"jagras_cannon":{
+		"name":	"Jagras Cannon",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"jagras_assault",
+		"recipe":{
+			"jagras_scale":	2,
+			"jagras_claw":	2,
+			"jagras_mane":	2,
+			"piercing_claw":1
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"1":	6,
+			"2":	1,
+			"3":	5,
+			"4":	2
+		},
+		"remove":{
+			"pierce_1_h":	"2",
+			"wyvernsnipe_h":"1",
+			"any":			"1"
+		},
+		"add":{
+			"water_h":	"2",
+			"jagras_wyvernheart_h":	"2"
+		}
+	},
+	"pulsar_shooter":{
+		"name":	"Pulsar Shooter",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"bone_shooter",
+		"recipe":{
+			"tobi_claw":	1,
+			"tobi_scale":	3,
+			"tobi_pelt":	2
+		},
+		"dev":	"dev_white.png",
+		"damage":{
+			"1":	4,
+			"2":	2,
+			"3":	3,
+			"4":	1
+		},
+		"remove":{
+			"pierce_2_h":	"2"
+		},
+		"add":{
+			"electrical_h":	"2"
+		}
+	},
+	"kadachi_lion":{
+		"name":	"Kadachi Lion",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"pulsar_shooter",
+		"recipe":{
+			"tobi_claw":	2,
+			"tobi_scale":	2,
+			"tobi_pelt":	2,
+			"dragonvein":	2
+		},
+		"dev":	"dev_white.png",
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"3":	3,
+			"4":	2
+		},
+		"remove":{
+			"pierce_2_h":	"2",
+			"spread_1_h":	"2"
+		},
+		"add":{
+			"electrical_h":	"2",
+			"thunder_h":	"2"
+		}
+	},
+	"blooming_shooter":{
+		"name":	"Blooming Shooter",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"bone_shooter",
+		"recipe":{
+			"pukei_quill":	2,
+			"pukei_scale":	2,
+			"poison_sac":	1,
+			"pukei_tail":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	3,
+			"3":	4
+		},
+		"remove":{
+			"normal_1_h":	"5"
+		},
+		"add":{
+			"poison_1_h":	"5"
+		}
+	},
+	"datura_blaster":{
+		"name":	"Datura Blaster",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"blooming_shooter",
+		"recipe":{
+			"pukei_scale":	2,
+			"pukei_wing":	2,
+			"toxic_sac":	2,
+			"quality_bone":	3
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	3,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"normal_1_h":	"5",
+			"cluster_1_h":	"2"
+		},
+		"add":{
+			"poison_1_h":	"5",
+			"poison_2_h":	"2"
+		}
+	},
+	"diablos_shooter":{
+		"name":	"Diablos Shooter",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"bone_shooter",
+		"recipe":{
+			"twisted_horn":	1,
+			"diablos_fang":	2,
+			"diablos_shell":4,
+			"bone_large":	2
+		},
+		"dev":	"dev_purple.png",
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3,
+			"4":	2
+		},
+		"remove":{
+			"normal_2_h":	"2"
+		},
+		"add":{
+			"brutal_h":	"2"
+		}
+	},
+	"dual_threat":{
+		"name":	"Dual Threat",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"diablos_shooter",
+		"recipe":{
+			"majestic_horn":	2,
+			"diablos_cara":		3,
+			"diablos_ridge":	3,
+			"diablos_medulla":		1
+		},
+		"dev":	"dev_purple.png",
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	3,
+			"4":	3
+		},
+		"remove":{
+			"normal_2_h":	"2",
+			"wyvernsnipe_h":"1",
+			"any":			"1"
+		},
+		"add":{
+			"brutal_h":	"2",
+			"wyvern_h":	"2"
+		}
+	},
+	"teostra_artillery":{
+		"name":	"Teostra's Artillery",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_assault",
+		"recipe":{
+			"teo_claw":	1,
+			"teo_mane":	1,
+			"teo_cara":	2,
+			"teo_powder":1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"2":	8,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"cluster_1_h":	"2"
+		},
+		"add":{
+			"carpet_bomb_h":"2"
+		}
+	},
+	"teostra_flames":{
+		"name":	"Teostra's Flames",
+		"icon":	"h-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"tepstra_artillery",
+		"recipe":{
+			"teo_horn":	3,
+			"teo_claw":	2,
+			"teo_gem":	1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"2":	10,
+			"3":	3,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"cluster_1_h":	"2",
+			"any":			"1",
+			"wyvernsnipe_h":"1"
+		},
+		"add":{
+			"carpet_bomb_h":"2",
+			"teostra_wyvernheart_h":	"2"
+		}
+	},
+	"nergal_roar":{
+		"name":	"Nergal Roar",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_assault",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"2":	6,
+			"3":	2,
+			"4":	4
+		},
+		"remove":{
+			"any":	"2"
+		},
+		"add":{
+			"shield_mod_h":	"2"
+		}
+	},
+	"destruction_fusillade":{
+		"name":	"Destruction's Fusillade",
+		"icon":	"h-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_roar",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"dev":	"dev_green.png",
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"any":	"3",
+			"wyvernsnipe_h":	"1"
+		},
+		"add":{
+			"shield_mod_h":	"2",
+			"nergal_wyvernheart_h":	"2"
+		}
+	},
+	"girros_blade":{
+		"name":	"Girros Blade",
+		"icon":	"g-sword_green.png",
+		"type":	"weapon",
+		"pre":	"buster_sword",
+		"recipe":{
+			"ggirros_fang":	3,
+			"ggirros_scale":4,
+			"girros_fang":	2
+		},
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"rising_slash":	"3"
+		},
+		"add":{
+			"swarm_slash":	"3"
+		}
+	},
+	"malady_kiss":{
+		"name":	"Malady's Kiss",
+		"icon":	"g-sword_purple.png",
+		"type":	"weapon",
+		"pre":	"girros_blade",
+		"recipe":{
+			"ggirros_fang":	2,
+			"ggirros_scale":2,
+			"ggirros_tail":	2,
+			"girros_scale":	1
+		},
+		"damage":{
+			"2":	6,
+			"3":	6,
+			"4":	2
+		},
+		"remove":{
+			"rising_slash":	"3",
+			"any":			"2"
+		},
+		"add":{
+			"swarm_slash":	"3",
+			"paralysing_slash_pb":	"2"
+		}
+	},
+	"spiked_blade":{
+		"name":	"Spike Blade",
+		"icon":	"g-sword_green.png",
+		"type":	"weapon",
+		"pre":	"bone_blade",
+		"recipe":{
+			"bonemass":	2,
+			"rado_scale":	3,
+			"sleep_sac":	2
+		},
+		"damage":{
+			"2":	6,
+			"3":	3,
+			"4":	1
+		},
+		"remove":{
+			"great_sword_block":	"2"
+		},
+		"add":{
+			"spiked_block":	"2"
+		}
+	},
+	"radobaan_slab":{
+		"name":	"Radobaan Slab",
+		"icon":	"g-sword_purple.png",
+		"type":	"weapon",
+		"pre":	"spiked_blade",
+		"recipe":{
+			"rado_cara":	4,
+			"rado_shell":	2,
+			"coma_sac":		1,
+			"keenbone":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"great_sword_block":	"2",
+			"wide_slash":			"2"
+		},
+		"add":{
+			"spiked_block":	"2",
+			"sleep_gas_slash":	"2"
+		}
+	},
+	"luminous_daggers":{
+		"name":	"Luminous Daggers",
+		"icon":	"blades_green.png",
+		"type":	"weapon",
+		"pre":	"matched_slicers",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	3
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"remove":{
+			"bladed_fangs":	"2"
+		},
+		"add":{
+			"flash_fangs":	"2"
+		}
+	},
+	"dual_destroyers":{
+		"name":	"Dual Destroyers",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"luminous_daggers",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	5,
+			"lightcrystal":		1
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	7
+		},
+		"remove":{
+			"bladed_fangs":	"2",
+			"rapid_spin":	"2"
+		},
+		"add":{
+			"flash_fangs":	"2",
+			"flash_spin":	"2"
+		}
+	},
+	"luminous_assault":{
+		"name":	"Luminous Assault",
+		"icon":	"h-bowgun_green.png",
+		"type":	"weapon",
+		"pre":	"iron_assault",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	3
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	6,
+			"3":	3
+		},
+		"remove":{
+			"sticky_1_h":	"1",
+			"cluster_1_h":	"2"
+		},
+		"add":{
+			"sticky_2_h_pb":	"1",
+			"flash_bomb_h":	"2"
+		}
+	},
+	"arma_destroyer":{
+		"name":	"Arma Destroyer",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"luminous_assault",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	5,
+			"lightcrystal":		1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	3,
+			"2":	6,
+			"3":	4,
+			"4":	1
+		},
+		"remove":{
+			"sticky_1_h":	"1",
+			"cluster_1_h":	"2",
+			"pierce_1_h":	"2"
+		},
+		"add":{
+			"sticky_2_h_pb":	"1",
+			"flash_bomb_h":	"2",
+			"flash_pierce_h":"2"
+		}
+	},
+	"kirin_thundersword":{
+		"name":	"Kirin Thundersword",
+		"icon":	"g-sword_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_blade",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":		1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	3,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"rising_slash":	"3"
+		},
+		"add":{
+			"thunder_slash":"3"
+		}
+	},
+	"king_thundersword":{
+		"name":	"King Thundersword",
+		"icon":	"g-sword_orange.png",
+		"type":	"weapon",
+		"pre":	"kirin_thundersword",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	4,
+			"3":	6,
+			"4":	2,
+			"5":	2
+		},
+		"remove":{
+			"rising_slash":	"3",
+			"jumping_slash":"2"
+		},
+		"add":{
+			"thunder_slash":"3",
+			"overcharged_slash":	"2"
+		}
+	},
+	"kirin_bolts":{
+		"name":	"Kirin Bolts",
+		"icon":	"blades_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_hatchets",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":		1
+		},
+		"damage":{
+			"2":	7,
+			"3":	4,
+			"4":	1
+		},
+		"remove":{
+			"rapid_spin":	"2",
+			"double_slash":	"2"
+		},
+		"add":{
+			"charged_slash":	"4"
+		}
+	},
+	"monarch":{
+		"name":	"Monarch",
+		"icon":	"blades_orange.png",
+		"type":	"weapon",
+		"pre":	"kirin_bolts",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"damage":{
+			"2":	6,
+			"3":	6,
+			"4":	2
+		},
+		"remove":{
+			"rapid_spin":	"2",
+			"double_slash":	"2",
+			"bladed_fangs":	"2"
+		},
+		"add":{
+			"charged_slash":	"4",
+			"thunder_fangs":	"2"
+		}
+	},
+	"quickcaster":{
+		"name":	"Quickcaster",
+		"icon":	"h-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_shooter",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":		1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	1,
+			"2":	5,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"normal_1_h":	"5"
+		},
+		"add":{
+			"thunder_h_krn":	"5"
+		}
+	},
+	"quickquiver":{
+		"name":	"Quickquiver",
+		"icon":	"h-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"quickcaster",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"2":	9,
+			"3":	2,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"normal_1_h":	"5",
+			"pierce_1_h":	"2"
+		},
+		"add":{
+			"thunder_h_krn":	"5",
+			"charged_h":		"2"
+		}
+	},
+	"mythical_horn":{
+		"name":	"Mythical Horn",
+		"icon":	"l-bowgun_purple.png",
+		"type":	"weapon",
+		"pre":	"hunter_rifle",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":		1
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"1":	1,
+			"2":	5,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"normal_1_l":	"5"
+		},
+		"add":{
+			"static_l":	"5"
+		}
+	},
+	"mythical_three_horn":{
+		"name":	"Mythical Three-Horn",
+		"icon":	"l-bowgun_orange.png",
+		"type":	"weapon",
+		"pre":	"mythical_horn",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"dev":	"dev_yellow.png",
+		"damage":{
+			"2":	7,
+			"3":	4,
+			"4":	3
+		},
+		"remove":{
+			"normal_1_l":	"5",
+			"reload_l":		"2"
+		},
+		"add":{
+			"static_l":	"5",
+			"thunderous_reload_l":	"2"
+		}
+	}
+}

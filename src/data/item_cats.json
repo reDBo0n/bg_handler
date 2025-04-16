@@ -1,0 +1,272 @@
+{
+	"commmon": {
+		"name":	"Common Bones, Ores and Hides",
+		"icon":	"cboh.png",
+		"items":[
+			"carbalite",
+			"machalite",
+			"dragonite",
+			"fucium",
+			"quality_bone",
+			"bone_small",
+			"bone_medium",
+			"bone_large",
+			"keenbone",
+			"hardbone",
+			"ancient_bone",
+			"boulder_bone",
+			"dragonvein",
+			"wingdrake_hide"
+		]
+	},
+	"other": {
+		"name":	"Other Bones, Ores and Hides",
+		"icon":	"other.png",
+		"items":[
+			"firecell",
+			"coral_crystal",
+			"fertile_mud",
+			"warm_pelt",
+			"pukei_sac",
+			"lightcrystal",
+			"torrent_sac",
+			"coral_bone"
+		]
+	},
+	"jagras":{
+		"name":	"Great Jagras",
+		"icon":	"jagras.png",
+		"items":[
+			"jagras_claw",
+			"jagras_hide",
+			"jagras_scale",
+			"jagras_mane",
+			"sharp_claw",
+			"piercing_claw"
+		]
+	},
+	"tobi":{
+		"name":	"Tobi-Kadachi",
+		"icon":	"tobi.png",
+		"items":[
+			"tobi_pelt",
+			"tobi_scale",
+			"electro_sac",
+			"tobi_electrode",
+			"tobi_membrane",
+			"tobi_claw",
+			"thunder_sac"
+		]
+	},
+	"anjanath":{
+		"name":	"Anjanath",
+		"icon":	"anjanath.png",
+		"items":[
+			"anja_scale",
+			"anja_pelt",
+			"anja_nose",
+			"anja_tail",
+			"anja_fang",
+			"flame_sac",
+			"inferno_sac"
+		]
+	},
+	"rathalos":{
+		"name":	"Rathalos",
+		"icon":	"rathalos.png",
+		"items":[
+			"rath_talon",
+			"rath_scale",
+			"rath_web",
+			"rath_tail",
+			"rath_marrow",
+			"rath_plate",
+			"rath_wing",
+			"rath_cara",
+			"rath_shell",
+			"rath_medulla",
+			"inferno_sac"
+		]
+	},
+	"a-rathalos":{
+		"name":	"Azure Rathalos",
+		"icon":	"a-rathalos.png",
+		"items":[
+			"arath_talon",
+			"arath_scale",
+			"arath_wing",
+			"arath_plate",
+			"arath_marrow",
+			"arath_tail",
+			"arath_cara",
+			"inferno_sac"
+		]
+	},
+	"barroth":{
+		"name":	"Barroth",
+		"icon":	"barroth.png",
+		"items":[
+			"barroth_claw",
+			"barroth_ridge",
+			"barroth_shell",
+			"barroth_cara"
+		]
+	},
+	"pukei":{
+		"name":	"Pukei-Pukei",
+		"icon":	"pukei.png",
+		"items":[
+			"pukei_wing",
+			"pukei_scale",
+			"pukei_quill",
+			"pukei_cara",
+			"poison_sac",
+			"pukei_tail",
+			"toxic_sac"
+		]
+	},
+	"jyuratodus":{
+		"name":	"Jyuratodus",
+		"icon":	"jyuratodus.png",
+		"items":[
+			"jyura_fin",
+			"aqua_sac",
+			"jyura_scale",
+			"jyura_shell",
+			"jyura_cara",
+			"jyura_fang",
+			"gajau_scale"
+		]
+	},
+	"diablos":{
+		"name":	"Diablos",
+		"icon":	"diablos.png",
+		"items":[
+			"diablos_shell",
+			"diablos_cara",
+			"twisted_horn",
+			"majestic_horn",
+			"diablos_fang",
+			"diablos_ridge",
+			"diablos_medulla"
+		]
+	},
+	"b-diablos":{
+		"name":	"Black Diablos",
+		"icon":	"b-diablos.png",
+		"items":[
+			"novacrystal",
+			"bdiablos_cara",
+			"bdiablos_horn",
+			"majestic_horn",
+			"bdiablos_ridge",
+			"diablos_medulla",
+			"wyvern_gem"
+		]
+	},
+	"kulu":{
+		"name":	"Kulu-Ya-Ku",
+		"icon":	"kulu.png",
+		"items":[
+			"kulu_plume",
+			"kulu_beak",
+			"earth_crystal",
+			"kulu_scale",
+			"kulu_hide",
+			"bird_gem"
+		]
+	},
+	"tzitzi":{
+		"name":	"Tzitzi-Ya-Ku",
+		"icon":	"tzitzi.png",
+		"items":[
+			"tzitzi_photo",
+			"tzitzi_claw",
+			"tzitzi_scale",
+			"tzitzi_hide"
+		]
+	},
+	"girros":{
+		"name":	"Great Girros",
+		"icon":	"girros.png",
+		"items":[
+			"girros_scale",
+			"girros_fang",
+			"para_sac",
+			"ggirros_fang",
+			"ggirros_scale",
+			"ggirros_hide",
+			"ggirros_tail"
+		]
+	},
+	"radobaan":{
+		"name":	"Radobaan",
+		"icon":	"radobaan.png",
+		"items":[
+			"coma_sac",
+			"rado_cara",
+			"sleep_sac",
+			"rado_scale",
+			"bonemass",
+			"rado_shell"
+		]
+	},
+	"kushala":{
+		"name":	"Kushala Daora",
+		"icon":	"kushala.png",
+		"items":[
+			"daora_web",
+			"daora_gem",
+			"daora_claw",
+			"daora_scale",
+			"daora_cara",
+			"daora_horn",
+			"daora_tail",
+			"dragon_bone",
+			"dragon_blood"
+		]
+	},
+	"nergigante":{
+		"name":	"Nergigante",
+		"icon":	"nergigante.png",
+		"items":[
+			"nerg_scale",
+			"nerg_talon",
+			"nerg_cara",
+			"nerg_replate",
+			"nerg_horn",
+			"nerg_tail",
+			"dragon_bone",
+			"dragon_blood",
+			"nerg_gem"
+		]
+	},
+	"teostra":{
+		"name":	"Teostra",
+		"icon":	"teostra.png",
+		"items":[
+			"teo_scale",
+			"teo_horn",
+			"teo_web",
+			"teo_gem",
+			"teo_powder",
+			"teo_cara",
+			"novacrystal",
+			"firecell",
+			"teo_claw",
+			"teo_mane",
+			"teo_tail"
+		]
+	},
+	"kirin":{
+		"name":	"Kirin",
+		"icon":	"kirin.png",
+		"items":[
+			"kirin_ahorn",
+			"kirin_thorn",
+			"kirin_mane",
+			"kirin_hide",
+			"kirin_tail"
+		]
+	}
+}

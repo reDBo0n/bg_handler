@@ -1,0 +1,544 @@
+{
+	"armor":{
+		"name":	"Armor",
+		"icon":	"arm.png",
+		"cat":{
+			"leather":{
+				"icon":	"hide_white.png",
+				"equip":[
+					"leather_helmet",
+					"leather_mail",
+					"leather_greaves"
+				]
+			},
+			"chain":{
+				"icon":	"ore_white.png",
+				"equip":[
+					"chain_helmet",
+					"chain_mail",
+					"chain_greaves"
+				]
+			},
+			"alloy":{
+				"icon":	"cboh.png",
+				"equip":[
+					"alloy_helmet",
+					"alloy_mail",
+					"alloy_greaves"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_helmet",
+					"bone_mail",
+					"bone_greaves"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"jagras_helmet",
+					"jagras_mail",
+					"jagras_greaves"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"tobi_helmet",
+					"tobi_mail",
+					"tobi_greaves"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"anja_helmet",
+					"anja_mail",
+					"anja_greaves"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"barroth_helmet",
+					"barroth_mail",
+					"barroth_greaves"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"pukei_helmet",
+					"pukei_mail",
+					"pukei_greaves"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"jyura_helmet",
+					"jyura_mail",
+					"jyura_greaves"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"kulu_helmet",
+					"kulu_mail",
+					"kulu_greaves"
+				]
+			},
+			"tzitzi":{
+				"icon":	"tzitzi.png",
+				"equip":[
+					"tzitzi_helmet",
+					"tzitzi_mail",
+					"tzitzi_greaves"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"girros_helmet",
+					"girros_mail",
+					"girros_greaves"
+				]
+			},
+			"radobaan":{
+				"icon":	"radobaan.png",
+				"equip":[
+					"radobaan_helmet",
+					"radobaan_mail",
+					"radobaan_greaves"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"rath_helmet",
+					"rath_mail",
+					"rath_greaves"
+				]
+			},
+			"a-rathalos":{
+				"icon":	"a-rathalos.png",
+				"equip":[
+					"arath_helmet",
+					"arath_mail",
+					"arath_greaves"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"diablos_helmet",
+					"diablos_mail",
+					"diablos_greaves"
+				]
+			},
+			"b-diablos":{
+				"icon":	"b-diablos.png",
+				"equip":[
+					"bdiablos_helmet",
+					"bdiablos_mail",
+					"bdiablos_greaves"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"kush_helmet",
+					"kush_mail",
+					"kush_greaves"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"nerg_helmet",
+					"nerg_mail",
+					"nerg_greaves"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"teo_helmet",
+					"teo_mail",
+					"teo_greaves"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"kirin_helmet",
+					"kirin_mail",
+					"kirin_greaves"
+				]
+			}
+		}
+	},
+	"g-sword":{
+		"name":	"Great Sword",
+		"icon":	"g-sword_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"buster_sword",
+					"buster_blade",
+					"chrome_razor"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_blade",
+					"bone_slasher",
+					"giant_jawblade"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"buster_sword",
+					"jagras_blade",
+					"jagras_hacker"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"buster_sword",
+					"flame_blade",
+					"red_wing"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"buster_sword",
+					"blooming_blade",
+					"datura_blaze"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_blade",
+					"carapace_buster",
+					"barroth_shredder"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"buster_sword",
+					"girros_blade",
+					"malady_kiss"
+				]
+			},
+			"radobaan":{
+				"icon":	"radobaan.png",
+				"equip":[
+					"bone_blade",
+					"spiked_blade",
+					"radobaan_slab"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"buster_sword",
+					"icesteel_edge",
+					"daora_decimator"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"buster_sword",
+					"nergal_judicator",
+					"purgation_atrocity"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_blade",
+					"kirin_thundersword",
+					"king_thundersword"
+				]
+			}
+		}
+	},
+	"blades":{
+		"name":	"Dual Blades",
+		"icon":	"blades_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"matched_slicers",
+					"dual_slicers",
+					"chrome_slicers"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_hatchets",
+					"wild_hatchets",
+					"strong_hatchets"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_hatchets",
+					"pulsar_hatchets",
+					"kadachi_claws"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"bone_hatchets",
+					"blazing_hatchets",
+					"anja_cyclone"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"bone_hatchets",
+					"madness_pangas",
+					"jyura_hatchets"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_hatchets",
+					"diablos_hatchets",
+					"diablos_clubs"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"matched_slicers",
+					"rending_beaks",
+					"arcanaria"
+				]
+			},
+			"tzitzi":{
+				"icon":	"tzitzi.png",
+				"equip":[
+					"matched_slicers",
+					"luminous_daggers",
+					"dual_destroyers"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"matched_slicers",
+					"twin_nails_t",
+					"fire_and_ice_t"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"matched_slicers",
+					"twin_nails_k",
+					"fire_and_ice_k"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"matched_slicers",
+					"nergal_gouge",
+					"decimation_claws"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_hatchets",
+					"kirin_bolts",
+					"monarch"
+				]
+			}
+		}
+	},
+	"l-bowgun":{
+		"name":	"Light Bowgun",
+		"icon":	"l-bowgun_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"chain_blitz",
+					"high_chain_blitz",
+					"cross_blitz"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"hunter_rifle",
+					"power_rifle",
+					"sniper_shot"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"chain_blitz",
+					"jagras_blitz",
+					"jagras_fire"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"chain_blitz",
+					"flame_blitz",
+					"rathbuster"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"hunter_rifle",
+					"carapace_rifle",
+					"barroth_shot"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"hunter_rifle",
+					"madness_rifle",
+					"jyura_bullet"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"chain_blitz",
+					"icesteel_wasp",
+					"daora_hornet"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"chain_blitz",
+					"nergal_spitter",
+					"cataclysm_trigger"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"hunter_rifle",
+					"mythical_horn",
+					"mythical_three_horn"
+				]
+			}
+		}
+	},
+	"h-bowgun":{
+		"name":	"Heavy Bowgun",
+		"icon":	"h-bowgun_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_assault",
+					"steel_assault",
+					"chrome_assault"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_shooter",
+					"heavy_shooter",
+					"power_shooter"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"iron_assault",
+					"jagras_assault",
+					"jagras_cannon"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_shooter",
+					"pulsar_shooter",
+					"kadachi_lion"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"bone_shooter",
+					"blooming_shooter",
+					"datura_blaster"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_shooter",
+					"diablos_shooter",
+					"dual_threat"
+				]
+			},
+			"tzitzi":{
+				"icon":	"tzitzi.png",
+				"equip":[
+					"iron_assault",
+					"luminous_assault",
+					"arma_destroyer"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"iron_assault",
+					"teostra_artillery",
+					"teostra_flames"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_assault",
+					"nergal_roar",
+					"destruction_fusillade"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_shooter",
+					"quickcaster",
+					"quickquiver"
+				]
+			}
+		}
+	}
+}

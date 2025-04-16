@@ -1,0 +1,569 @@
+{
+	"carbalite":{
+		"name":	"Carbalite Ore",
+		"icon": "ore_purple.png"
+	},
+	"machalite":{
+		"name":	"Machalite Ore",
+		"icon":	"ore_blue.png"
+	},
+	"dragonite":{
+		"name":	"Dragonite Ore",
+		"icon":	"ore_green.png"
+	},
+	"fucium":{
+		"name":	"Fucium Ore",
+		"icon":	"ore_pink.png"
+	},
+	"quality_bone":{
+		"name":	"Quality Bone",
+		"icon":	"bone_white.png"
+	},
+	"bone_small":{
+		"name":	"Monster Bone Small",
+		"icon":	"bone_yellow.png"
+	},
+	"bone_medium":{
+		"name":	"Monster Bone Medium",
+		"icon":	"bone_yellow.png"
+	},
+	"bone_large":{
+		"name":	"Monster Bone Large",
+		"icon":	"bone_yellow.png"
+	},
+	"keenbone":{
+		"name":	"Monster Keenbone",
+		"icon":	"bone_pink.png"
+	},
+	"hardbone":{
+		"name":	"Monster Hardbone",
+		"icon":	"bone_red.png"
+	},
+	"ancient_bone":{
+		"name":	"Ancient Bone",
+		"icon":	"bone_green.png"
+	},
+	"boulder_bone":{
+		"name":	"Boulder Bone",
+		"icon":	"bone_yellow.png"
+	},
+	"dragonvein":{
+		"name":	"Dragonvein Crystal",
+		"icon":	"ore_red.png"
+	},
+	"wingdrake_hide":{
+		"name":	"Wingdrake Hide",
+		"icon":	"wing_tan.png"
+	},
+	"firecell":{
+		"name":	"Firecell Stone",
+		"icon":	"ore_orange.png"
+	},
+	"coral_crystal":{
+		"name":	"Coral Crystal",
+		"icon":	"ore_blue.png"
+	},
+	"fertile_mud":{
+		"name":	"Fertile Mud",
+		"icon":	"dung_orange.png"
+	},
+	"warm_pelt":{
+		"name":	"Warm Pelt",
+		"icon":	"hide_green.png"
+	},
+	"pukei_sac":{
+		"name":	"Pukei Sac",
+		"icon":	"sac_light_green.png"
+	},
+	"lightcrystal":{
+		"name":	"Lightcrystal",
+		"icon":	"ore_gray.png"
+	},
+	"torrent_sac":{
+		"name":	"Torrent Sac",
+		"icon": "sac_light_blue.png"
+	},
+	"coral_bone":{
+		"name":	"Coral Bone",
+		"icon":	"bone_pink.png"
+	},
+	"jagras_claw":{
+		"name": "Great Jagras Claw",
+		"icon": "claw_yellow.png"
+	},
+	"jagras_hide":{
+		"name":	"Great Jagras Hide",
+		"icon":	"hide_yellow.png"
+	},
+	"jagras_scale":{
+		"name":	"Great Jagras Scale",
+		"icon":	"scale_yellow.png"
+	},
+	"jagras_mane":{
+		"name":	"Great Jagras Mane",
+		"icon":	"part_yellow.png"
+	},
+	"sharp_claw":{
+		"name":	"Sharp Claw",
+		"icon":	"claw_gray.png"
+	},
+	"piercing_claw":{
+		"name": "Piercing Claw",
+		"icon":	"claw_gray.png"
+	},
+	"barroth_claw":{
+		"name":	"Barroth Claw",
+		"icon":	"claw_orange.png"
+	},
+	"barroth_ridge":{
+		"name":	"Barroth Ridge",
+		"icon":	"part_orange.png"
+	},
+	"barroth_shell":{
+		"name":	"Barroth Shell",
+		"icon":	"shell_orange.png"
+	},
+	"barroth_cara":{
+		"name":	"Barroth Carapace",
+		"icon":	"shell_orange.png"
+	},
+	"kulu_plume":{
+		"name":	"Kulu-Ya-Ku Plume",
+		"icon":	"part_vermilion.png"
+	},
+	"kulu_beak":{
+		"name":	"Kulu-Ya-Ku Beak",
+		"icon":	"head_tan.png"
+	},
+	"earth_crystal":{
+		"name":	"Earth Crystal",
+		"icon":	"ore_white.png"
+	},
+	"kulu_scale":{
+		"name":	"Kulu-Ya-Ku-Scale",
+		"icon":	"scale_tan.png"
+	},
+	"kulu_hide":{
+		"name":	"Kulu-Ya-Ku Hide",
+		"icon":	"hide_tan.png"
+	},
+	"bird_gem":{
+		"name":	"Bird Wyvern Gem",
+		"icon":	"ball_blue.png"
+	},
+	"pukei_wing":{
+		"name":	"Pukei-Pukei Wing",
+		"icon":	"wing_light_green.png"
+	},
+	"pukei_scale":{
+		"name":	"Pukei-Pukei Scale",
+		"icon":	"scale_light_green.png"
+	},
+	"pukei_quill":{
+		"name":	"Pukei-Pukei Quill",
+		"icon":	"wing_light_green.png"
+	},
+	"pukei_cara":{
+		"name":	"Pukei-Pukei Carapace",
+		"icon":	"shell_light_green.png"
+	},
+	"poison_sac":{
+		"name":	"Poison Sac",
+		"icon":	"sac_purple.png"
+	},
+	"pukei_tail":{
+		"name":	"Pukei-Pukei Tail",
+		"icon":	"tail_light_green.png"
+	},
+	"toxic_sac":{
+		"name":	"Toxic Sac",
+		"icon":	"sac_purple.png"
+	},
+	"tobi_pelt":{
+		"name":	"Tobi-Kadachi Pelt",
+		"icon":	"hide_emerald.png"
+	},
+	"tobi_scale":{
+		"name":	"Tobi-Kadachi Scale",
+		"icon":	"scale_emerald.png"
+	},
+	"electro_sac":{
+		"name":	"Electro Sac",
+		"icon":	"sac_yellow.png"
+	},
+	"tobi_electrode":{
+		"name":	"Tobi-Kadachi Electrode",
+		"icon":	"part_emerald.png"
+	},
+	"tobi_membrane":{
+		"name":	"Tobi-Kadachi Membrane",
+		"icon":	"wing_emerald.png"
+	},
+	"tobi_claw":{
+		"name":	"Tobi-Kadachi Claw",
+		"icon":	"claw_emerald.png"
+	},
+	"thunder_sac":{
+		"name":	"Thunder Sac",
+		"icon":	"sac_yellow.png"
+	},
+	"anja_scale":{
+		"name":	"Anjanath Scale",
+		"icon":	"scale_pink.png"
+	},
+	"anja_pelt":{
+		"name":	"Anjanath Pelt",
+		"icon":	"hide_pink.png"
+	},
+	"anja_nose":{
+		"name":	"Anjanath Nosebone",
+		"icon":	"part_pink.png"
+	},
+	"anja_tail":{
+		"name":	"Anjanath Tail",
+		"icon":	"tail_pink.png"
+	},
+	"anja_fang":{
+		"name":	"Anjanath Fang",
+		"icon":	"claw_pink.png"
+	},
+	"flame_sac":{
+		"name":	"Flame Sac",
+		"icon":	"sac_red.png"
+	},
+	"inferno_sac":{
+		"name":	"Inferno Sac",
+		"icon":	"sac_red.png"
+	},
+	"jyura_fin":{
+		"name":	"Jyuratodus Fin",
+		"icon":	"part_tan.png"
+	},
+	"aqua_sac":{
+		"name":	"Aqua Sac",
+		"icon":	"sac_blue.png"
+	},
+	"jyura_scale":{
+		"name":	"Jyuratodus Scale",
+		"icon":	"scale_tan.png"
+	},
+	"jyura_shell":{
+		"name":	"Jyuratodus Shell",
+		"icon": "shell_tan.png"
+	},
+	"jyura_cara":{
+		"name":	"Jyuratodus Carapace",
+		"icon":	"shell_tan.png"
+	},
+	"jyura_fang":{
+		"name":	"Jyuratodus Fang",
+		"icon":	"claw_tan.png"
+	},
+	"gajau_scale":{
+		"name": "Gajau Scale",
+		"icon":	"hide_brown.png"
+	},
+	"rath_talon":{
+		"name":	"Rathalos Wingtalon",
+		"icon":	"claw_red.png"
+	},
+	"rath_scale":{
+		"name":	"Rathalos Scale",
+		"icon":	"scale_red.png"
+	},
+	"rath_web":{
+		"name":	"Rathalos Webbing",
+		"icon":	"wing_red.png"
+	},
+	"rath_tail":{
+		"name":	"Rathalos Tail",
+		"icon":	"tail_red.png"
+	},
+	"rath_marrow":{
+		"name":	"Rathalos Marrow",
+		"icon":	"part_red.png"
+	},
+	"rath_plate":{
+		"name":	"Rathalos Plate",
+		"icon":	"plate_red.png"
+	},
+	"rath_wing":{
+		"name":	"Rathalos Wing",
+		"icon":	"wing_red.png"
+	},
+	"rath_cara":{
+		"name":	"Rathalos Carapace",
+		"icon":	"shell_red.png"
+	},
+	"rath_shell":{
+		"name":	"Rathalos Shell",
+		"icon":	"shell_red.png"
+	},
+	"rath_medulla":{
+		"name":	"Rathalos Medulla",
+		"icon":	"part_red.png"
+	},
+	"arath_talon":{
+		"name":	"Azure Rathalos Wingtalon",
+		"icon":	"claw_blue.png"
+	},
+	"arath_scale":{
+		"name":	"Azure Rathalos Scale",
+		"icon":	"scale_blue.png"
+	},
+	"arath_wing":{
+		"name":	"Azure Rathalos Wing",
+		"icon":	"wing_blue.png"
+	},
+	"arath_plate":{
+		"name":	"Azure Rathalos Plate",
+		"icon":	"plate_blue.png"
+	},
+	"arath_marrow":{
+		"name":	"Azure Rathalos Marrow",
+		"icon":	"part_blue.png"
+	},
+	"arath_tail":{
+		"name":	"Azure Rathalos Tail",
+		"icon":	"tail_blue.png"
+	},
+	"arath_cara":{
+		"name":	"Azure Rathalos Carapace",
+		"icon":	"shell_blue.png"
+	},
+	"diablos_shell":{
+		"name":	"Diablos Shell",
+		"icon":	"shell_brown.png"
+	},
+	"diablos_cara":{
+		"name":	"Diablos Carapace",
+		"icon":	"shell_brown.png"
+	},
+	"twisted_horn":{
+		"name":	"Twisted Horn",
+		"icon":	"claw_brown.png"
+	},
+	"majestic_horn":{
+		"name":	"Majestic Horn",
+		"icon":	"claw_brown.png"
+	},
+	"diablos_fang":{
+		"name":	"Diablos Fang",
+		"icon":	"claw_brown.png"
+	},
+	"diablos_ridge":{
+		"name":	"Diablos Ridge",
+		"icon":	"part_brown.png"
+	},
+	"diablos_medulla":{
+		"name":	"Blos Medulla",
+		"icon":	"part_brown.png"
+	},
+	"novacrystal":{
+		"name":	"Novacrystal",
+		"icon":	"ore_white.png"
+	},
+	"bdiablos_cara":{
+		"name":	"Black Diablos Carapace",
+		"icon": "shell_gray.png"
+	},
+	"bdiablos_horn":{
+		"name":	"Black Spiral Horn",
+		"icon":	"claw_gray.png"
+	},
+	"bdiablos_ridge":{
+		"name":	"Black Diablos Ridge",
+		"icon":	"part_gray.png"
+	},
+	"wyvern_gem":{
+		"name":	"Wyvern Gem",
+		"icon":	"ball_light_blue.png"
+	},
+	"daora_web":{
+		"name":	"Daora Webbing",
+		"icon":	"wing_gray.png"
+	},
+	"daora_gem":{
+		"name":	"Daora Gem",
+		"icon":	"ball_gray.png"
+	},
+	"daora_claw":{
+		"name":	"Daora Claw",
+		"icon":	"claw_gray.png"
+	},
+	"daora_scale":{
+		"name":	"Daora Dragon Scale",
+		"icon":	"scale_gray.png"
+	},
+	"daora_cara":{
+		"name":	"Daora Carapace",
+		"icon":	"shell_gray.png"
+	},
+	"daora_horn":{
+		"name":	"Daora Horn",
+		"icon":	"claw_gray.png"
+	},
+	"daora_tail":{
+		"name":	"Daora Tail",
+		"icon":	"tail_gray.png"
+	},
+	"dragon_bone":{
+		"name":	"Elder Dragon Bone",
+		"icon":	"bone_purple.png"
+	},
+	"dragon_blood":{
+		"name":	"Elder Dragon Blood",
+		"icon":	"medicine_red.png" 
+	},"nerg_scale":{
+		"name":	"Immortal Dragonscale",
+		"icon":	"scale_gray.png"
+	},
+	"nerg_talon":{
+		"name":	"Nergigante Talon",
+		"icon":	"claw_gray.png"
+	},
+	"nerg_cara":{
+		"name":	"Nergigante Carapace",
+		"icon":	"shell_gray.png"
+	},
+	"nerg_replate":{
+		"name":	"Nergigante Regrowth Plate",
+		"icon":	"part_white.png"
+	},
+	"nerg_horn":{
+		"name":	"Nergigante Horn",
+		"icon":	"claw_gray.png"
+	},
+	"nerg_tail":{
+		"name":	"Nergigante Tail",
+		"icon":	"tail_gray.png"
+	},
+	"nerg_gem":{
+		"name":	"Nergigante Gem",
+		"icon":	"ball_gray.png"
+	},
+	"teo_scale":{
+		"name":	"Fire Dragon Scale",
+		"icon":	"scale_red.png"
+	},
+	"teo_horn":{
+		"name":	"Teostra Horn",
+		"icon":	"claw_red.png"
+	},
+	"teo_web":{
+		"name":	"Teostra Webbing",
+		"icon":	"wing_red.png"
+	},
+	"teo_gem":{
+		"name":	"Teostra Gem",
+		"icon":	"ball_rose.png"
+	},
+	"teo_powder":{
+		"name":	"Teostra Powder",
+		"icon":	"sac_red.png"
+	},
+	"teo_cara":{
+		"name":	"Teostra Carapace",
+		"icon":	"shell_red.png"
+	},
+	"teo_claw":{
+		"name":	"Teostra Claw",
+		"icon":	"claw_red.png"
+	},
+	"teo_mane":{
+		"name":	"Teostra Mane",
+		"icon":	"part_red.png"
+	},
+	"teo_tail":{
+		"name":	"Teostra Tail",
+		"icon":	"tail_red.png"
+	},
+	"tzitzi_photo":{
+		"name":	"Tzitzi-Ya-Ku Photophore",
+		"icon":	"part_blue.png"
+	},
+	"tzitzi_claw":{
+		"name":	"Tzitzi-Ya-Ku Claw",
+		"icon":	"claw_blue.png"
+	},
+	"tzitzi_scale":{
+		"name":	"Tzitzi-Ya-Ku Scale",
+		"icon":	"scale_blue.png"
+	},
+	"tzitzi_hide":{
+		"name":	"Tzitzi-Ya-Ku Hide",
+		"icon":	"hide_blue.png"
+	},
+	"girros_scale":{
+		"name":	"Girros Scale",
+		"icon":	"scale_gray.png"
+	},
+	"girros_fang":{
+		"name":	"Girros Fang",
+		"icon":	"claw_gray.png"
+	},
+	"para_sac":{
+		"name":	"Paralysis Sac",
+		"icon":	"sac_lemon.png"
+	},
+	"ggirros_fang":{
+		"name":	"Great Girros Fang",
+		"icon":	"claw_gray.png"
+	},
+	"ggirros_scale":{
+		"name":	"Great Girros Scale",
+		"icon":	"scale_gray.png"
+	},
+	"ggirros_hide":{
+		"name":	"Great Girros Hide",
+		"icon":	"hide_gray.png"
+	},
+	"ggirros_tail":{
+		"name":	"Great Girros Tail",
+		"icon":	"tail_gray.png"
+	},
+	"coma_sac":{
+		"name":	"Coma Sac",
+		"icon":	"sac_blue.png"
+	},
+	"rado_cara":{
+		"name":	"Radobaan Carapace",
+		"icon":	"shell_white.png"
+	},
+	"sleep_sac":{
+		"name":	"Sleep Sac",
+		"icon":	"sac_blue.png"
+	},
+	"rado_scale":{
+		"name":	"Radobaan Scale",
+		"icon":	"scale_white.png"
+	},
+	"bonemass":{
+		"name":	"Wyvern Bonemass",
+		"icon":	"bone_white.png"
+	},
+	"rado_shell":{
+		"name":	"Radobaan Oilshell",
+		"icon":	"part_white.png"
+	},
+	"kirin_ahorn":{
+		"name":	"Kirin Azure Horn",
+		"icon":	"claw_blue.png"
+	},
+	"kirin_thorn":{
+		"name":	"Kirin Thunderhorn",
+		"icon":	"claw_blue.png"
+	},
+	"kirin_mane":{
+		"name":	"Kirin Mane",
+		"icon":	"part_white.png"
+	},
+	"kirin_hide":{
+		"name":	"Kirin Hide",
+		"icon":	"hide_white.png"
+	},
+	"kirin_tail":{
+		"name":	"Kirin Tail",
+		"icon":	"part_white.png"
+	}
+}

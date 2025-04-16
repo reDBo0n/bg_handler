@@ -1,0 +1,1264 @@
+{
+	"any":{
+		"name":		"Any Card",
+		"agility":	"?",
+		"rules":	"Choose any card of your deck."
+	},
+	"jumping_slash":{
+		"name":		"Jumping Slash",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, discard it.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2"
+	},
+	"enhanced_jumping_slash":{
+		"name":		"Enhanced Jumping Slash",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, discard it.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"wide_slash":{
+		"name":		"Wide Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"heavy_slice":{
+		"name":		"Heavy Slice",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this arrack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"greater_sword_block":{
+		"name":		"Greater Sword Block",
+		"agility":	"2",
+		"rules":	"Discard this attack card when attacked by the monster to gain 5 Armor for the duration of the behaviour.",
+		"range":	"",
+		"break":	"",
+		"combo":	""
+	},
+	"overhead_slam":{
+		"name":		"Overhead Slam",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card for each other Overhead Slam you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"enhanced_overhead_slam":{
+		"name":		"Enhanced Overhead Slam",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Damage Card for each other Enhanced Overhead Slam you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"rising_slash":{
+		"name":		"Rising Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"strong_rising_slash":{
+		"name":		"Strong Rising Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"strong_charge_up":{
+		"name":		"Strong Charge Up",
+		"agility":	"3",
+		"stamina":	"normal",
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed cards. Gain 2 additional Break Tokens for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"blazing_slam":{
+		"name":		"Blazing Slam",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card for each other Blazing Slam you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"crushing_slash":{
+		"name":		"Crushing Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"true_charged_slash":{
+		"name":		"True Charged Slash",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, draw 2 additional Damage Cards.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"toxic_charged_slash":{
+		"name":		"Toxic Charged Slash",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, draw 2 additional Damage Cards.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"charge_up":{
+		"name":		"Charge Up",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed cards. Gain 1 additional Break Token for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"poisoned_charge_up":{
+		"name":		"Poisoned Charge Up",
+		"agility":	"3",
+		"stamina":	"normal",
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed cards. Gain 1 additional Break Token and 1 additional Poison Token for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"greatsword_block":{
+		"name":		"Greatsword Block",
+		"agility":	"1",
+		"rules":	"Discard this attack card when attacked by the monster to gain 3 Armor for the duration of the behaviour.",
+		"range":	"",
+		"break":	"",
+		"combo":	""
+	},
+	"empowered_great_sword_block":{
+		"name":		"Empowered Great Sword Block",
+		"agility":	"2",
+		"rules":	"Discard this attack card when attacked by the monster to gain 4 Armor for the duration of the behaviour.",
+		"range":	"",
+		"break":	"",
+		"combo":	""
+	},
+	"paralysing_slash":{
+		"name":		"Paralysing Slash",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"para.png"
+	},
+	"frozen_charge_up":{
+		"name":		"Frozen Charge Up",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed cards. Gain 1 additional Break Token and 1 additional Ice Token for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"frostbite_slam":{
+		"name":		"Frostbite Slam",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Damage Card for each other Frostbite Slam you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"dreaded_cleave":{
+		"name":		"Dreaded Cleave",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 2 additional Damage Cards of the selected body part has at least 3 Break Tokens or is broken.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"dragon.png"
+	},
+	"dragon_charged_slash":{
+		"name":		"Dragon Charged Slash",
+		"agility":	2,
+		"stamina":	"finisher",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, draw 3 additional Damage Cards.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"dragon.png"
+	},
+	"lunging_stab":{
+		"name":		"Lunging Stab",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Attack Card if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"enhanced_lunging_stab":{
+		"name":		"Enhanced Lunging Stab",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Attack Card if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"stun.png"
+	},
+	"blade_dance":{
+		"name":		"Blade Dance",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may move your hunter 1 node before drawing damage cards. If you do, draw 1 less Damage Card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"enhanced_blade_dance":{
+		"name":		"Enhanced Blade Dance",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"double_slash":{
+		"name":		"Double Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"impact_double_slash":{
+		"name":	"Impact Double Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"rapid_spin":{
+		"name":		"Rapid Spin",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"strong_rapid_spin":{
+		"name":		"Strong Rapid Spin",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"bladed_fangs":{
+		"name":		"Bladed Fangs",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"shocking_rush":{
+		"name":		"Shocking Rush",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Place 1 additional Thunder Token if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"thunder.png"
+	},
+	"demon_mode":{
+		"name":		"Demon Mode",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw 2 additional Damage Cards for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"enhanced_demon_mode":{
+		"name":		"Enhanced Demon Mode",
+		"agility":	"3",
+		"stamina":	"normal",
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw 3 additional Damage Cards for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"six_fold_slash":{
+		"name":		"Six Fold Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"blazing_fold_slash":{
+		"name":		"Blazing Fold Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"blazing_double_slash":{
+		"name":		"Blazing Double Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"water_dance":{
+		"name":		"Water Dance",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may move your hunter 1 node before drawing damage cards. If you do, draw 1 less Damage Card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"flurry_rush":{
+		"name":		"Flurry Rush",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"If Demon Mode was placed on the first slot of your stamina board this turn, place 1 additional Stun Token.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"brutal_double_slash":{
+		"name":		"Brutal Double Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"brutal_demon_mode":{
+		"name":		"Brutal Demon Mode",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw 3 additional Damage Cards and gain 1 additional Break Token for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"evasive_stab":{
+		"name":		"Evasive Stab",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"After resolving this attack you may move your hunter 1 node.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"dream_spin":{
+		"name":		"Dream Spin",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"blast_wrath":{
+		"name":		"Blast Wrath",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"Place 1 additional Blast Token if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"rending_slice":{
+		"name":		"Rending Slice",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, you may return this card to your hand.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"ice.png"
+	},
+	"dragon_dance":{
+		"name":		"Dragon Dance",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"dragon.png"
+	},
+	"mid_air_slash":{
+		"name":		"Mid Air Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 2 additional Damage Cards if the selected body part has at least 3 Break Tokens or is broken.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"dragon.png"
+	},
+	"normal_1_l":{
+		"name":		"Normal Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"rapid_normal_1":{
+		"name":		"Rapid Normal Ammo 1",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Playing this attack card doesn't cout towards the maximum allowed cards.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"normal_2_l":{
+		"name":		"Normal Ammo 2",
+		"agility":	"2",
+		"stmaina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"normal_3_l":{
+		"name":		"Normal Ammo 3",
+		"agility":	"2",
+		"stmaina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"poison_1_l":{
+		"name":		"Poison Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"recover_1_l":{
+		"name":		"Recover Ammo 1",
+		"agility":	"2",
+		"rules":	"Discard this card. Choose another hunter within 4 nodes to recover up to 3 health."
+	},
+	"spread_1_l":{
+		"name":		"Spread Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card you may draw 1 additional Deviation Card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"spread_2_l":{
+		"name":		"Spread Ammo 2",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"When you play this attack card you may draw 1 additional Deviation Card.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"water_l":{
+		"name":		"Water Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"recover_2_l":{
+		"name":		"Recover Ammo 2",
+		"agility":	"2",
+		"rules":	"Discard this card. Choose another hunter within 4 nodes to recover up to 4 health."
+	},
+	"rapid_flaming_l":{
+		"name":		"Rapid Flaming Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Playing this attack card doesn't cout towards the maximum allowed cards.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"flaming_l":{
+		"name":		"Flaming Ammo",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png",
+		"move":{
+			"when":	"post",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"armour_1_l":{
+		"name":		"Armour Ammo 1",
+		"agility":	"2",
+		"rules":	"Discard this card when another hunter within 4 nodes of your hunter is attacked by the monster. That hunter gains 2 additional Armour for the duration of the behaviour."
+	},
+	"paralysis_l":{
+		"name":		"Paralysis Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"para.png"
+	},
+	"rapid_water_l":{
+		"name":		"Rapid Water Ammo",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"Playing this attack card doesn't cout towards the maximum allowed cards.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"sleep_l":{
+		"name":		"Sleep Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"freeze_l":{
+		"name":		"Freeze Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"Playing this attack card doesn't cout towards the maximum allowed cards.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"freezing_wyvernblast_l":{
+		"name":		"Freezing Wyvernblast",
+		"agility":	"2",
+		"damage":	"4",
+		"rules":	"Discard this card when attacked by the monster, then before Hunter Turn begins, resolve this attack.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"dragon_l":{
+		"name":		"Dragon Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card if you select a broken body part to attack.",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"dragon.png"
+	},
+	"armour_2_l":{
+		"name":		"Armour Ammo 2",
+		"agility":	"2",
+		"rules":	"Discard this card when another hunter is attacked by the monster. That hunter gains 3 additional Armour for the duration of the behaviour."
+	},
+	"pierce_1_l":{
+		"name":		"Pierce Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores 1 monster armour.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"pierce_2_h":{
+		"name":		"Pierce Ammo 2",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"This attack ignores 1 monster armour.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"pierce_3_h":{
+		"name":		"Pierce Ammo 3",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"This attack ignores 2 monster armour.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"normal_2_h":{
+		"name":		"Normal Ammo 2",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"normal_3_h":{
+		"name":		"Normal Ammo 3",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"sticky_1_h":{
+		"name":		"Sticky Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores 1 moster armour.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"sticky_2_h":{
+		"name":		"Sticky Ammo 2",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"This attack ignores 2 monster armour.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"spread_1_h":{
+		"name":		"Spread Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card you may draw 1 additional Deviation Card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"spread_2_h":{
+		"name":		"Spread Ammo 2",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"When you play this attack card you may draw 1 additional Deviation Card.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0"
+	},
+	"pierce_1_h":{
+		"name":		"Pierce Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores 1 monster armour.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"water_h":{
+		"name":		"Water Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"wyvernsnipe_h":{
+		"name":		"Wyvernsnipe",
+		"agility":	"0",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"This attack card can't be played if you've already played another attack card this turn. This attack ignores monster armour.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"jagras_wyvernheart_h":{
+		"name":		"Jagras Wyvernheart",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card for each other face up attack card on your stamina board.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"water.png"
+	},
+	"electrical_h":{
+		"name":		"Eletrical Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack card ignores 2 monster armour.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"thunder_h":{
+		"name":		"Thunder Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"When you play this attack card you may draw 1 additional Deviation Card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"poison_1_h":{
+		"name":		"Poison Ammo 1",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"cluster_1_h":{
+		"name":		"Cluster Bomb 1",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Place 1 additional Break Token on another part of the monster.",
+		"range":	"3",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"poison_2_h":{
+		"name":		"Poison Ammo 2",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Place 1 additional Break Token on another part of the monster.",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"brutal_h":{
+		"name":		"Brutal Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"wyvern_h":{
+		"name":		"Wyvern Ammo",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"This attack card can't be played if you've already played another attack card this turn. This attack ignores monster armour.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"carpet_bomb_h":{
+		"name":		"Carpet Bomb",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Place 1 additional Break Token on 2 other parts of the monster.",
+		"range":	"3",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"teostra_wyvernheart_h":{
+		"name":		"Teostra's Wyvernheart",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card for each other face up attack card on your stamina board.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"blast.png"
+	},
+	"shield_mod_h":{
+		"name":		"Shield Mod",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"Your Elemental resistances are doubled. At the start of your next turn, discard this card.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"nergal_wyvernheart_h":{
+		"name":		"Nergal Wyvernheart",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Damage Card for each other face up attack card on your stamina board.",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"2",
+		"special":	"dragon.png"
+	},
+	"normal_1_h":{
+		"name":		"Normal Ammo 1",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"swarm_slash":{
+		"name":		"Swarm Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After resolving this attack, another hunter may move 1 node.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"paralysing_slash_pb":{
+		"name":		"Paralying Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Damage Card for each other hunter adjacent to the monster.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"para.png"
+	},
+	"spiked_block":{
+		"name":		"Spiked Block",
+		"agility":	"2",
+		"rules":	"Discard this attack card when attacked by the monster to gain 3 additional Armour for the duration of the behaviour. If you do, draw 1 Damge Card and reduce the monster's health dial by its value."
+	},
+	"sleep_gas_slash":{
+		"name":		"Sleep Gas Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"flash_fangs":{
+		"name":		"Flash Fangs",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"flash_spin":{
+		"name":		"Flash Spin",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If this attack card is placed on the fifth slot of your stamina board, gain 1 additional Stun Token.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"sticky_2_h_pb":{
+		"name":		"Sticky Ammo 2",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"This attack ignores 2 points of monster armour.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"flash_bomb_h":{
+		"name":		"Flash Bomb",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Place 1 Break Token on another part of the monster.",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"flash_pierce_h":{
+		"name":		"Flash Pierce Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"This attack card ignores 2 points of monster armour. If this attack card is placed on the fifth slot of your stamina board, gain 1 additional Stun Token.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"sleep_gas_h":{
+		"name":		"Sleep Gas Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"spiked_cluster_bomb_h":{
+		"name":		"Spiked Cluster Bomb",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"While this attack card is face up on your stamina board, when you're attacked by the monster, draw 1 Damage Card and reduce the monster's health dial by its value, then flip this card face down.",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"0"
+	},
+	"thunder_slash":{
+		"name":		"Thunder Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"overcharged_slash":{
+		"name":		"Overcharged Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Damage Card and gain 1 additional Break Token if you're already played another Thunder elemental attack card this turn.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"thunder.png"
+	},
+	"charged_slash":{
+		"name":		"Charged Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"thunder_fangs":{
+		"name":		"Thunder Fangs",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"Draw 1 additional Damage Card if you're already played another Thunder elemental attack card this turn.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"thunder_h_krn":{
+		"name":		"Thunder Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"charged_h":{
+		"name":		"Charged Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Damage Card and gain 1 additional Break Token if you're already played another Thunder elemental attack card this turn.",
+		"range":	"4",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"static_l":{
+		"name":		"Static Ammo",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"thunderous_reload_l":{
+		"name":		"Thunderous Reload",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Sharpen your weapon and remove any 1 attack card from your stamina board if you've already played another Thunder elemental attack card this turn.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"great_sword_block":{
+		"name":		"Greatsword Block",
+		"agility":	"1",
+		"rules":	"Discard this attack card when attacked by the monster to gain 3 additional Armour for the duration of the behaviour."
+	},
+	"reload_l":{
+		"name":		"Reload",
+		"agility":	"2",
+		"rules":	"Discard this attack card to sharpen your weapon or remove any 1 attack card from your stamina board."
+	},
+	"wyvernblast_l":{
+		"name":		"Wyvernblast",
+		"agility":	"1",
+		"damage":	"3",
+		"rules":	"Discard this card when attacked by the monster, then before Hunter Turn begins, resolve this attack.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	}
+}
