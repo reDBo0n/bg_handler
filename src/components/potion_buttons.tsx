@@ -10,7 +10,7 @@ const potions = [
 	{ id: "2", alt:	"Potion 3" },
 ];
 
-const src = "/mh/potion.png";
+const src = "/bg_handler/mh/potion.png";
 const storageKey = "mhw.potions";
 
 export default function PotionButtons() {

@@ -73,7 +73,7 @@ export default function Arm({ id }: ArmProps) {
 						<div key={id.concat(item)} className="flex justify-between">
 							<div className="flex justify-center">
 								<Image
-									src={"/mh/".concat(iData[item].icon)}
+									src={"/bg_handler/mh/".concat(iData[item].icon)}
 									alt={iData[item].name}
 									width={20}
 									height={20}
@@ -82,7 +82,7 @@ export default function Arm({ id }: ArmProps) {
 							</div>
 							<div className="flex">
 								<Image
-									src={"/mh/box.png"}
+									src={"/bg_handler/mh/box.png"}
 									alt="box"
 									width={20}
 									height={20}
@@ -110,7 +110,7 @@ export default function Arm({ id }: ArmProps) {
 				<div className="flex justify-center">
 					<div className="relative w-8 h-8">
 						<Image
-							src="/mh/armor.png"
+							src="/bg_handler/mh/armor.png"
 							alt="armor"
 							fill
 							className="object-contain"
@@ -122,7 +122,7 @@ export default function Arm({ id }: ArmProps) {
 					{(eData[id] as Armor).res && (
 						<div className="relative w-8 h-8">
 							<Image
-								src={"/mh/".concat((eData[id] as Armor).res?.type as string)}
+								src={"/bg_handler/mh/".concat((eData[id] as Armor).res?.type as string)}
 								alt={(eData[id] as Armor).res?.type as string}
 								fill
 								className="object-contain"
@@ -158,7 +158,7 @@ export default function Arm({ id }: ArmProps) {
 					{(eData[id] as Weapon).armor && (
 						<div className="relative w-8 h-8">
 							<Image
-								src="/mh/armor.png"
+								src="/bg_handler/mh/armor.png"
 								alt="armor"
 								fill
 								className="object-contain"
@@ -171,7 +171,7 @@ export default function Arm({ id }: ArmProps) {
 					{(eData[id] as Weapon).dev && (
 						<div className="relative w-8 h-8">
 						<Image
-							src={"/mh/".concat((eData[id] as Weapon).dev as string)}
+							src={"/bg_handler/mh/".concat((eData[id] as Weapon).dev as string)}
 							alt={(eData[id] as Weapon).dev as string}
 							fill
 							className="object-contain"
@@ -182,7 +182,7 @@ export default function Arm({ id }: ArmProps) {
 						<div key={id.concat(dmg)} className="flex justify-center">
 							<div className="relative w-8 h-8">
 								<Image
-									src="/mh/dmg.png"
+									src="/bg_handler/mh/dmg.png"
 									alt={dmg}
 									fill
 									className="object-contain"
@@ -249,7 +249,7 @@ export default function Arm({ id }: ArmProps) {
 			<DialogTrigger asChild>
 				<div className="relative">
 					<Image
-						src={"/mh/".concat(eData[id].icon)}
+						src={"/bg_handler/mh/".concat(eData[id].icon)}
 						alt={id}
 						width={30}
 						height={30}
@@ -276,7 +276,7 @@ export default function Arm({ id }: ArmProps) {
 				<div className="flex justify-center gap-20">
 					<div className="flex justify-center">
 						<Image
-							src="/mh/box.png"
+							src="/bg_handler/mh/box.png"
 							alt="box"
 							width={20}
 							height={20}

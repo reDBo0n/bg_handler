@@ -26,7 +26,7 @@ export default function Item({ id, name, icon }: ItemProps) {
 				<Button size="sm" variant="ghost" onClick={subOne}>-</Button>
 				<div className="relative">
 					<Image
-						src={"/mh/".concat(icon)}
+						src={"/bg_handler/mh/".concat(icon)}
 						alt={name}
 						width={30}
 						height={30}

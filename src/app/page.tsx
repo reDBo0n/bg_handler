@@ -17,9 +17,9 @@ export default function Home() {
 	const [activeTab, setActiveTab] = useState('campaign');
 
 	const tabs = [
-		{ id: 'campaign', label: 'Campaign', icon: <Image src="/mh/quest.png" alt="quest" width={20} height={20} className={cn("transition-all", activeTab === 'campaign' ? "filter-none" : "filter opacity-60")}/> },
-		{ id: 'inventory', label: 'Inventory', icon: <Image src="/mh/box.png" alt="box" width={20} height={20} className={cn("transition-all", activeTab === 'inventory' ? "filter-none" : "filter opacity-60")}/> },
-		{ id: 'armory', label: 'Armory', icon: <Image src="/mh/armory.png" alt="armory" width={20} height={20} className={cn("transition-all", activeTab === 'armory' ? "filter-none" : "filter opacity-60")}/> }
+		{ id: 'campaign', label: 'Campaign', icon: <Image src="/bg_handler/mh/quest.png" alt="quest" width={20} height={20} className={cn("transition-all", activeTab === 'campaign' ? "filter-none" : "filter opacity-60")}/> },
+		{ id: 'inventory', label: 'Inventory', icon: <Image src="/bg_handler/mh/box.png" alt="box" width={20} height={20} className={cn("transition-all", activeTab === 'inventory' ? "filter-none" : "filter opacity-60")}/> },
+		{ id: 'armory', label: 'Armory', icon: <Image src="/bg_handler/mh/armory.png" alt="armory" width={20} height={20} className={cn("transition-all", activeTab === 'armory' ? "filter-none" : "filter opacity-60")}/> }
 	];
 
 	const getToday = () => {

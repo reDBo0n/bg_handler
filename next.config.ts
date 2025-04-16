@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
 	output:	"export",
 	images: {
 		unoptimized: true,
-	}
+	},
+	basePath:	"/bg_handler"
 };
 
 export default nextConfig;

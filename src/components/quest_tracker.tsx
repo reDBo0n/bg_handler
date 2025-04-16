@@ -65,7 +65,7 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 			<DialogTrigger asChild>
 				<div className="flex items-center gap-2 p-2 border rounded-lg hover:bg-muted cursor-pointer max-w-[170px]">
 					<Image
-						src={"/mh/".concat(image)}
+						src={"/bg_handler/mh/".concat(image)}
 						alt={name}
 						width={25}
 						height={25}
@@ -89,7 +89,7 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 					<DialogTitle className="flex justify-center">{name}</DialogTitle>
 					<DialogDescription className="flex justify-center">
 						<Image
-							src={"/mh/".concat(image)}
+							src={"/bg_handler/mh/".concat(image)}
 							alt={name}
 							width={200}
 							height={200}
@@ -100,7 +100,7 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 					{firstTime() && (
 						<Button onClick={() => handleChoice(QuestType.assigned)}>
 							<Image
-								src="/mh/1star.png"
+								src="/bg_handler/mh/1star.png"
 								alt="1star"
 								width={30}
 								height={30}
@@ -112,7 +112,7 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 						<div className="flex gap-4">
 							<Button onClick={() => handleChoice(QuestType.investigation)}>
 								<Image
-									src="/mh/2star.png"
+									src="/bg_handler/mh/2star.png"
 									alt="2star"
 									width={30}
 									height={30}
@@ -121,7 +121,7 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 							</Button>
 							<Button onClick={() => handleChoice(QuestType.tempered)}>
 								<Image
-									src={"/mh/".concat(max_diff.toString(), "star.png")}
+									src={"/bg_handler/mh/".concat(max_diff.toString(), "star.png")}
 									alt={max_diff.toString().concat("star")}
 									width={30}
 									height={30}

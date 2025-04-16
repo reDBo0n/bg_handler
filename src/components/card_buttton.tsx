@@ -42,7 +42,7 @@ export default function CardButton({ id }: CardButtonProps) {
 
 				<div className="relative h-full aspect-[744/1051]">
 					<Image
-						src="/mh/card.png"
+						src="/bg_handler/mh/card.png"
 						alt="Card"
 						fill
 						className="object-cover rounded-md z-0"
@@ -53,7 +53,7 @@ export default function CardButton({ id }: CardButtonProps) {
 					</div>
 					<div className="absolute top-[2%] right-[2%] w-15 h-15 sm:w-25 sm:h-25 z-1">
 						<Image
-							src="/mh/agility.png"
+							src="/bg_handler/mh/agility.png"
 							alt="Agility"
 							fill
 						/>
@@ -66,7 +66,7 @@ export default function CardButton({ id }: CardButtonProps) {
 					<div className="absolute inset-0 pt-[45%] z-1">
 						{data[id].stamina && (
 							<Image
-								src={data[id].stamina === "finisher" ? "/mh/stamina_fin.png" : "/mh/stamina.png"}
+								src={data[id].stamina === "finisher" ? "/bg_handler/mh/stamina_fin.png" : "/bg_handler/mh/stamina.png"}
 								alt="Stamina"
 								fill
 								className="object-contain z-1"
@@ -76,7 +76,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							{data[id].move && data[id].move.when === "pre" && (
 								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
 									<Image
-										src="/mh/move.png"
+										src="/bg_handler/mh/move.png"
 										alt="Pre-Move"
 										fill
 										className="object-contain"
@@ -89,7 +89,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							{data[id].damage && (
 								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
 									<Image
-										src="/mh/damage.png"
+										src="/bg_handler/mh/damage.png"
 										alt="Damage"
 										fill
 										className="object-contain"
@@ -102,7 +102,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							{data[id].special && (
 								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
 									<Image
-										src={"/mh/".concat(data[id].special)}
+										src={"/bg_handler/mh/".concat(data[id].special)}
 										alt={data[id].special}
 										fill
 										className="object-contain z-2"
@@ -112,7 +112,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							{data[id].move && data[id].move.when === "post" && (
 								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
 									<Image
-										src="/mh/move.png"
+										src="/bg_handler/mh/move.png"
 										alt="Post-Move"
 										fill
 										className="object-contain"
@@ -135,7 +135,7 @@ export default function CardButton({ id }: CardButtonProps) {
 						<div>
 							<div className="absolute bottom-[2%] left-[2%] w-15 h-15 sm:w-25 sm:h-25">
 								<Image
-									src="/mh/range.png"
+									src="/bg_handler/mh/range.png"
 									alt="Range"
 									fill
 									className={cn(data[id].range === "0" ? "filter opacity-60" : "no-filter")}
@@ -146,7 +146,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							</div>
 							<div className="absolute bottom-[2%] left-[41%] sm:left-[40%] w-15 h-15 sm:w-25 sm:h-25">
 								<Image
-									src="/mh/break.png"
+									src="/bg_handler/mh/break.png"
 									alt="Break"
 									fill
 									className={cn(data[id].break === "0" ? "filter opcatiy-60" : "no-filter")}
@@ -157,7 +157,7 @@ export default function CardButton({ id }: CardButtonProps) {
 							</div>
 							<div className="absolute bottom-[2%] right-[2%] w-15 h-15 sm:w-25 sm:h-25">
 								<Image
-									src="/mh/combo.png"
+									src="/bg_handler/mh/combo.png"
 									alt="Combo"
 									fill
 									className={cn(data[id].combo === "0" ? "filter opacity-60" : "no-filter")}

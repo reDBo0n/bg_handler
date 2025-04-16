@@ -32,7 +32,7 @@ export default function ItemListing() {
 					<AccordionTrigger>
 						<div>
 							<Image
-								src={"/mh/".concat(entry.icon)}
+								src={"/bg_handler/mh/".concat(entry.icon)}
 								alt={entry.icon}
 								width={30}
 								height={30}
