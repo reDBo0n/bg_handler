@@ -9,6 +9,7 @@ type CardData = {
 		name:		string;
 		agility:	string;
 		rules:		string;
+		mechanic?:	string;
 		stamina?:	"finisher"|"normal";
 		damage?:	string;
 		range?:		string;
@@ -47,6 +48,7 @@ export default function CardButton({ id }: CardButtonProps) {
 						fill
 						className="object-cover rounded-md z-0"
 					/>
+
 					{/* top row */}
 					<div className="absolute max-w-[79%] top-[5%] left-[1%] flex items-center justify-center text-white text-2xl rounded z-1">
 						{data[id].name}
@@ -61,6 +63,19 @@ export default function CardButton({ id }: CardButtonProps) {
 							{data[id].agility}
 						</span>
 					</div>
+
+					{data[id].mechanic && (
+						<div className="flex justify-center z-1">
+							<div className="relative w-35 h-35 mt-10">
+								<Image
+									src={"/bg_handler/mh/".concat(data[id].mechanic)}
+									alt={data[id].mechanic}
+									fill
+									className="object-contain z-1"
+								/>
+							</div>
+						</div>
+					)}
 
 					{/* middle row */}
 					<div className="absolute inset-0 pt-[45%] z-1">

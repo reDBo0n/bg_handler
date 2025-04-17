@@ -78,7 +78,7 @@
 		"break":	"0",
 		"combo":	"0"
 	},
-	"rising_slash":{
+	"rising_slash_g":{
 		"name":		"Rising Slash",
 		"agility":	"1",
 		"stamina":	"normal",
@@ -1260,5 +1260,392 @@
 		"range":	"1",
 		"break":	"0",
 		"combo":	"0"
+	},
+	"spirit_thrust":{
+		"name":		"Spirit Thrust",
+		"agility":	"1",
+		"mechanic":	"spirit_yellow.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may draw 1 less Damage Card. If you do, discard this attack card after placing it ony your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"enhanced_spirit_thrust":{
+		"name":		"Enhanced Spirit Thrust",
+		"agility":	"2",
+		"mechanic":	"spirit_yellow.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"overhead_slash":{
+		"name":		"Overhead Slash",
+		"agility":	"1",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"enhanced_overhead_slash":{
+		"name":		"Enhanced Overhead Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0"
+	},
+	"foresight_slash":{
+		"name":		"Foresight Slash",
+		"agility":	"1",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, clockwise.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"enhanced_foresight_slash":{
+		"name":		"Enhanced Foresight Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, clockwise.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"thrust":{
+		"name":		"Thrust",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"enhanced_thrust":{
+		"name":		"Enhanced Thrust",
+		"agility":	"3",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"helm_breaker":{
+		"name":		"Helm Breaker",
+		"agility":	"1",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"mud_helm_breaker":{
+		"name":		"Mud Helm Breaker",
+		"agility":	"2",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"water.png"
+	},
+	"water_spirit_thrust":{
+		"name":		"Water Spirit Thrust",
+		"agility":	"2",
+		"mechanic":	"spirit_yellow.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"You may draw 1 less Damage Card. If you do, discard this attack card after placing it ony your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"water.png"
+	},
+	"fade_slash":{
+		"name":		"Fade Slash",
+		"agility":	"1",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Attack Card if this isn't the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"thunder_fade_slash":{
+		"name":		"Thunder Fade Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Attack Card if this isn't the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"thunder.png"
+	},
+	"rising_slash_l":{
+		"name":		"Rising Slash",
+		"agility":	"1",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, discard it.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"shocking_rising_slash":{
+		"name":		"Shocking Rising Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, discard it.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"thunder.png"
+	},
+	"ready_stance":{
+		"name":		"Ready Stance",
+		"agility":	"2",
+		"rules":	"Discard this card to rotate your spirit card once clockwise or discard 1 attack card from your stamina board."
+	},
+	"poised_stance":{
+		"name":		"Poised Stance",
+		"agility":	"3",
+		"mechanic":	"spirit_white.png",
+		"rules":	"Discard this card to rotate your spirit card twice clockwise or discard 2 attack cards from your stamina board."
+	},
+	"flaming_helm_breaker":{
+		"name":		"Flaming Helm Breaker",
+		"agility":	"2",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"fire.png"
+	},
+	"blazing_rising_slash":{
+		"name":		"Blazing Rising Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, discard it.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"fire.png"
+	},
+	"spirit_helm_breaker":{
+		"name":		"Spirit Helm Breaker",
+		"agility":	"1",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"blazing_helm_breaker":{
+		"name":		"Blazing Helm Breaker",
+		"agility":	"2",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"4",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"3",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"fire.png"
+	},
+	"evasive_thrust":{
+		"name":		"Evasive Thrust",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"2"
+		}
+	},
+	"evasive_overhead_slash":{
+		"name":		"Evasive Overhead Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"This attack gains 1 additional Break Token for each node this hunter moves while resolving this card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		}
+	},
+	"fading_blast_slash":{
+		"name":		"Fading Blast Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Attack Card if this isn't the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"blast.png"
+	},
+	"blasting_spirit_thrust":{
+		"name":		"Blasting Spirit Thrust",
+		"agility":	"2",
+		"mechanic":	"spirit_yellow.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"You may draw 1 less Damage Card. If you do, discard this attack card after placing it ony your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"blast.png"
+	},
+	"dragon_foresight_slash":{
+		"name":		"Foresight Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, clockwise.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"2"
+		},
+		"special":	"dragon.png"
+	},
+	"dragon_helm_breaker":{
+		"name":		"Dragon Helm Breaker",
+		"agility":	"2",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"4",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"3",
+		"break":	"3",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"dragon.png"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name":				"BG Handler",
-	"short_name":		"Handler",
+	"short_name":		"BG Handler",
 	"start_url":		"/bg_handler/",
 	"display":			"standalone",
 	"background_color":	"#000000",

@@ -1,5 +1,7 @@
-# Handler-BG
+# BG Handler
 *Partner, are you ready for a new adventure?*
+
+
 A simple companion [React](https://github.com/facebook/react/releases) app for Steamforged MHW Board Game.
 
 ## How to use
@@ -14,7 +16,7 @@ pnpm install
 pnpm run build
 npx serve@latest out
 ```
-to build and host the app locally. Then you can access it via (localhost)[http://localhost:3000].
+to build and host the app locally. Then you can access it via [localhost](http://localhost:3000/bg_handler).
 
 ## License
 The sourcecode of this project is licensed under the [GNU General Public License v3.0](https://github.com/reDBo0n/bg_handler/blob/main/LICENSE).

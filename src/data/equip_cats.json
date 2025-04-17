@@ -275,6 +275,85 @@
 			}
 		}
 	},
+	"l-sword":{
+		"name":	"Long Sword",
+		"icon":	"l-sword_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_katana",
+					"iron_grace",
+					"iron_gospel"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_shotel",
+					"hard_bone_shotel",
+					"bone_reaper"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_shotel",
+					"pulsar_shotel",
+					"kadachi_fang"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"bone_shotel",
+					"blazing_shotel",
+					"anja_scimitar"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"iron_katana",
+					"wyvern_blade_fall",
+					"wyvern_blade_blood"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"bone_shotel",
+					"jyura_shotel",
+					"dipterus"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"iron_katana",
+					"first_dance",
+					"last_dance"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"iron_katana",
+					"imperial_saber",
+					"imperial_shimmer"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_katana",
+					"nergal_reaver",
+					"extermination_edge"
+				]
+			}
+
+		}
+	},
 	"blades":{
 		"name":	"Dual Blades",
 		"icon":	"blades_white.png",
