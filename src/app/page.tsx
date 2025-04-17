@@ -32,14 +32,7 @@ export default function Home() {
 	};
 
 	const exportData = () => {
-		const data: Record<string, any> = {};
-		for(let i = 0; i < localStorage.length; i++) {
-			const key = localStorage.key(i);
-			if(key && key.startsWith("mhw.")) {
-				data[key] = JSON.parse(localStorage.getItem(key) || 'null');
-			}
-		}
-
+		const data = { ...localStorage };
 		const json = JSON.stringify(data, null, 2);
 		const blob = new Blob([json], { type: "application/json" });
 		const url = URL.createObjectURL(blob);
