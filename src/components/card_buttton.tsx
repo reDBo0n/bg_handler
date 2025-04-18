@@ -12,6 +12,7 @@ type CardData = {
 		mechanic?:	string;
 		stamina?:	"finisher"|"normal";
 		damage?:	string;
+		armor?:		string;
 		range?:		string;
 		break?:		string;
 		combo?:		string;
@@ -111,6 +112,19 @@ export default function CardButton({ id }: CardButtonProps) {
 									/>
 									<span className="absolute inset-0 mt-8 flex items-center justify-center text-white text-2xl font-bold rounded">
 										{data[id].damage}
+									</span>
+								</div>
+							)}
+							{data[id].armor && (
+								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
+									<Image
+										src="/bg_handler/mh/armor.png"
+										alt="Armour"
+										fill
+										className="object-contain"
+									/>
+									<span className="absolute inset-0 mt-8 flex items-center justify-center text-white text-2xl font-bold rounded">
+										{data[id].armor}
 									</span>
 								</div>
 							)}

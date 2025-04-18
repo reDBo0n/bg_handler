@@ -1372,7 +1372,7 @@
 	"helm_breaker":{
 		"name":		"Helm Breaker",
 		"agility":	"1",
-		"mechanic":	"spirit_red.png",
+		"mechanic":	"spirit_orange.png",
 		"stamina":	"finisher",
 		"damage":	"2",
 		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
@@ -1388,7 +1388,7 @@
 	"mud_helm_breaker":{
 		"name":		"Mud Helm Breaker",
 		"agility":	"2",
-		"mechanic":	"spirit_red.png",
+		"mechanic":	"spirit_orange.png",
 		"stamina":	"finisher",
 		"damage":	"3",
 		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
@@ -1489,7 +1489,7 @@
 	"flaming_helm_breaker":{
 		"name":		"Flaming Helm Breaker",
 		"agility":	"2",
-		"mechanic":	"spirit_red.png",
+		"mechanic":	"spirit_orange.png",
 		"stamina":	"finisher",
 		"damage":	"3",
 		"rules":	"After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
@@ -1647,5 +1647,402 @@
 			"amnt":	"2"
 		},
 		"special":	"dragon.png"
+	},
+	"advancing_slash":{
+		"name":		"Advancing Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Attack Card if you played Backstep this turn.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"enhanced_advancing_slash":{
+		"name":		"Enhanced Advancing Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 2 additional Attack Card if you played Backstep this turn.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"helm_splitter":{
+		"name":		"Helm Splitter",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"stun.png",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"shield_bash":{
+		"name":		"Shield Bash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"strong_shield_bash":{
+		"name":		"Strong Shield Bash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"chop":{
+		"name":		"Chop",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"chop_reversal":{
+		"name":		"Chop Reversal",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"lateral_slash":{
+		"name":		"Lateral Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"glutton_lateral_slash":{
+		"name":		"Glutton Lateral Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"rising_slash_s":{
+		"name":		"Rising Slash",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1"
+	},
+	"jump_rising_slash":{
+		"name":		"Jump Rising Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"advancing_double_slash":{
+		"name":		"Advancing Double Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw 1 additional Attack Card if you played Backstep this turn.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"fire.png"
+	},
+	"sword_shield_combo":{
+		"name":		"Sword & Shield Combo",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2"
+	},
+	"blazing_combo":{
+		"name":		"Blazing Combo",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"fire.png"
+	},
+	"round_slash":{
+		"name":		"Round Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"poison_spin_slash":{
+		"name":		"Poison Spin Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"toxicity":{
+		"name":		"Toxicity",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"If the monster had any tokens in its status ailment token stash before you played this card, draw 1 additional Damage Card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"powerful_double_slash":{
+		"name":		"Powerful Double Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw 1 additional Attack Card if you played Backstep this turn.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"steadfast_chop":{
+		"name":		"Steadfast Chop",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"If your hunter hasn't moved this turn draw 1 additional Damage Card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"para.png"
+	},
+	"guard_up":{
+		"name":		"Guard Up",
+		"agility":	"1",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"While this attack card is face up on your stamina board, your Elemental resistances are doubled. At the start of your next turn, discard this card.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"teostra_guard":{
+		"name":		"Teostra's Guard",
+		"agility":	"2",
+		"rules":	"Discard this card when attacked by the monster to double your Elemental resistance and gain 4 additional Armour for the duration of the behaviour."
+	},
+	"fearsome_slice":{
+		"name":		"Fearsome Slice",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"If your hunter suffered damage during the monster's last turn, draw 1 additional Damage Card.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"blast.png"
+	},
+	"scaled_guard":{
+		"name":		"Scaled Guard",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+5",
+		"rules":	"While this attack card is face up on your stamina board, your Elemental resistances are doubled. At the start of your next turn, discard this card.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"draconic_slash":{
+		"name":		"Draconic Slash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"While this attack card is face up on your stamina board, your Elemental resistances are doubled.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"dragon.png"
+	},
+	"flash_foresight_slash":{
+		"name":		"Flash Foresight Slash",
+		"agility":	"2",
+		"mechanic":	"spirit_white.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved, rotate your spirit card once, clockwise.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"flash_spirit_helm_breaker":{
+		"name":		"Flash Spirit Helm Breaker",
+		"agility":	"1",
+		"mechanic":	"spirit_red.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"If this attack card is placed on the fifth slot of your stamina board, gain 1 additional Stun Token. After this attack card is resolved, rotate your spirit card once, anti-clockwise.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"paralysing_combo":{
+		"name":		"Paralysing Combo",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"Draw 1 additional Damage Card for each hunter adjacent to the monster.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"2",
+		"special":	"para.png"
+	},
+	"swarm_chop":{
+		"name":		"Swarm Chop",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After resolving this attack, another hunter may move 1 node.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"spiked_guard":{
+		"name":		"Spiked Guard",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"While this attack card is face up on your stamina board, your Elemental resistances are doubled. In addition, when you're attacked by the monster, draw 1 Damage Card and reduce the monster's health dial by its value. At the start of your next turn, discard this card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"sleep_gas_round_slash":{
+		"name":		"Sleep Gas Round Slash",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"special":	"sleep.png"
+	},
+	"charged_stab":{
+		"name":		"Charged Stab",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	1
+		},
+		"special":	"thunder.png"
+	},
+	"thunder_guard":{
+		"name":		"Thunder Guard",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"While this attack card is face up on your stamina board, your huunter gains 1 addition Armour and 1 additional Elemental Resistance for each Thunder elemental attack card face up on your stamina board. At the start of your next turn, discard this card."
+	},
+	"slinger_shot":{
+		"name":		"Slinger Shot",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
 	}
 }

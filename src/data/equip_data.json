@@ -3825,5 +3825,622 @@
 			"dragon_foresight_slash":	"2",
 			"dragon_helm_breaker":		"2"
 		}
+	},
+	"hunter_knife":{
+		"name":	"Hunter's Knife",
+		"icon":	"shield_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	8,
+			"2":	4
+		}
+	},
+	"steel_knife":{
+		"name":	"Steel Knife",
+		"icon":	"shield_yellow.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	6,
+			"2":	5,
+			"3":	1
+		},
+		"remove":{
+			"advancing_slash":	"2"
+		},
+		"add":{
+			"enhanced_advancing_slash":	"2"
+		}
+	},
+	"chrome_slicer":{
+		"name":	"Chrome Slicer",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"steel_knife",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":	2
+		},
+		"damage":{
+			"1":	5,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"advancing_slash":	"2",
+			"any":				"2"
+		},
+		"add":{
+			"enhanced_advancing_slash":	"2",
+			"helm_splitter":			"2"
+		}
+	},
+	"bone_kukri":{
+		"name":	"Bone Kukri",
+		"icon":	"shield_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	4,
+			"3":	1
+		}
+	},
+	"chef_kukri":{
+		"name":	"Chef Kukri",
+		"icon":	"shield_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_kukri",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"shield_bash":	"2"
+		},
+		"add":{
+			"strong_shield_bash":	"2"
+		}
+	},
+	"grand_barong":{
+		"name":	"Grand Barong",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"chef_kukri",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"shield_bash":	"2",
+			"chop":			"2"
+		},
+		"add":{
+			"strong_shield_bash":	"2",
+			"chop_reversal":		"2"
+		}
+	},
+	"jagras_edge":{
+		"name":	"Jagras Edge",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"bone_kukri",
+		"recipe":{
+			"jagras_claw":	2,
+			"jagras_hide":	1,
+			"jagras_scale":	2,
+			"sharp_claw":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	2
+		},
+		"remove":{
+			"lateral_slash":	"2"
+		},
+		"add":{
+			"glutton_lateral_slash":	"2"
+		}
+	},
+	"jagras_garotte":{
+		"name":	"Jagras Garotte",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"jagras_edge",
+		"recipe":{
+			"jagras_scale":	3,
+			"jagras_claw":	1,
+			"jagras_mane":	2,
+			"piercing_claw":1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	3,
+			"4":	1
+		},
+		"remove":{
+			"lateral_slash":	"2",
+			"rising_slash_s":	"1",
+			"any":				"1"
+		},
+		"add":{
+			"glutton_lateral_slash":	"2",
+			"jump_rising_slash":		"2"
+		}
+	},
+	"flame_knife":{
+		"name":	"Flame Knife",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"rath_scale":	1,
+			"rath_tail":	2,
+			"rath_plate":	1,
+			"inferno_sac":	1
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"remove":{
+			"advancing_slash":	"2"
+		},
+		"add":{
+			"advancing_double_slash":	"2"
+		}
+	},
+	"heat_edge":{
+		"name":	"Heat Edge",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"flame_knife",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_cara":	2,
+			"rath_wing":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	7,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"advancing_slash":	"2",
+			"sword_shield_combo":	"2"
+		},
+		"add":{
+			"advancing_double_slash":	"2",
+			"blazing_combo":			"2"
+		}
+	},
+	"blooming_knife":{
+		"name":	"Blooming Knife",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"pukei_quill":	2,
+			"pukei_scale":	2,
+			"poison_sac":	1,
+			"pukei_tail":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	8,
+			"3":	3
+		},
+		"remove":{
+			"round_slash":	"1",
+			"rising_slash_s":	"1"
+		},
+		"add":{
+			"poison_spin_slash":	"2"
+		}
+	},
+	"datura_blossom":{
+		"name":	"Datura Blossom",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"blooming_knife",
+		"recipe":{
+			"pukei_scale":	2,
+			"pukei_wing":	2,
+			"toxic_sac":	2,
+			"quality_bone":	3
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	9,
+			"3":	4
+		},
+		"remove":{
+			"round_slash":	"1",
+			"rising_slash_s":	"1",
+			"any":				"3"
+		},
+		"add":{
+			"poison_spin_slash":	"2",
+			"toxicity":				"3"
+		}
+	},
+	"carapace_edge":{
+		"name":	"Carapace Edge",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"bone_kukri",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":	3,
+			"barroth_ridge":	3
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	8,
+			"3":	2
+		},
+		"remove":{
+			"advancing_slash":	"2"
+		},
+		"add":{
+			"powerful_double_slash":	"2"
+		}
+	},
+	"barroth_club":{
+		"name":	"Barroth Club",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"carapace_edge",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":3
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	8,
+			"3":	4
+		},
+		"remove":{
+			"advancing_slash":	"2",
+			"chop":				"2"
+		},
+		"add":{
+			"powerful_double_slash":	"2",
+			"steadfast_chop":			"2"
+		}
+	},
+	"teostra_spada":{
+		"name":	"Teostra's Spada",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"teo_claw":	1,
+			"teo_mane":	1,
+			"teo_cara":	2,
+			"teo_powder":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	4,
+			"3":	7,
+			"4":	3
+		},
+		"remove":{
+			"guard_up":	"2",
+			"any":		"1"
+		},
+		"add":{
+			"teostra_guard":	"3"
+		}
+	},
+	"teostra_emblem":{
+		"name":	"Teostra's Emblem",
+		"icon":	"shield_orange.png",
+		"type":	"weapon",
+		"pre":	"teostra_spada",
+		"recipe":{
+			"teo_horn":	3,
+			"teo_claw":	2,
+			"teo_gem":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	7,
+			"3":	5,
+			"4":	3,
+			"5":	1
+		},
+		"remove":{
+			"guard_up":	"2",
+			"any":		"4"
+		},
+		"add":{
+			"teostra_guard":	"3",
+			"fearsome_slice":	"3"
+		}
+	},
+	"nergal_jack":{
+		"name":	"Nergal Jack",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	4,
+			"4":	3
+		},
+		"remove":{
+			"guard_up":	"2"
+		},
+		"add":{
+			"scaled_guard":	"2"
+		}
+	},
+	"eradication_vanguard":{
+		"name":	"Eradication Vanguard",
+		"icon":	"shield_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_jack",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	5,
+			"4":	3,
+			"5":	1
+		},
+		"remove":{
+			"guard_up":	"2",
+			"chop":		"2"
+		},
+		"add":{
+			"scaled_guard":	"2",
+			"draconic_slash":	"2"
+		}
+	},
+	"flickering_glow":{
+		"name":	"Flickering Glow",
+		"icon":	"l-sword_green.png",
+		"type":	"weapon",
+		"pre":	"iron_katana",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	3
+		},
+		"damage":{
+			"1":	2,
+			"2":	8,
+			"3":	2
+		},
+		"remove":{
+			"foresight_slash":	"2"
+		},
+		"add":{
+			"flash_foresight_slash":	"2"
+		}
+	},
+	"dazzling_flash":{
+		"name":	"Dazzling Flash",
+		"icon":	"l-sword_purple.png",
+		"type":	"weapon",
+		"pre":	"flickering_flash",
+		"recipe":{
+			"tzitzi_claw":	2,
+			"tzitzi_photo":	1,
+			"tzitzi_scale":	5,
+			"lightcrystal":	1
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	6
+		},
+		"remove":{
+			"foresight_slash":	"2",
+			"spirit_helm_breaker":	"2"
+		},
+		"add":{
+			"flash_foresight_slash":	"2",
+			"flash_spirit_helm_breaker":"2"
+		}
+	},
+	"girros_knife":{
+		"name":	"Girros Knife",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"hunter_knife",
+		"recipe":{
+			"ggirros_fang":	3,
+			"ggirros_scale":4,
+			"girros_fang":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"3":	5
+		},
+		"remove":{
+			"sword_shield_combo":	"2"
+		},
+		"add":{
+			"paralysing_combo":		"2"
+		}
+	},
+	"malady_tabar":{
+		"name":	"Malady's Tabar",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"girros_knife",
+		"recipe":{
+			"ggirros_fang":	2,
+			"ggirros_scale":2,
+			"ggirros_tail":	2,
+			"girros_scale":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	6,
+			"3":	4,
+			"4":	1
+		},
+		"remove":{
+			"sword_shield_combo":	"2",
+			"chop":					"2"
+		},
+		"add":{
+			"paralysing_combo":		"2",
+			"swarm_chop":			"2"
+		}
+	},
+	"spiked_edge":{
+		"name":	"Spiked Edge",
+		"icon":	"shield_green.png",
+		"type":	"weapon",
+		"pre":	"bone_kukri",
+		"recipe":{
+			"bonemass":		2,
+			"rado_scale":	3,
+			"sleep_sac":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	3
+		},
+		"remove":{
+			"guard_up":	"2"
+		},
+		"add":{
+			"spiked_guard":	"2"
+		}
+	},
+	"baan_claw":{
+		"name":	"Baan Claw",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"spiked_edge",
+		"recipe":{
+			"rado_cara":	4,
+			"rado_shell":	2,
+			"coma_sac":		1,
+			"keenbone":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	7,
+			"3":	4,
+			"4":	1
+		},
+		"remove":{
+			"guard_up":	"2",
+			"rising_slash_s":	"1",
+			"round_slash":		"1"
+		},
+		"add":{
+			"spiked_guard":	"2",
+			"sleep_gas_round_slash":	"2"
+		}
+	},
+	"thunderbolt_sword_1":{
+		"name":	"Thunderbolt Sword I",
+		"icon":	"shield_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_kukri",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	3,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"slinger_shot":	"4"
+		},
+		"add":{
+			"charged_stab":	"4"
+		}
+	},
+	"thunderbolt_sword_2":{
+		"name":	"Thunderbolt Sword II",
+		"icon":	"shield_orange.png",
+		"type":	"weapon",
+		"pre":	"thunderbolt_sword_1",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"slinger_shot":	"4",
+			"guard_up":		"2"
+		},
+		"add":{
+			"charged_stab":	"4",
+			"thunder_guard":"2"
+		}
 	}
 }

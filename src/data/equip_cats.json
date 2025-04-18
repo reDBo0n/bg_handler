@@ -335,6 +335,14 @@
 					"last_dance"
 				]
 			},
+			"tzitzi":{
+				"icon":	"tzitzi.png",
+				"equip":[
+					"iron_katana",
+					"flickering_glow",
+					"dazzling_flash"
+				]
+			},
 			"teostra":{
 				"icon":	"teostra.png",
 				"equip":[
@@ -352,6 +360,100 @@
 				]
 			}
 
+		}
+	},
+	"shield":{
+		"name":	"Sword & Shield",
+		"icon":	"shield_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"hunter_knife",
+					"steel_knife",
+					"chrome_slicer"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_kukri",
+					"chef_kukri",
+					"grand_barong"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"bone_kukri",
+					"jagras_edge",
+					"jagras_garotte"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"hunter_knife",
+					"flame_knife",
+					"heat_edge"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"hunter_knife",
+					"blooming_knife",
+					"datura_blossom"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_kukri",
+					"carapace_edge",
+					"barroth_club"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"hunter_knife",
+					"girros_knife",
+					"malady_tabar"
+				]
+			},
+			"radobaan":{
+				"icon":	"radobaan.png",
+				"equip":[
+					"bone_kukri",
+					"spiked_edge",
+					"baan_claw"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"hunter_knife",
+					"teostra_spada",
+					"teostra_emblem"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"hunter_knife",
+					"nergal_jack",
+					"eradication_vanguard"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_kukri",
+					"thunderbolt_sword_1",
+					"thunderbolt_sword_2"
+				]
+			}
 		}
 	},
 	"blades":{
