@@ -2,6 +2,8 @@ import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "./ui/dialog";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
+import { parseIconText } from "./icon";
+
 import card_data from "@/data/card_data.json"
 
 type CardData = {
@@ -156,7 +158,9 @@ export default function CardButton({ id }: CardButtonProps) {
 
 					{/* text */}
 					<div className="absolute inset-0 top-[40%] flex items-center justify-center text-white text-center z-5">
-						{data[id].rules}
+						<div>
+							{parseIconText(data[id].rules)}
+						</div>
 					</div>
 
 					{/* bottom row */}
