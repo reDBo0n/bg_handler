@@ -4442,5 +4442,551 @@
 			"charged_stab":	"4",
 			"thunder_guard":"2"
 		}
+	},
+	"iron_hammer":{
+		"name":	"Iron Hammer",
+		"icon":	"hammer_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	10,
+			"2":	1,
+			"4":	1
+		}
+	},
+	"iron_demon":{
+		"name":	"Iron Demon",
+		"icon":	"hammer_yellow.png",
+		"type":	"weapon",
+		"pre":	"iron_hammer",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	8,
+			"2":	2,
+			"4":	2
+		},
+		"remove":{
+			"rare_steak":	"2"
+		},
+		"add":{
+			"well_done_steak":	"2"
+		}
+	},
+	"iron_archdemon":{
+		"name":	"Iron Archdemon",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"iron_demon",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":2
+		},
+		"damage":{
+			"1":	6,
+			"2":	3,
+			"4":	3
+		},
+		"remove":{
+			"rare_steak":	"2",
+			"upswing":		"2"
+		},
+		"add":{
+			"well_done_steak":	"2",
+			"improved_upswing":	"2"
+		}
+	},
+	"bone_bludgeon":{
+		"name":	"Bone Bludgeon",
+		"icon":	"hammer_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	7,
+			"2":	2,
+			"4":	1
+		}
+	},
+	"fossil_bludgeon":{
+		"name":	"Fossil Bludgeon",
+		"icon":	"hammer_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	3,
+			"4":	2
+		},
+		"remove":{
+			"charge":	"3"
+		},
+		"add":{
+			"improved_charge":	"3"
+		}
+	},
+	"grandrock":{
+		"name":	"Grandrock",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"fossil_bludgeon",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"4":	3
+		},
+		"remove":{
+			"charge":	"3",
+			"spinning_bludgeon":	"2"
+		},
+		"add":{
+			"improved_charge":	"3",
+			"improved_spinning_bludgeon":	"2"
+		}
+	},
+	"blazing_hammer":{
+		"name":	"Blazing Hammer",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"anja_fang":	2,
+			"anja_scale":	3,
+			"flame_sac":	1
+		},
+		"damage":{
+			"2":	8,
+			"4":	2
+		},
+		"remove":{
+			"big_bang":	"4"
+		},
+		"add":{
+			"blazing_big_bang":	"4"
+		}
+	},
+	"anja_striker":{
+		"name":	"Anja Striker",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"blazing_hammer",
+		"recipe":{
+			"anja_fang":	4,
+			"anja_scale":	2,
+			"inferno_sac":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	9,
+			"4":	3
+		},
+		"remove":{
+			"big_bang":	"4",
+			"charged_upswing":	"2"
+		},
+		"add":{
+			"blazing_big_bang":	"4",
+			"blazing_charged_upswing":	"2"
+		}
+	},
+	"carapace_sledge":{
+		"name":	"Carapace Sledge",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":4,
+			"barroth_ridge":2
+		},
+		"damage":{
+			"1":	4,
+			"2":	2,
+			"4":	4
+		},
+		"remove":{
+			"spinning_bludgeon":	"2"
+		},
+		"add":{
+			"brutal_bludgeon":		"2"
+		}
+	},
+	"barroth_breaker":{
+		"name":	"Barroth Breaker",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"carapace_sledge",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":2
+		},
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"4":	5
+		},
+		"remove":{
+			"spinning_bludgeon":	"2",
+			"charged_brutal_big_bang":	"2"
+		},
+		"add":{
+			"brutal_bludgeon":		"2",
+			"pulverising_brutal_big_bang":	"2"
+		}
+	},
+	"blooming_hammer":{
+		"name":	"Blooming Hammer",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"iron_hammer",
+		"recipe":{
+			"pukei_quill":	2,
+			"pukei_scale":	3,
+			"poison_sac":	1
+		},
+		"damage":{
+			"1":	1,
+			"2":	8,
+			"4":	3
+		},
+		"remove":{
+			"side_smash":	"2"
+		},
+		"add":{
+			"poisoned_side_smash":	"2"
+		}
+	},
+	"buon_fiore":{
+		"name":	"Buon Fiore",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"blooming_hammer",
+		"recipe":{
+			"pukei_scale":	3,
+			"pukei_wing":	2,
+			"toxic_sac":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	1,
+			"2":	9,
+			"4":	4
+		},
+		"remove":{
+			"side_smash":	"2",
+			"charged_upswing":	"2"
+		},
+		"add":{
+			"poisoned_side_smash":	"2",
+			"poison_charged_upswing":	"2"
+		}
+	},
+	"diablos_sledge":{
+		"name":	"Diablos Sledge",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"twisted_horn":	1,
+			"diablos_fang":	2,
+			"diablos_shell":4,
+			"bone_large":	3
+		},
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"4":	5
+		},
+		"remove":{
+			"big_bang":	"4"
+		},
+		"add":{
+			"crippling_big_bang":	"4"
+		}
+	},
+	"diablos_shatterer":{
+		"name":	"Diablos Shatterer",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"diablos_sledge",
+		"recipe":{
+			"majestic_horn":	2,
+			"diablos_cara":		2,
+			"diablos_ridge":	2,
+			"diablos_medulla":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"4":	6
+		},
+		"remove":{
+			"big_bang":	"4",
+			"upswing":	"2"
+		},
+		"add":{
+			"crippling_big_bang":	"4",
+			"brutal_upswing":		"2"
+		}
+	},
+	"kulu_beak":{
+		"name":	"Kulu Beak",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"kulu_beak":	1,
+			"kulu_hide":	2,
+			"kulu_scale":	4,
+			"earth_crystal":3
+		},
+		"damage":{
+			"1":	5,
+			"2":	2,
+			"4":	5
+		},
+		"remove":{
+			"spinning_bludgeon":	"2"
+		},
+		"add":{
+			"diving_bludgeon_spiral":	"2"
+		}
+	},
+	"crushing_beak":{
+		"name":	"Crushing Beak",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"kulu_beak",
+		"recipe":{
+			"kulu_beak":	2,
+			"kulu_hide":	3,
+			"kulu_plume":	3,
+			"boulder_bone":	4
+		},
+		"damage":{
+			"1":	5,
+			"2":	3,
+			"3":	6
+		},
+		"remove":{
+			"spinning_bludgeon":	"2",
+			"side_smash":			"2"
+		},
+		"add":{
+			"diving_bludgeon_spiral":	"2",
+			"knock_out_side_smash":		"2"
+		}
+	},
+	"icesteel_hammer":{
+		"name":	"Icesteel Hammer",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_hammer",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_cara":	1,
+			"daora_tail":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	10,
+			"4":	2,
+			"5":	2
+		},
+		"remove":{
+			"side_smash":	"2"
+		},
+		"add":{
+			"icy_side_smash":	"2"
+		}
+	},
+	"daora_colossus":{
+		"name":	"Daora's Colossus",
+		"icon":	"hammer_orange.png",
+		"type":	"weapon",
+		"pre":	"icesteel_hammer",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	11,
+			"4":	2,
+			"5":	3
+		},
+		"remove":{
+			"side_smash":	"2",
+			"upswing":		"2"
+		},
+		"add":{
+			"icy_side_smash":	"2",
+			"frozen_upswing":	"2"
+		}
+	},
+	"nergal_crusher":{
+		"name":	"Nergal Crusher",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_hammer",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	7,
+			"4":	3,
+			"5":	2
+		},
+		"remove":{
+			"big_bang":	"4"
+		},
+		"add":{
+			"dragon_big_bang":	"4"
+		}
+	},
+	"obliteration_footfall":{
+		"name":	"Obliteration's Footfall",
+		"icon":	"hammer_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_crusher",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	8,
+			"4":	3,
+			"5":	3
+		},
+		"remove":{
+			"big_bang":	"4",
+			"charged_upswing":	"2"
+		},
+		"add":{
+			"dragon_big_bang":	"4",
+			"dragon_charged_upswing":	"2"
+		}
+	},
+	"girros_hammer":{
+		"name":	"Girros Hammer",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"iron_hammer",
+		"recipe":{
+			"ggirros_fang":	3,
+			"ggirros_scale":4,
+			"girros_fang":	2
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"4":	4
+		},
+		"remove":{
+			"big_bang":	"4"
+		},
+		"add":{
+			"swarming_big_bang":	"4"
+		}
+	},
+	"malady_fist":{
+		"name":	"Malady's Fist",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"girros_hammer",
+		"recipe":{
+			"ggirros_fang":	2,
+			"ggirros_scale":2,
+			"ggirros_tail":	2,
+			"girros_scale":	1
+		},
+		"damage":{
+			"1":	2,
+			"2":	7,
+			"4":	5
+		},
+		"remove":{
+			"big_bang":	"4",
+			"upswing":	"2"
+		},
+		"add":{
+			"swarming_big_bang":	"4",
+			"paralysing_upswing":	"2"
+		}
+	},
+	"bone_spike":{
+		"name":	"Bone Spike",
+		"icon":	"hammer_green.png",
+		"type":	"weapon",
+		"pre":	"bone_bludgeon",
+		"recipe":{
+			"bonemass":	2,
+			"rado_scale":	3,
+			"sleep_sac":	2
+		},
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"4":	3
+		},
+		"remove":{
+			"spinning_bludgeon":	"2"
+		},
+		"add":{
+			"spiked_bludgeon":		"2"
+		}
+	},
+	"baan_strike":{
+		"name":	"Baan Strike",
+		"icon":	"hammer_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_spike",
+		"recipe":{
+			"rado_cara":	4,
+			"rado_shell":	2,
+			"coma_sac":		1,
+			"keenbone":		2
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"4":	4
+		},
+		"remove":{
+			"spinning_bludgeon":	"2",
+			"side_smash":			"2"
+		},
+		"add":{
+			"spiked_bludgeon":		"2",
+			"sleep_gas_smash":		"2"
+		}
 	}
 }

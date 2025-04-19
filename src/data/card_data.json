@@ -2044,5 +2044,351 @@
 		"range":	"2",
 		"break":	"0",
 		"combo":	"0"
+	},
+	"rare_steak":{
+		"name":		"Rare Steak",
+		"agility":	"2",
+		"rules":	"Discard this card. At the end of your turn, before you draw a time card, discard any 2 attack cards from your stamina board."
+	},
+	"well_done_steak":{
+		"name":		"Well-Done Steak",
+		"agility":	"3",
+		"rules":	"Discard this card. At the end of your turn, before you draw a time card, discard any 3 attack cards from your stamina board."
+	},
+	"upswing":{
+		"name":		"Upswing",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"special":	"stun.png"
+	},
+	"improved_upswing":{
+		"name":		"Improved Upswing",
+		"agility":	"3",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"stun.png"
+	},
+	"charge":{
+		"name":		"Charge",
+		"agility":	"1",
+		"mechanic":	"hammer_box.png",
+		"stamina":	"normal",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"rules":	"Playing this card doesn't count towards the maximum allowed by the :turn:."
+	},
+	"improved_charge":{
+		"name":		"Improved Charge",
+		"agility":	"2",
+		"mechanic":	"hammer_box.png",
+		"stamina":	"normal",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"rules":	"Playing this card doesn't count towards the maximum allowed by the :turn:."
+	},
+	"spinning_bludgeon":{
+		"name":		"Spinning Bludgeon",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"improved_spinning_bludgeon":{
+		"name":		"Improved Spinning Bludgeon",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"big_bang":{
+		"name":		"Big Bang",
+		"agility":	"1",
+		"mechanic":	"bang_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"blazing_big_bang":{
+		"name":		"Blazing Big Bang",
+		"agility":	"2",
+		"mechanic":	"bang_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"charged_upswing":{
+		"name":		"Charged Upswing",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :hammer: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"stun.png"
+	},
+	"blazing_charged_upswing":{
+		"name":		"Blazing Charged Upswing",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: for each :hammer: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"fire.png"
+	},
+	"brutal_bludgeon":{
+		"name":		"Brutal Bludgeon",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: if you select a broken body part to attack.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"charged_brutal_big_bang":{
+		"name":		"Charged Brutal Big Bang",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :hammer: or :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"pulverising_brutal_big_bang":{
+		"name":		"Pulverising Brutal Big Bang",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :hammer: or :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"side_smash":{
+		"name":		"Side Smash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"poisoned_side_smash":{
+		"name":		"Poisoned Side Smash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"poison_charged_upswing":{
+		"name":		"Poison Charged Upswing",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: for each :hammer: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"poison.png"
+	},
+	"crippling_big_bang":{
+		"name":		"Crippling Big Bang",
+		"agility":	"2",
+		"mechanic":	"bang_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores 1 monster armour.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"brutal_upswing":{
+		"name":		"Brutal Upswing",
+		"agility":	"3",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Draw +2 :damage: if the monster is stunned.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1"
+	},
+	"diving_bludgeon_spiral":{
+		"name":		"Diving Bludgeon Spiral",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"This attack card gains +1 :break: for each node this hunter moves while resolving this card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		}
+	},
+	"knock_out_side_smash":{
+		"name":		"Knock Out Side Smash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"icy_side_smash":{
+		"name":		"Icy Side Smash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"frozen_upswing":{
+		"name":		"Frozen Upswing",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"stun.png",
+		"special2":	"ice.png"
+	},
+	"dragon_big_bang":{
+		"name":		"Dragon Big Bang",
+		"agility":	"2",
+		"mechanic":	"bang_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"dragon.png"
+	},
+	"dragon_charged_upswing":{
+		"name":		"Dragon Charged Upswing",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Place +1 :dragon:. Draw +1 :damage: for each :hammer: or :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"stun.png"
+	},
+	"swarming_big_bang":{
+		"name":		"Swarming Big Bang",
+		"agility":	"2",
+		"mechanic":	"bang_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After resolving this attack, another hunter may move 1 node.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"paralysing_upswing":{
+		"name":		"Paralysing Upswing",
+		"agility":	"2",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: for each other hunter adjacent to the monster.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"para.png"
+	},
+	"spiked_bludgeon":{
+		"name":		"Spiked Bludgeon",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"While this attack card is face up on your stamina board, when you're attacked by the monster, draw 1 :damage: and reduce the monster's health dial by its value, then flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"sleep_gas_smash":{
+		"name":		"Sleep Gas Smash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each :bang: on face up attack cards on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
 	}
 }

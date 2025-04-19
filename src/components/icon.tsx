@@ -16,7 +16,10 @@ const iconMap: Record<string, string> = {
 	":stun:":		"/bg_handler/mh/stun.png",
 	":blast:":		"/bg_handler/mh/blast.png",
 	":dev:":		"/bg_handler/mh/deviation.png",
-	":turn:":		"/bg_Handler/mh/hunter_turn.png"
+	":turn:":		"/bg_handler/mh/hunter_turn.png",
+	":hammer:":		"/bg_handler/mh/hammer.png",
+	":bang:":		"/bg_handler/mh/bang.png",
+	":dragon:":		"/bg_handler/mh/dragon.png"
 }
 
 export function parseIconText(text: string) {

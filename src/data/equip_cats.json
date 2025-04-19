@@ -558,6 +558,100 @@
 			}
 		}
 	},
+	"hammer":{
+		"name":	"Hammer",
+		"icon":	"hammer_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_hammer",
+					"iron_demon",
+					"iron_archdemon"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_bludgeon",
+					"fossil_bludgeon",
+					"grandrock"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"bone_bludgeon",
+					"blazing_hammer",
+					"anja_striker"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_bludgeon",
+					"carapace_sledge",
+					"barroth_breaker"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"iron_hammer",
+					"blooming_hammer",
+					"buon_fiore"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_bludgeon",
+					"diablos_sledge",
+					"diablos_shatterer"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"bone_bludgeon",
+					"kulu_beak",
+					"crushing_beak"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"iron_hammer",
+					"girros_hammer",
+					"malady_fist"
+				]
+			},
+			"radobaan":{
+				"icon":	"radobaan.png",
+				"equip":[
+					"bone_bludgeon",
+					"bone_spike",
+					"baan_strike"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"iron_hammer",
+					"icesteel_hammer",
+					"daora_colossus"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_hammer",
+					"nergal_crusher",
+					"obliteration_footfall"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",

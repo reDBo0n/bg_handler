@@ -24,6 +24,7 @@ type CardData = {
 			amnt:	string;
 		};
 		special?:	string;
+		special2?:	string;
 	}
 }
 
@@ -69,7 +70,7 @@ export default function CardButton({ id }: CardButtonProps) {
 
 					{data[id].mechanic && (
 						<div className="flex justify-center z-1">
-							<div className="relative w-35 h-35 mt-10">
+							<div className="relative w-25 h-25 mt-20">
 								<Image
 									src={"/bg_handler/mh/".concat(data[id].mechanic)}
 									alt={data[id].mechanic}
@@ -135,6 +136,16 @@ export default function CardButton({ id }: CardButtonProps) {
 									<Image
 										src={"/bg_handler/mh/".concat(data[id].special)}
 										alt={data[id].special}
+										fill
+										className="object-contain z-2"
+									/>
+								</div>
+							)}
+							{data[id].special2 && (
+								<div className="relative w-35 h-35 sm:w-50 sm:h-50 z-2">
+									<Image
+										src={"/bg_handler/mh/".concat(data[id].special2)}
+										alt={data[id].special2}
 										fill
 										className="object-contain z-2"
 									/>
