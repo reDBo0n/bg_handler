@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 import { parseIconText } from "./icon";
 
-import card_data from "@/data/card_data.json"
+import card_data from "@/data/card_data.json";
 
 type CardData = {
 	[id: string]: {

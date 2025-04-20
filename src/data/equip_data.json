@@ -4988,5 +4988,576 @@
 			"spiked_bludgeon":		"2",
 			"sleep_gas_smash":		"2"
 		}
+	},
+	"metal_bagpipe":{
+		"name":	"Metal Bagpipe",
+		"icon":	"horn_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	10,
+			"2":	2
+		},
+		"song":	"ore"
+	},
+	"great_bagpipe":{
+		"name":	"Great Bagpipe",
+		"icon":	"horn_yellow.png",
+		"type":	"weapon",
+		"pre":	"metal_bagpipe",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	8,
+			"2":	3,
+			"3":	1
+		},
+		"song":	"ore",
+		"remove":{
+			"forward_smash":	"2"
+		},
+		"add":{
+			"leaping_smash":	"2"
+		}
+	},
+	"fortissimo":{
+		"name":	"Fortissimo",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"great_bagpipe",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":2
+		},
+		"damage":{
+			"1":	5,
+			"2":	5,
+			"3":	2
+		},
+		"song":	"ore",
+		"remove":{
+			"forward_smash":	"2",
+			"right_swing":		"2"
+		},
+		"add":{
+			"leaping_smash":	"2",
+			"crunching_swing":	"2"
+		}
+	},
+	"bone_horn":{
+		"name":	"Bone Horn",
+		"icon":	"horn_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	7,
+			"2":	3
+		},
+		"song":	"bone"
+	},
+	"hard_bone_horn":{
+		"name":	"Hard Bone Horn",
+		"icon":	"horn_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	5
+		},
+		"song":	"bone",
+		"remove":{
+			"backwards_strike":	"2"
+		},
+		"add":{
+			"retreating_strike":	"2"
+		}
+	},
+	"heavy_bone_horn":{
+		"name":	"Heavy Bone Horn",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"hard_bone_horn",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	2
+		},
+		"song":	"bone",
+		"remove":{
+			"backwards_strike":	"2",
+			"hilt_stab":		"2"
+		},
+		"add":{
+			"retreating_strike":	"2",
+			"hilt_slice":			"2"
+		}
+	},
+	"thunder_gaida":{
+		"name":	"Thunder Gaida",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"dragonite":	2,
+			"tobi_electrode":1,
+			"tobi_claw":	2,
+			"coral_crystal":2
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	4
+		},
+		"song":	"tobi",
+		"remove":{
+			"left_swing":	"2"
+		},
+		"add":{
+			"static_swing":	"2"
+		}
+	},
+	"lightning_drum":{
+		"name":	"Lightning Drum",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"thunder_gaida",
+		"recipe":{
+			"fucium":	2,
+			"tobi_electrode":	2,
+			"tobi_claw":		2,
+			"thunder_sac":		1
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	7
+		},
+		"song":	"tobi",
+		"remove":{
+			"left_swing":	"2",
+			"hilt_stab":	"3"
+		},
+		"add":{
+			"static_swing":	"2",
+			"static_strike":"3"
+		}
+	},
+	"blazing_horn":{
+		"name":	"Blazing Horn",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"metal_bagpipe",
+		"recipe":{
+			"anja_scale":	3,
+			"anja_fang":	2,
+			"flame_sac":	1
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"song":	"anjanath",
+		"remove":{
+			"forward_smash":	"2"
+		},
+		"add":{
+			"forward_blazing_smash":	"2"
+		}
+	},
+	"anja_barone":{
+		"name":	"Anja Barone",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"blazing_horn",
+		"recipe":{
+			"anja_fang":	4,
+			"anja_pelt":	4,
+			"firecell":		2
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	6
+		},
+		"song":	"anjanath",
+		"remove":{
+			"forward_smash":	"2",
+			"backwards_strike":	"2"
+		},
+		"add":{
+			"forward_blazing_smash":	"2",
+			"blazing_strike":			"2"
+		}
+	},
+	"blooming_horn":{
+		"name":	"Blooming Horn",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"pukei_quill":	2,
+			"pukei_scale":	2,
+			"poison_sac":	1,
+			"pukei_tail":	1
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	4
+		},
+		"song":	"pukei",
+		"remove":{
+			"forward_smash":	"2"
+		},
+		"add":{
+			"forward_poison_smash":	"2"
+		}
+	},
+	"datura_horn":{
+		"name":	"Datura Horn",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"blooming_horn",
+		"recipe":{
+			"pukei_scale":	2,
+			"pukei_wing":	2,
+			"toxic_sac":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	7
+		},
+		"song":	"pukei",
+		"remove":{
+			"forward_smash":	"2",
+			"encore":			"2"
+		},
+		"add":{
+			"forward_poison_smash":	"2",
+			"poison_encore":		"2"
+		}
+	},
+	"aqua_bagpipe":{
+		"name":	"Aqua Bagpipe",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_shell":	2,
+			"jyura_scale":	3,
+			"aqua_sac":		1
+		},
+		"damage":{
+			"1":	2,
+			"2":	6,
+			"3":	4
+		},
+		"song":	"jyuratodus",
+		"remove":{
+			"right_swing":	"2"
+		},
+		"add":{
+			"aqua_right_swing":	"2"
+		}
+	},
+	"water_tamtam":{
+		"name":	"Water Tamtam",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"aqua_bagpipe",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_cara":	2,
+			"jyura_scale":	2,
+			"aqua_sac":		1,
+			"gajau_scale":	1
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	6
+		},
+		"song":	"jyuratodus",
+		"remove":{
+			"right_swing":	"2",
+			"hilt_stab":	"3"
+		},
+		"add":{
+			"aqua_right_swing":	"2",
+			"aqua_hilt_stab":	"3"
+		}
+	},
+	"kulu_duda":{
+		"name":	"Kulu Duda",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"metal_bagpipe",
+		"recipe":{
+			"kulu_beak":	1,
+			"kulu_hide":	2,
+			"kulu_scale":	4,
+			"earth_crystal":3
+		},
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	4
+		},
+		"song":	"kulu",
+		"remove":{
+			"left_swing":	"2"
+		},
+		"add":{
+			"dive_swing":	"2"
+		}
+	},
+	"dancing_davul":{
+		"name":	"Dancing Davul",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"kulu_duda",
+		"recipe":{
+			"kulu_beak":	2,
+			"kulu_hide":	3,
+			"kulu_plume":	3,
+			"boulder_bone":	4
+		},
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	7
+		},
+		"song":	"kulu",
+		"remove":{
+			"left_swing":	"2",
+			"upward_swing":	"2"
+		},
+		"add":{
+			"dive_swing":	"2",
+			"lullady_smash":"2"
+		}
+	},
+	"teostra_tiple":{
+		"name":	"Teostra's Tiple",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"metal_bagpipe",
+		"recipe":{
+			"teo_claw":	1,
+			"teo_mane":	1,
+			"teo_cara":	2,
+			"teo_powder":1
+		},
+		"damage":{
+			"1":	4,
+			"2":	4,
+			"3":	5,
+			"4":	1
+		},
+		"song":	"teostra",
+		"remove":{
+			"hilt_stab":	"3"
+		},
+		"add":{
+			"boom_box":		"3"
+		}
+	},
+	"teostra_orphee":{
+		"name":	"Teostra's Orphée",
+		"icon":	"horn_orange.png",
+		"type":	"weapon",
+		"pre":	"teostra_tiple",
+		"recipe":{
+			"teo_horn":	3,
+			"teo_claw":	2,
+			"teo_gem":	1
+		},
+		"damage":{
+			"2":	9,
+			"3":	4,
+			"4":	3
+		},
+		"song":	"teostra",
+		"remove":{
+			"hilt_stab":	"3",
+			"left_swing":	"2"
+		},
+		"add":{
+			"boom_box":		"3",
+			"blast_swing":	"2"
+		}
+	},
+	"nergal_groove":{
+		"name":	"Nergal Groove",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"metal_bagpipe",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"damage":{
+			"2":	9,
+			"3":	2,
+			"4":	1
+		},
+		"song":	"nergigante",
+		"remove":{
+			"backwards_strike":	"2"
+		},
+		"add":{
+			"dragon_strike":	"2"
+		}
+	},
+	"desolation_overture":{
+		"name":	"Desolation's Overture",
+		"icon":	"horn_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_groove",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"damage":{
+			"2":	8,
+			"3":	4,
+			"4":	2
+		},
+		"song":	"nergigante",
+		"remove":{
+			"backwards_strike":	"2",
+			"encore":			"2"
+		},
+		"add":{
+			"dragon_strike":	"2",
+			"explosive_encore":	"2"
+		}
+	},
+	"spiked_horn":{
+		"name":	"Spiked Horn",
+		"icon":	"horn_green.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"bonemass":	2,
+			"rado_scale":	3,
+			"sleep_sac":	2
+		},
+		"damage":{
+			"1":	2,
+			"2":	4,
+			"3":	3
+		},
+		"song":	"radobaan",
+		"remove":{
+			"forward_smash":	"2"
+		},
+		"add":{
+			"spiked_smash":		"2"
+		}
+	},
+	"baan_horn":{
+		"name":	"Baan Horn",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"spiked_horn",
+		"recipe":{
+			"rado_cara":	4,
+			"rado_shell":	2,
+			"coma_sac":		1,
+			"keenbone":		2
+		},
+		"damage":{
+			"1":	1,
+			"2":	5,
+			"3":	6
+		},
+		"song":	"radobaan",
+		"remove":{
+			"forward_smash":	"2",
+			"right_swing":		"2"
+		},
+		"add":{
+			"spiked_smash":		"2",
+			"sleep_gas_swing":	"2"
+		}
+	},
+	"thundercry_horn":{
+		"name":	"Thundercry Horn",
+		"icon":	"horn_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_horn",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":	1
+		},
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"3":	3,
+			"4":	2
+		},
+		"song":	"kirin",
+		"remove":{
+			"left_swing":	"2"
+		},
+		"add":{
+			"charged_swing":	"2"
+		}
+	},
+	"thunderbolt_horn":{
+		"name":	"Thunderbolt Horn",
+		"icon":	"horn_orange.png",
+		"type":	"weapon",
+		"pre":	"thundercry_horn",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"damage":{
+			"1":	4,
+			"2":	3,
+			"3":	4,
+			"4":	3
+		},
+		"song":	"kirin",
+		"remove":{
+			"left_swing":	"2",
+			"overhead_smash":	"2"
+		},
+		"add":{
+			"charged_swing":	"2",
+			"thunder_crack":	"2"
+		}
 	}
 }

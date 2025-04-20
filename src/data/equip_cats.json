@@ -652,6 +652,100 @@
 			}
 		}
 	},
+	"horn":{
+		"name":	"Hunting Horn",
+		"icon":	"horn_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"metal_bagpipe",
+					"great_bagpipe",
+					"fortissimo"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_horn",
+					"hard_bone_horn",
+					"heavy_bone_horn"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_horn",
+					"thunder_gaida",
+					"lightning_drum"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"metal_bagpipe",
+					"blazing_horn",
+					"anja_barone"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"bone_horn",
+					"blooming_horn",
+					"datura_horn"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"bone_horn",
+					"aqua_bagpipe",
+					"water_tamtam"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"metal_bagpipe",
+					"kulu_duda",
+					"dancing_davul"
+				]
+			},
+			"radobaan":{
+				"icon":	"radobaan.png",
+				"equip":[
+					"bone_horn",
+					"spiked_horn",
+					"baan_horn"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"metal_bagpipe",
+					"teostra_tiple",
+					"teostra_orphee"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"metal_bagpipe",
+					"nergal_groove",
+					"desolation_overture"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_horn",
+					"thundercry_horn",
+					"thunderbolt_horn"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",

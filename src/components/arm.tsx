@@ -11,6 +11,7 @@ import CardButton from "./card_buttton";
 import equip_data from "@/data/equip_data.json"
 import item_data from "@/data/item_data.json"
 import { ItemData } from "./item_listing";
+import SongButton from "./song_button";
 
 interface BaseEquip {
 	name:	string;
@@ -42,6 +43,7 @@ interface Weapon extends BaseEquip {
 	damage: {
 		[amnt:	string]:	number;
 	};
+	song?:	string;
 	remove?: {
 		[card:	string]:	number;
 	};
@@ -199,6 +201,11 @@ export default function Arm({ id }: ArmProps) {
 				</div>
 				<Separator />
 				{/* card section */}
+				{(eData[id] as Weapon).song && (
+					<div>
+						<SongButton id={(eData[id] as Weapon).song as string}/>
+					</div>
+				)}
 				{(eData[id] as Weapon).remove && (
 					<div>
 						<i>Remove:</i>

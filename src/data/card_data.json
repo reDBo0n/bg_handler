@@ -2390,5 +2390,408 @@
 		"break":	"0",
 		"combo":	"0",
 		"special":	"sleep.png"
+	},
+	"forward_smash":{
+		"name":		"Forward Smash",
+		"agility":	"1",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		},
+		"special":	"stun.png"
+	},
+	"leaping_smash":{
+		"name":		"Leaping Smash",
+		"agility":	"1",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		},
+		"special":	"stun.png"
+	},
+	"right_swing":{
+		"name":		"Right Swing",
+		"agility":	"2",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"crunching_swing":{
+		"name":		"Crunching Swing",
+		"agility":	"2",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"backwards_strike":{
+		"name":		"Backwards Strike",
+		"agility":	"2",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"retreating_strike":{
+		"name":		"Retreating Strike",
+		"agility":	"2",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"2"
+		}
+	},
+	"hilt_stab":{
+		"name":		"Hilt Stab",
+		"agility":	"0",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"When you play this attack card, it gains either a :white: :red: or :blue:. At the end of your turn flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"hilt_slice":{
+		"name":		"Hilt Slice",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card, it gains either a :white: :red: or :blue:. At the end of your turn flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"left_swing":{
+		"name":		"Left Swing",
+		"agility":	"2",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"static_swing":{
+		"name":		"Static Swing",
+		"agility":	"3",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"static_strike":{
+		"name":		"Static Strike",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card, it gains either a :white: :red: or :blue:. At the end of your turn flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"forward_blazing_smash":{
+		"name":		"Forward Blazing Smash",
+		"agility":	"2",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		},
+		"special":	"fire.png"
+	},
+	"blazing_strike":{
+		"name":		"Blazing Strike",
+		"agility":	"2",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		},
+		"special":	"fire.png"
+	},
+	"forward_poison_smash":{
+		"name":		"Forward Poison Smash",
+		"agility":	"2",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		},
+		"special":	"poison.png"
+	},
+	"encore":{
+		"name":		"Encore",
+		"agility":	"0",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack card can only be played before you play a song. Your songs gain +1 :range: this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"3"
+	},
+	"poison_encore":{
+		"name":		"Poison Encore",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack card can only be played before you play a song. Your songs gain +1 :range: this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"3",
+		"special":	"poison.png"
+	},
+	"aqua_right_swing":{
+		"name":		"Aqua Right Swing",
+		"agility":	"3",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"aqua_hilt_stab":{
+		"name":		"Aqua Hilt Stab",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card, it gains either a :white: :red: or :blue:. At the end of your turn flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"dive_swing":{
+		"name":		"Dive Swing",
+		"agility":	"2",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"away",
+			"amnt":	"2"
+		}
+	},
+	"upward_swing":{
+		"name":		"Upward Swing",
+		"ability":	"1",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"lullaby_smash":{
+		"name":		"Lullaby Smash",
+		"ability":	"2",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"boom_box":{
+		"name":		"Boom Box",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"When you play this attack card, it gains either a :white: :red: or :blue:. At the end of your turn flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"blast_swing":{
+		"name":		"Blast Swing",
+		"agility":	"3",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Fraw +1 :damage: and gain +1 :break: if you've played a song this turn.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"dragon_strike":{
+		"name":		"Dragon Strike",
+		"agility":	"3",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"If the selected body part is broken, this attack card gains +1 :blue: this turn.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		},
+		"special":	"dragon.png"
+	},
+	"explosive_encore":{
+		"name":		"Explosive Encore",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack card can only be played before you play a song. Draw +1 :damage: for each face-up card on your stamina board with at least 1 :white: :red: :blue:.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"spiked_smash":{
+		"name":		"Spiked Smash",
+		"agility":	"2",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"While this attack card is face up on your stamina board, when you're attacked by the monster, draw 1 :damage: and reduce the monster's health dial by its value, then flip this card face down.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		},
+		"special":	"stun.png"
+	},
+	"sleep_gas_swing":{
+		"name":		"Sleep Gas Swing",
+		"agility":	"3",
+		"mechanic":	"note_red_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"charged_swing":{
+		"name":		"Charged Swing",
+		"agility":	"3",
+		"mechanic":	"note_white_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"Draw +1 :damage: if you've played another :thunder: elemental attack card this turn.",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"thunder_crack":{
+		"name":		"Thunder Crack",
+		"agility":	"2",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: if you've played another :thunder: elemental attack card this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"thunder.png",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"overhead_smash":{
+		"name":		"Overhead Smash",
+		"agility":	"1",
+		"mechanic":	"note_blue_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
 	}
 }

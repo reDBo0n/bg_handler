@@ -1,0 +1,90 @@
+{
+	"ore":{
+		"name":	"Ore",
+		"list":[
+			"self_impr",
+			"attack_up",
+			"defence_up"
+		]
+	},
+	"bone":{
+		"name":	"Bone",
+		"list":[
+			"self_impr",
+			"attack_up",
+			"env_effect_neg"
+		]
+	},
+	"tobi":{
+		"name":	"Tobi-Kadachi",
+		"list":[
+			"self_impr",
+			"health_recov",
+			"earplugs"
+		]
+	},
+	"anjanath":{
+		"name":	"Anjanath",
+		"list":[
+			"self_impr",
+			"stamina_redu",
+			"defence_up_2"
+		]
+	},
+	"pukei":{
+		"name":	"Pukei-Pukei",
+		"list":[
+			"self_impr",
+			"health_recov",
+			"earplugs"
+		]
+	},
+	"jyuratodus":{
+		"name":	"Jyuratodus",
+		"list":[
+			"self_impr",
+			"attack_up",
+			"env_effect_neg"
+		]
+	},
+	"kulu":{
+		"name":	"Kulu-Ya-Ku",
+		"list":[
+			"self_impr",
+			"stamina_redu",
+			"defence_up"
+		]
+	},
+	"teostra":{
+		"name":	"Teostra",
+		"list":[
+			"self_impr",
+			"ailment_neg",
+			"div_protec"
+		]
+	},
+	"nergigante":{
+		"name":	"Nergigante",
+		"list":[
+			"self_impr",
+			"health_recov",
+			"aff_up_health_recov"
+		]
+	},
+	"radobaan":{
+		"name":	"Radobaan",
+		"list":[
+			"self_impr",
+			"attack_up",
+			"fire_res"
+		]
+	},
+	"kirin":{
+		"name":	"Kirin",
+		"list":[
+			"self_impr",
+			"health_recov",
+			"thunder_res"
+		]
+	}
+}

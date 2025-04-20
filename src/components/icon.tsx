@@ -19,7 +19,11 @@ const iconMap: Record<string, string> = {
 	":turn:":		"/bg_handler/mh/hunter_turn.png",
 	":hammer:":		"/bg_handler/mh/hammer.png",
 	":bang:":		"/bg_handler/mh/bang.png",
-	":dragon:":		"/bg_handler/mh/dragon.png"
+	":dragon:":		"/bg_handler/mh/dragon.png",
+	":white:":		"/bg_handler/mh/note_white.png",
+	":red:":		"/bg_handler/mh/note_red.png",
+	":blue:":		"/bg_handler/mh/note_blue.png",
+	":range:":		"/bg_handler/mh/range_icon.png"
 }
 
 export function parseIconText(text: string) {

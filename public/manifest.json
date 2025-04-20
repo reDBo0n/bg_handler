@@ -3,6 +3,7 @@
 	"short_name":		"BG Handler",
 	"start_url":		"/bg_handler/",
 	"display":			"standalone",
+	"orientation":		"portrait",
 	"background_color":	"#000000",
 	"icons": [
 		{

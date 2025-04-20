@@ -1,0 +1,54 @@
+{
+	"self_impr":{
+		"name":	":white::white: Self Improvement",
+		"desc":	"0:range:. Only this hunter is affected. When this hunter walks, they move up to 2 nodes instead of 1."
+	},
+	"attack_up":{
+		"name":	":white::red::red: Attack Up",
+		"desc":	"1:range:. The next time each affected hunter inflicts damage, they draw +2 :damage:."
+	},
+	"defence_up":{
+		"name":	":white::blue::blue: Defence Up",
+		"desc":	"1:range:. Each affected hunter gains +1 :armor:."
+	},
+	"env_effect_neg":{
+		"name":	":red::red::blue: Environmental Effects Negated",
+		"desc":	"3:range:. Each affected hunter ignores the effects of pond nodes."
+	},
+	"health_recov":{
+		"name":	":white::red::white: Health Recovery",
+		"desc":	"1:range:. The next time each affected hunter takes a turn, they recover 2 lost health."
+	},
+	"earplugs":{
+		"name":	":blue::blue::red::white: Earplugs",
+		"desc":	"2:range:. Each affected hunter may immediately discard 1 attack card from their hand to move up to 2 nodes."
+	},
+	"stamina_redu":{
+		"name":	":white::blue::red: Stamina Use Reduced",
+		"desc":	"2:range:. The next time each affected hunter plays an attack card onto their stamina board, they may discard it."
+	},
+	"defence_up_2":{
+		"name":	":white::red::red: Defence Up",
+		"desc":	"1:range:. Each affected hunter gains +1 :armor:."
+	},
+	"ailment_neg":{
+		"name":	":red::white::blue::blue: All Ailments Negated",
+		"desc":	"1:range:. Until their next turn affected hunters can't suffer ailments."
+	},
+	"div_protec":{
+		"name":	":white::blue::white::red: Divine Protection",
+		"desc":	"1:range:. The next time each affected hunter suffers damage that would cause them to faint, set their health dial to 1."
+	},
+	"aff_up_health_recov":{
+		"name":	":red::blue::white::blue: Affinity Up and Health Recovery",
+		"desc":	"1:range:. The next time each affected hunter takes a turn, they recover 2 lost health and they double the value of the next :damage: card they draw."
+	},
+	"fire_res":{
+		"name":	":red::blue::blue: Fire Resistance Boost",
+		"desc":	"2:range:. Each affected hunter gains 1 :fire_res:."
+	},
+	"thunder_res":{
+		"name":	":red::blu::blue: Thunder Resistance Boost",
+		"desc":	"2:range:. Each affected hunter gains 1 :thunder_res:."
+	}
+}
