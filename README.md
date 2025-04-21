@@ -2,7 +2,7 @@
 *Partner, are you ready for a new adventure?*
 
 
-A simple companion [React](https://github.com/facebook/react/releases) app for Steamforged MHW Board Game.
+A simple companion [React](https://github.com/facebook/react/releases) app for [Steamforged](https://steamforged.com) [MHW Board Game](https://steamforged.com/pages/monster-hunter-world-board-game).
 
 ## How to use
 You have 2 options:
@@ -21,9 +21,9 @@ to build and host the app locally. Then you can access it via [localhost](http:/
 ## License
 The sourcecode of this project is licensed under the [GNU General Public License v3.0](https://github.com/reDBo0n/bg_handler/blob/main/LICENSE).
 
-This project uses [Next.js](https://github.com/vercel/next.js) licensed under the [MIT License](https://github.com/vercel/next.js/blob/canary/license.md).
-This project uses [next-pwa](https://github.com/shadowwalker/next-pwa) licensed under the [MIT License](https://github.com/shadowwalker/next-pwa/blob/master/LICENSE).
-This project uses [Tailwind](https://github.com/tailwindlabs/tailwindcss) licensed under the [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE).
+This project uses [Next.js](https://github.com/vercel/next.js) licensed under the [MIT License](https://github.com/vercel/next.js/blob/canary/license.md).<br>
+This project uses [next-pwa](https://github.com/shadowwalker/next-pwa) licensed under the [MIT License](https://github.com/shadowwalker/next-pwa/blob/master/LICENSE).<br>
+This project uses [Tailwind](https://github.com/tailwindlabs/tailwindcss) licensed under the [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE).<br>
 This project uses [shadcn-ui](https://github.com/shadcn-ui/ui) licensed under the [MIT License](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
 
 *All game assests inside of [mh](https://github.com/reDBo0n/bg_handler/tree/main/public/mh) are property of CAPCOM.*

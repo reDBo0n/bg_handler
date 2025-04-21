@@ -33,10 +33,6 @@ class QuestHandler {
 
 		localStorage.setItem(this.storageKey, JSON.stringify(this.quests));
 	}
-
-	reset() {
-		this.quests = {};
-	}
 }
 
 type LocalInv = {
@@ -80,10 +76,6 @@ class InventoryHandler {
 		localStorage.setItem(this.storageKey, JSON.stringify(this.inv));
 
 		this.notifyUpdate();
-	}
-
-	reset() {
-		this.inv = {}
 	}
 }
 
@@ -140,12 +132,69 @@ class ArmoryHandler {
 
 		this.notifyUpdate();
 	}
+}
 
-	reset() {
-		this.arm = {}
+type LocalExpansion = {
+	[id: string]:	boolean;
+}
+
+class ExpansionHandler {
+	private storageKey: string = "mhw.exp";
+	private exp: LocalExpansion = {};
+	private updateCallback: (() => void) | null = null;
+
+	constructor() {
+		if(typeof(window) !== "undefined") {
+			const savedState = localStorage.getItem(this.storageKey);
+			this.exp = savedState ? JSON.parse(savedState) : {};
+		}
+	}
+
+	setUpdateCallback(cb: () => void) {
+		this.updateCallback = cb;
+	}
+
+	private notifyCallback() {
+		this.updateCallback?.();
+	}
+
+	get(expansion: string) {
+		if(!(expansion in this.exp)) {
+			this.exp[expansion] = true;
+		}
+
+		return this.exp[expansion];
+	}
+
+	set(expansion: string, state: boolean) {
+		this.exp[expansion] = state;
+
+		localStorage.setItem(this.storageKey, JSON.stringify(this.exp));
+
+		this.notifyCallback();
 	}
 }
 
 export const questHandler = new QuestHandler();
 export const inventoryHandler = new InventoryHandler();
 export const armoryHandler = new ArmoryHandler();
+export const expansionHandler = new ExpansionHandler();
+
+import { Expansion } from "@/app/page";
+import expansions from "@/data/expansions.json"
+
+const exp: Expansion = expansions;
+
+export function isMonsterHuntable(monster: string) {
+	for(const e in exp){
+		console.log("Expansion: %s", e);
+		for(const m of exp[e].ids) {
+			if(m === monster) {
+				console.log("Found it");
+				return expansionHandler.get(e);
+			}
+		}
+	}
+
+	return false;
+}

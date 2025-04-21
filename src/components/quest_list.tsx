@@ -1,5 +1,7 @@
 import QuestTracker from "./quest_tracker";
 
+import { isMonsterHuntable } from "@/lib/handlers";
+
 import quests from "@/data/quests.json"
 
 type QuestData = {
@@ -16,7 +18,9 @@ export default function QuestList() {
 	return (
 		<div className="flex justify-center">
 			<div className="grid gap-1 b grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
-				{Object.entries(data).map(([id, entry]) => (
+				{Object.entries(data)
+					.filter(([id]) => (isMonsterHuntable(id)))
+					.map(([id, entry]) => (
 					<QuestTracker key={id} id={id} name={entry.name} image={entry.image} max_diff={entry.max_diff}/>
 				))}
 			</div>

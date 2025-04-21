@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import Item from "./item";
 
+import { isMonsterHuntable } from "@/lib/handlers";
+
 import item_cats from "@/data/item_cats.json"
 import item_data from "@/data/item_data.json"
 
@@ -27,7 +29,9 @@ export default function ItemListing() {
 
 	return (
 		<Accordion type="multiple" className="w-full">
-			{Object.entries(cat).map(([id, entry]) => (
+			{Object.entries(cat)
+				.filter(([id]) => (isMonsterHuntable(id)))
+				.map(([id, entry]) => (
 				<AccordionItem key={id} value={id}>
 					<AccordionTrigger>
 						<div>

@@ -3,9 +3,11 @@ import Image from "next/image";
 
 import ArmMaterial from "./arm_material";
 
+import { expansionHandler } from "@/lib/handlers";
+
 import equip_cats from "@/data/equip_cats.json"
 
-type EquipCat = {
+export type EquipCat = {
 	[id: string]: {
 		name:	string;
 		icon:	string;
@@ -25,7 +27,9 @@ export default function EquipmentListing() {
 
 	return (
 		<Accordion type="multiple" className="w-full">
-			{Object.entries(cat).map(([id, entry]) => (
+			{Object.entries(cat)
+				.filter(([id]) => (expansionHandler.get(id)))
+				.map(([id, entry]) => (
 				<AccordionItem key={id} value={id}>
 					<AccordionTrigger>
 						<div>

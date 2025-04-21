@@ -1,0 +1,60 @@
+{
+	"forest":{
+		"name":	"Ancient Forest",
+		"ids":[
+			"jagras",
+			"tobi",
+			"anjanath",
+			"rathalos",
+			"a-rathalos"
+		]
+	},
+	"waste":{
+		"name":	"Wildspire Waste",
+		"ids":[
+			"barroth",
+			"pukei",
+			"jyuratodus",
+			"diablos",
+			"b-diablos"
+		]
+	},
+	"kulu":{
+		"name":	"Kulu-Ya-Ku",
+		"ids":[
+			"kulu"
+		]
+	},
+	"bones":{
+		"name":	"Picking Bones",
+		"ids":[
+			"tzitzi",
+			"girros",
+			"radobaan"
+		]
+	},
+	"kushala":{
+		"name":	"Kushala Daora",
+		"ids":[
+			"kushala"
+		]
+	},
+	"nergigante":{
+		"name":	"Nergigante",
+		"ids":[
+			"nergigante"
+		]
+	},
+	"teostra":{
+		"name":	"Teostra",
+		"ids":[
+			"teostra"
+		]
+	},
+	"kirin":{
+		"name":	"Kirin",
+		"ids":[
+			"kirin"
+		]
+	}
+}

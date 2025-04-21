@@ -2,109 +2,91 @@
 	"jagras": {
 		"name":		"Great Jagras",
 		"image":	"jagras.png",
-		"max_diff":	3,
-		"expansion":"forest"
+		"max_diff":	3
 	},
 	"tobi": {
 		"name":		"Tobi-Kadachi",
 		"image":	"tobi.png",
-		"max_diff":	3,
-		"expansion":"forest"
+		"max_diff":	3
 	},
 	"anjanath": {
 		"name":		"Anjanath",
 		"image":	"anjanath.png",
-		"max_diff":	3,
-		"expansion":"forest"
+		"max_diff":	3
 	},
 	"rathalos": {
 		"name":		"Rathalos",
 		"image":	"rathalos.png",
-		"max_diff":	4,
-		"expansion":"forest"
+		"max_diff":	4
 	},
 	"a-rathalos": {
 		"name":		"Azure Rathalos",
 		"image":	"a-rathalos.png",
-		"max_diff":	4,
-		"expansion":"forest"
+		"max_diff":	4
 	},
 	"barroth": {
 		"name":		"Barroth",
 		"image":	"barroth.png",
-		"max_diff":	3,
-		"expansion":"waste"
+		"max_diff":	3
 	},
 	"pukei": {
 		"name":		"Pukei-Pukei",
 		"image":	"pukei.png",
-		"max_diff":	3,
-		"expansion":"waste"
+		"max_diff":	3
 	},
 	"jyuratodus": {
 		"name":		"Jyuratodus",
 		"image":	"jyuratodus.png",
-		"max_diff":	3,
-		"expansion":"waste"
+		"max_diff":	3
 	},
 	"diablos": {
 		"name":		"Diablos",
 		"image":	"diablos.png",
-		"max_diff":	4,
-		"expansion":"waste"
+		"max_diff":	4
 	},
 	"b-diablos": {
 		"name":		"Black Diablos",
 		"image":	"b-diablos.png",
-		"max_diff":	4,
-		"expansion":"waste"
+		"max_diff":	4
 	},
 	"kulu": {
 		"name":		"Kulu-Ya-Ku",
 		"image":	"kulu.png",
-		"max_diff": 3,
-		"expansion":"kulu"
+		"max_diff": 3
 	},
 	"tzitzi": {
 		"name":		"Tzitzi-Ya-Ku",
 		"image":	"tzitzi.png",
-		"max_diff":	3,
-		"expansion":"bones"
+		"max_diff":	3
 	},
 	"girros": {
 		"name":		"Great Girros",
 		"image":	"girros.png",
-		"max_diff":	3,
-		"expansion":"bones"
+		"max_diff":	3
 	},
 	"radobaan": {
 		"name":		"Radobaan",
 		"image":	"radobaan.png",
-		"max_diff":	3,
-		"expansion":"bones"
+		"max_diff":	3
 	},
 	"kushala": {
 		"name":		"Kushala Daora",
 		"image":	"kushala.png",
-		"max_diff":	5,
-		"expansion":"kushala"
+		"max_diff":	5
 	},
 	"nergigante": {
 		"name":		"Nergigante",
 		"image":	"nergigante.png",
-		"max_diff":	5,
-		"expansion":"nergigante"
+		"max_diff":	5
 	},
 	"teostra": {
 		"name":		"Teostra",
 		"image":	"teostra.png",
-		"max_diff":	5,
-		"expansion":"teostra"
+		"max_diff":	5
 	},
 	"kirin": {
 		"name":		"Kirin",
 		"image":	"kirin.png",
-		"max_diff":	5,
-		"expansion":"kirin"
+		"max_diff":	5
 	}
 }
