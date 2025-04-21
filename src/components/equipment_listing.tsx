@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import ArmMaterial from "./arm_material";
 
-import { expansionHandler } from "@/lib/handlers";
+import { expansionHandler, isMonsterHuntable } from "@/lib/handlers";
 
 import equip_cats from "@/data/equip_cats.json"
 
@@ -45,7 +45,9 @@ export default function EquipmentListing() {
 					<AccordionContent>
 						<div className="flex justify-center">
 							<div className="grid grid-cols-2 gap-4">
-								{Object.entries(entry.cat).map(([type, entry]) => (
+								{Object.entries(entry.cat)
+									.filter(([type]) => (isMonsterHuntable(type)))
+									.map(([type, entry]) => (
 									<ArmMaterial key={id.concat(type)} icon={entry.icon} equip={entry.equip}/>
 								))}
 							</div>
