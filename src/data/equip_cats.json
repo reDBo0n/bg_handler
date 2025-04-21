@@ -746,6 +746,92 @@
 			}
 		}
 	},
+	"lance":{
+		"name":	"Lance",
+		"icon":	"lance_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_lance",
+					"steel_lance",
+					"chrome_lance"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_lance",
+					"hard_bone_lance",
+					"heavy_bone_lance"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_lance",
+					"thunder_lance",
+					"lightning_spire"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"iron_lance",
+					"flame_lance",
+					"red_tail"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_lance",
+					"carapace_lance",
+					"barroth_stinger"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"bone_lance",
+					"aqua_horn",
+					"water_spike"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"iron_lance",
+					"kulu_lance",
+					"kulu_hasta"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"iron_lance",
+					"icesteel_spear",
+					"daora_fang"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_lance",
+					"nergal_impaler",
+					"perdition_hand"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_lance",
+					"thunderspear",
+					"thunderpiercer"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",

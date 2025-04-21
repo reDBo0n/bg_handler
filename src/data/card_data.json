@@ -53,10 +53,7 @@
 	"greater_sword_block":{
 		"name":		"Greater Sword Block",
 		"agility":	"2",
-		"rules":	"Discard this attack card when attacked by the monster to gain +5 :armor: for the duration of the behaviour.",
-		"range":	"",
-		"break":	"",
-		"combo":	""
+		"rules":	"Discard this attack card when attacked by the monster to gain +5 :armor: for the duration of the behaviour."
 	},
 	"overhead_slam":{
 		"name":		"Overhead Slam",
@@ -103,10 +100,7 @@
 		"name":		"Strong Charge Up",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +2 :break: for the next attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +2 :break: for the next attack card you play this turn which inflicts damage."
 	},
 	"blazing_slam":{
 		"name":		"Blazing Slam",
@@ -152,35 +146,23 @@
 		"name":		"Charge Up",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: for the next attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: for the next attack card you play this turn which inflicts damage."
 	},
 	"poisoned_charge_up":{
 		"name":		"Poisoned Charge Up",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :poison: for the next attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :poison: for the next attack card you play this turn which inflicts damage."
 	},
 	"greatsword_block":{
 		"name":		"Greatsword Block",
 		"agility":	"1",
-		"rules":	"Discard this attack card when attacked by the monster to gain +3 :armor: for the duration of the behaviour.",
-		"range":	"",
-		"break":	"",
-		"combo":	""
+		"rules":	"Discard this attack card when attacked by the monster to gain +3 :armor: for the duration of the behaviour."
 	},
 	"empowered_great_sword_block":{
 		"name":		"Empowered Great Sword Block",
 		"agility":	"2",
-		"rules":	"Discard this attack card when attacked by the monster to gain +4 :armor: for the duration of the behaviour.",
-		"range":	"",
-		"break":	"",
-		"combo":	""
+		"rules":	"Discard this attack card when attacked by the monster to gain +4 :armor: for the duration of the behaviour."
 	},
 	"paralysing_slash":{
 		"name":		"Paralysing Slash",
@@ -197,10 +179,7 @@
 		"name":		"Frozen Charge Up",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :ice: for the next attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :ice: for the next attack card you play this turn which inflicts damage."
 	},
 	"frostbite_slam":{
 		"name":		"Frostbite Slam",
@@ -361,19 +340,13 @@
 		"name":		"Demon Mode",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +2 :damage: for each other attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +2 :damage: for each other attack card you play this turn which inflicts damage."
 	},
 	"enhanced_demon_mode":{
 		"name":		"Enhanced Demon Mode",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: for each other attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: for each other attack card you play this turn which inflicts damage."
 	},
 	"six_fold_slash":{
 		"name":		"Six Fold Slash",
@@ -443,10 +416,7 @@
 		"name":		"Brutal Demon Mode",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: and gain +1 :break: for each other attack card you play this turn which inflicts damage.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: and gain +1 :break: for each other attack card you play this turn which inflicts damage."
 	},
 	"evasive_stab":{
 		"name":		"Evasive Stab",
@@ -1003,10 +973,7 @@
 		"agility":	"2",
 		"stamina":	"normal",
 		"armor":	"+3",
-		"rules":	"Your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"Your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
 	},
 	"nergal_wyvernheart_h":{
 		"name":		"Nergal Wyvernheart",
@@ -1891,10 +1858,7 @@
 		"agility":	"1",
 		"stamina":	"normal",
 		"armor":	"+3",
-		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
 	},
 	"teostra_guard":{
 		"name":		"Teostra's Guard",
@@ -1922,10 +1886,7 @@
 		"agility":	"2",
 		"stamina":	"normal",
 		"armor":	"+5",
-		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card.",
-		"range":	"0",
-		"break":	"0",
-		"combo":	"0"
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
 	},
 	"draconic_slash":{
 		"name":		"Draconic Slash",
@@ -2793,5 +2754,323 @@
 			"type":	"closer",
 			"amnt":	"1"
 		}
+	},
+	"mid_thrust":{
+		"name":		"Mid Thrust",
+		"agility":	"1",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"long_thrust":{
+		"name":		"Long Thrust",
+		"agility":	"1",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"guard_thrust":{
+		"name":		"Guard Thrust",
+		"agility":	"0",
+		"stamina":	"normal",
+		"damage":	"1",
+		"armor":	"+2",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"long_guard":{
+		"name":		"Long Guard",
+		"agility":	"0",
+		"stamina":	"normal",
+		"damage":	"2",
+		"armor":	"+2",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, flip this card face down.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"high_thrust":{
+		"name":		"High Thrust",
+		"agility":	"1",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"high_lunge":{
+		"name":		"High Lunge",
+		"agility":	"1",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"guard_dash":{
+		"name":		"Guard Dash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"guard_sprint":{
+		"name":		"Guard Sprint",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		}
+	},
+	"static_thrust":{
+		"name":		"Static Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"static_guard":{
+		"name":		"Static Guard",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"armor":	"+2",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"thunder.png"
+	},
+	"counter_thrust":{
+		"name":		"Counter Thrust",
+		"agility":	"0",
+		"stamina":	"normal",
+		"armor":	"+2",
+		"rules":	"While this attack card is on your stamina board, when you are attacked at 1 :range: by the monster, draw 1 :damage: as if you attacked it. At the start of your next turn, flip this card face down."
+	},
+	"flaming_thrust":{
+		"name":		"Flaming Thrust",
+		"agility":	"1",
+		"stamina":	"normal",
+		"armor":	"+2",
+		"rules":	"While this attack card is on your stamina board, when you are attacked at 1 :range: by the monster, draw 2 :damage: as if you attacked it. At the start of your next turn, flip this card face down.",
+		"res":{
+			"icon":	"f_res.png",
+			"amnt":	"2"
+		}
+	},
+	"flaming_dash":{
+		"name":		"Flaming Dash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		},
+		"special":	"fire.png"
+	},
+	"armoured_thrust":{
+		"name":		"Armoured Thrust",
+		"agility":	"0",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"While this attack card is on your stamina board, when you are attacked at 1 :range: by the monster, draw 2 :damage: as if you attacked it. At the start of your next turn, flip this card face down."
+	},
+	"armoured_guard":{
+		"name":		"Armoured Guard",
+		"agility":	"0",
+		"stamina":	"normal",
+		"damage":	"2",
+		"armor":	"+3",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, flip this card face down.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"aqua_thrust":{
+		"name":		"Aqua Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"guard_bash":{
+		"name":		"Guard Bash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		},
+		"special":	"stun.png"
+	},
+	"aqua_bash":{
+		"name":		"Guard Bash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"water.png"
+	},
+	"diving_thrust":{
+		"name":		"Diving Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		}
+	},
+	"dream_thrust":{
+		"name":		"Dream Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"sleep.png"
+	},
+	"blizzard_thrust":{
+		"name":		"Blizzard Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"frozen_dash":{
+		"name":		"Frozen Dash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Move your hunter any number of nodes towards the monster before drawing damage cards. Draw +1 :damage: for each node moved.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"ice.png"
+	},
+	"dragon_thrust":{
+		"name":		"Dragon Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"2",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"dragon.png"
+	},
+	"dragon_guard":{
+		"name":		"Dragon Guard",
+		"agility":	"3",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each card on your stamina board that increases armour.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		},
+		"special":	"stun.png"
+	},
+	"thunder_thrust":{
+		"name":		"Thunder Thrust",
+		"agility":	"2",
+		"mechanic":	"lance_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After this attack card is resolved your hunter may move to adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"charged_guard":{
+		"name":		"Charged Guard",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"armor":	"+2",
+		"rules":	"While this attack card is face up on your stamina board, your hunter gains +1 :armor: and +1 :fire_res::water_res::ice_res::thunder_res::dragon_res: for each :thunder: elemental attack card face up on your stamina board. At the start of your next turn, discard this card.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
 	}
 }

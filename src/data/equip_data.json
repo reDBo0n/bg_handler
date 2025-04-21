@@ -3491,7 +3491,7 @@
 			"thrust":			"3"
 		},
 		"add":{
-			"enhanced_forsight_slash":	"2",
+			"enhanced_foresight_slash":	"2",
 			"enhanced_thrust":			"3"
 		}
 	},
@@ -5357,7 +5357,7 @@
 		},
 		"add":{
 			"dive_swing":	"2",
-			"lullady_smash":"2"
+			"lullaby_smash":"2"
 		}
 	},
 	"teostra_tiple":{
@@ -5558,6 +5558,526 @@
 		"add":{
 			"charged_swing":	"2",
 			"thunder_crack":	"2"
+		}
+	},
+	"iron_lance":{
+		"name":	"Iron Lance",
+		"icon":	"lance_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	8,
+			"2":	4
+		}
+	},
+	"steel_lance":{
+		"name":	"Steel Lance",
+		"icon":	"lance_yellow.png",
+		"type":	"weapon",
+		"pre":	"iron_lance",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	6,
+			"2":	6
+		},
+		"remove":{
+			"mid_thrust":	"3"
+		},
+		"add":{
+			"long_thrust":	"3"
+		}
+	},
+	"chrome_lance":{
+		"name":	"Chrome Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"steel_lance",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	4,
+			"2":	6,
+			"3":	2
+		},
+		"remove":{
+			"mid_thrust":	"3",
+			"guard_thrust":	"2"
+		},
+		"add":{
+			"long_thrust":	"3",
+			"long_guard":	"2"
+		}
+	},
+	"bone_lance":{
+		"name":	"Bone Lance",
+		"icon":	"lance_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	6,
+			"2":	4
+		}
+	},
+	"hard_bone_lance":{
+		"name":	"Hard Bone Lance",
+		"icon":	"lance_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_lance",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	4,
+			"2":	6
+		},
+		"remove":{
+			"high_thrust":	"3"
+		},
+		"add":{
+			"high_lunge":	"3"
+		}
+	},
+	"heavy_bone_lance":{
+		"name":	"Heavy Bone Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"hard_bone_lance",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	5,
+			"3":	2
+		},
+		"remove":{
+			"high_thrust":	"3",
+			"guard_dash":	"2"
+		},
+		"add":{
+			"high_lunge":	"3",
+			"guard_sprint":	"2"
+		}
+	},
+	"thunder_lance":{
+		"name":	"Thunder Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"bone_lance",
+		"recipe":{
+			"dragonite":	2,
+			"tobi_electrode":1,
+			"tobi_claw":	2,
+			"electro_sac":	2,
+			"coral_crystal":2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	6,
+			"3":	3
+		},
+		"remove":{
+			"mid_thrust":	"3"
+		},
+		"add":{
+			"static_thrust":	"3"
+		}
+	},
+	"lightning_spire":{
+		"name":	"Lightning Spire",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"thunder_lance",
+		"recipe":{
+			"fucium":	2,
+			"tobi_electrode":	2,
+			"tobi_claw":		2,
+			"thunder_sac":		1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	7,
+			"3":	5
+		},
+		"remove":{
+			"mid_thrust":	"3",
+			"guard_thrust":	"2"
+		},
+		"add":{
+			"static_thrust":	"3", 
+			"static_guard":		"2"
+		}
+	},
+	"flame_lance":{
+		"name":	"Flame Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"iron_lance",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_web":		2,
+			"inferno_sac":	1,
+			"rath_marrow":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	4,
+			"2":	4,
+			"3":	4
+		},
+		"remove":{
+			"counter_thrust":	"2"
+		},
+		"add":{
+			"flaming_thrust":	"2"
+		}
+	},
+	"red_tail":{
+		"name":	"Red Tail",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"flame_lance",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_cara":	1,
+			"rath_wing":	1,
+			"rath_medulla":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	7,
+			"3":	7
+		},
+		"remove":{
+			"counter_thrust":	"2",
+			"guard_dash":		"2"
+		},
+		"add":{
+			"flaming_thrust":	"2",
+			"flaming_dash":		"2"
+		}
+	},
+	"carapace_lance":{
+		"name":	"Carapace Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"bone_lance",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":3,
+			"barroth_ridge":3
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	3
+		},
+		"remove":{
+			"counter_thrust":	"2"
+		},
+		"add":{
+			"armoured_thrust":	"2"
+		}
+	},
+	"barroth_stinger":{
+		"name":	"Barroth Stinger",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"carapace_lance",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":3
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	9,
+			"3":	3
+		},
+		"remove":{
+			"counter_thrust":	"2",
+			"guard_thrust":		"2"
+		},
+		"add":{
+			"armoured_thrust":	"2",
+			"armoured_guard":	"2"
+		}
+	},
+	"aqua_horn":{
+		"name":	"Aqua Horn",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"bone_lance",
+		"recipe":{
+			"boulder_bone":	2,
+			"jyura_fin":	1,
+			"jyura_shell":	2,
+			"jyura_scale":	3,
+			"aqua_sac":		1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	4,
+			"3":	4
+		},
+		"remove":{
+			"high_thrust":	"3"
+		},
+		"add":{
+			"aqua_thrust":	"3"
+		}
+	},
+	"water_spike":{
+		"name":	"Water Spike",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"aqua_horn",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_cara":	2,
+			"jyura_scale":	2,
+			"aqua_sac":		1,
+			"gajau_scale":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	6
+		},
+		"remove":{
+			"high_thrust":	"3",
+			"guard_bash":	"2"
+		},
+		"add":{
+			"aqua_thrust":	"3",
+			"aqua_bash":	"2"
+		}
+	},
+	"kulu_lance":{
+		"name":	"Kulu Lance",
+		"icon":	"lance_green.png",
+		"type":	"weapon",
+		"pre":	"iron_lance",
+		"recipe":{
+			"kulu_beak":	1,
+			"kulu_hide":	2,
+			"kulu_scale":	4,
+			"earth_crystal":3
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	6,
+			"3":	2,
+			"4":	2
+		},
+		"remove":{
+			"high_thrust":	"3"
+		},
+		"add":{
+			"diving_thrust":"3"
+		}
+	},
+	"kulu_hasta":{
+		"name":	"Kulu Hasta",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"kulu_lance",
+		"recipe":{
+			"kulu_beak":	2,
+			"kulu_hide":	3,
+			"kulu_plume":	3,
+			"boulder_bone":	4
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	6,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"high_thrust":	"3",
+			"mid_thrust":	"2"
+		},
+		"add":{
+			"diving_thrust":"3",
+			"dream_thrust":	"2"
+		}
+	},
+	"icesteel_spear":{
+		"name":	"Icesteel Spear",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_lance",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_replate":	1,
+			"daora_tail":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	5,
+			"4":	3
+		},
+		"remove":{
+			"mid_thrust":	"3"
+		},
+		"add":{
+			"blizzard_thrust":	"3"
+		}
+	},
+	"daora_fang":{
+		"name":	"Daora's Fang",
+		"icon":	"lance_orange.png",
+		"type":	"weapon",
+		"pre":	"icesteel_spear",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	8,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"mid_thrust":	"3",
+			"guard_dash":	"2"
+		},
+		"add":{
+			"blizzard_thrust":	"3",
+			"frozen_dash":		"2"
+		}
+	},
+	"nergal_impaler":{
+		"name":	"Nergal Impaler",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"iron_lance",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	4,
+			"4":	3
+		},
+		"remove":{
+			"high_thrust":	"3"
+		},
+		"add":{
+			"dragon_thrust":"3"
+		}
+	},
+	"perdition_hand":{
+		"name":	"Perdition's Hand",
+		"icon":	"lance_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_impaler",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	6,
+			"3":	4,
+			"4":	2,
+			"5":	2
+		},
+		"remove":{
+			"high_thrust":	"3",
+			"guard_bash":	"2"
+		},
+		"add":{
+			"dragon_thrust":"3",
+			"dragon_guard":	"2"
+		}
+	},
+	"thunderspear":{
+		"name":	"Thunderspear",
+		"icon":	"lance_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_lance",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	5,
+			"4":	2
+		},
+		"remove":{
+			"mid_thrust":	"4"
+		},
+		"add":{
+			"thunder_thrust":	"4"
+		}
+	},
+	"thunderpiercer":{
+		"name":	"Thunderpiercer",
+		"icon":	"lance_orange.png",
+		"type":	"weapon",
+		"pre":	"thunderspear",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	5,
+			"3":	5,
+			"4":	2,
+			"5":	2
+		},
+		"remove":{
+			"mid_thrust":	"4",
+			"guard_thrust":	"2"
+		},
+		"add":{
+			"thunder_thrust":	"4",
+			"charged_guard":	"2"
 		}
 	}
 }
