@@ -1703,7 +1703,7 @@
 			"2":	5
 		},
 		"remove":{
-			"double_slash":	"2"
+			"double_slash_d":	"2"
 		},
 		"add":{
 			"impact_double_slash":	"2"
@@ -1725,7 +1725,7 @@
 			"3":	2
 		},
 		"remove":{
-			"double_slash":	"2",
+			"double_slash_d":	"2",
 			"rapid_spin":	"2"
 		},
 		"add":{
@@ -1823,7 +1823,7 @@
 		"remove":{
 			"six_fold_slash":	"1",
 			"any":				"1",
-			"double_slash":		"2"
+			"double_slash_d":		"2"
 		},
 		"add":{
 			"blazing_fold_slash":	"2",
@@ -1896,7 +1896,7 @@
 			"3":	4
 		},
 		"remove":{
-			"double_slash":	"2"
+			"double_slash_d":	"2"
 		},
 		"add":{
 			"brutal_double_slash":	"2"
@@ -1920,7 +1920,7 @@
 			"3":	5
 		},
 		"remove":{
-			"double_slash":	"2",
+			"double_slash_d":	"2",
 			"demon_mode":	"2"
 		},
 		"add":{
@@ -2018,7 +2018,7 @@
 		"remove":{
 			"any":	"2",
 			"six_fold_slash":	"1",
-			"double_slash":		"2"
+			"double_slash_d":		"2"
 		},
 		"add":{
 			"blast_wrath":	"2",
@@ -2067,7 +2067,7 @@
 		"remove":{
 			"any":	"2",
 			"six_fold_slash":	"1",
-			"double_slash":		"2"
+			"double_slash_d":		"2"
 		},
 		"add":{
 			"blast_wrath":	"2",
@@ -3244,7 +3244,7 @@
 		},
 		"remove":{
 			"rapid_spin":	"2",
-			"double_slash":	"2"
+			"double_slash_d":	"2"
 		},
 		"add":{
 			"charged_slash":	"4"
@@ -3268,7 +3268,7 @@
 		},
 		"remove":{
 			"rapid_spin":	"2",
-			"double_slash":	"2",
+			"_d":	"2",
 			"bladed_fangs":	"2"
 		},
 		"add":{
@@ -3430,11 +3430,11 @@
 		},
 		"remove":{
 			"spirit_thrust":	"2",
-			"overhead_slash":	"2"
+			"overhead_slash_l":	"2"
 		},
 		"add":{
 			"enhanced_spirit_thrust":	"2",
-			"enhanced_overhead_slash":	"2"
+			"enhanced_overhead_slash_l":	"2"
 		}
 	},
 	"bone_shotel":{
@@ -3726,7 +3726,7 @@
 		},
 		"remove":{
 			"thrust":	"2",
-			"overhead_slash":	"2"
+			"overhead_slash_l":	"2"
 		},
 		"add":{
 			"evasive_thrust":	"2",
@@ -6550,6 +6550,457 @@
 		"add":{
 			"paralysing_burst":	"2",
 			"swarm_slash_gl":	"2"
+		}
+	},
+	"proto_iron_axe":{
+		"name":	"Proto Iron Axe",
+		"icon":	"axe_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	11,
+			"4":	1
+		}
+	},
+	"improved_steel_axe":{
+		"name":	"Improved Steel Axe",
+		"icon":	"axe_yellow.png",
+		"type":	"weapon",
+		"pre":	"proto_iron_axe",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	10,
+			"3":	1,
+			"4":	1
+		},
+		"remove":{
+			"overhead_slash_a":	"2"
+		},
+		"add":{
+			"enhanced_overhead_slash_a":	"2"
+		}
+	},
+	"perfected_alloy_axe":{
+		"name":	"Perfected Alloy Axe",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"improved_steel_axe",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":2
+		},
+		"damage":{
+			"1":	8,
+			"3":	1,
+			"4":	3
+		},
+		"remove":{
+			"overhead_slash_a":	"2",
+			"wild_swing":		"4"
+		},
+		"add":{
+			"enhanced_overhead_slash_a":	"2",
+			"savage_swing":					"4"
+		}
+	},
+	"bone_axe":{
+		"name":	"Bone Axe",
+		"icon":	"axe_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	8,
+			"3":	2
+		}
+	},
+	"bone_smasher":{
+		"name":	"Bone Smasher",
+		"icon":	"axe_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_axe",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	7,
+			"3":	3
+		},
+		"remove":{
+			"forward_slash":	"2"
+		},
+		"add":{
+			"leaping_slash":	"2"
+		}
+	},
+	"power_smasher":{
+		"name":	"Power Smasher",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"bone_smasher",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"damage":{
+			"1":	5,
+			"3":	4,
+			"4":	1
+		},
+		"remove":{
+			"forward_slash":	"2",
+			"heavenward_flurry":"2"
+		},
+		"add":{
+			"leaping_slash":	"2",
+			"heavenward_combo":	"2"
+		}
+	},
+	"flammenbeil":{
+		"name":	"Flammenbeil",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"bone_axe",
+		"recipe":{
+			"anja_fang":	2,
+			"anja_scale":	1,
+			"anja_pelt":	2,
+			"flame_sac":	1
+		},
+		"damage":{
+			"1":	5,
+			"3":	3,
+			"4":	2
+		},
+		"remove":{
+			"forward_slash":	"2"
+		},
+		"add":{
+			"charging_slash":	"2"
+		}
+	},
+	"gnashing_flammenbeil":{
+		"name":	"Gnashing Flammenbeil",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"flammenbeil",
+		"recipe":{
+			"anja_pelt":	4,
+			"anja_nose":	4,
+			"firecell":		2
+		},
+		"damage":{
+			"1":	6,
+			"3":	3,
+			"4":	3
+		},
+		"remove":{
+			"forward_slash":	"2",
+			"overhead_slash_a":	"2"
+		},
+		"add":{
+			"charging_slash":	"2",
+			"blazing_slash":	"2"
+		}
+	},
+	"rathalos_axe":{
+		"name":	"Rathalos Axe",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"proto_iron_axe",
+		"recipe":{
+			"rath_scale":	1,
+			"rath_web":		2,
+			"inferno_sac":	1,
+			"rath_marrow":	2
+		},
+		"damage":{
+			"1":	6,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"wild_swing":	"4"
+		},
+		"add":{
+			"burning_swing":"4"
+		}
+	},
+	"rathbringer_axe":{
+		"name":	"Rathbringer Axe",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"rathalos_axe",
+		"recipe":{
+			"rath_scale":	2,
+			"rath_cara":	1,
+			"rath_wing":	1,
+			"rath_medulla":	1
+		},
+		"damage":{
+			"1":	7,
+			"3":	3,
+			"4":	4
+		},
+		"remove":{
+			"wild_swing":	"4",
+			"heavenward_flurry":	"2"
+		},
+		"add":{
+			"burning_swing":"4",
+			"hellward_flurry":	"2"
+		}
+	},
+	"carapace_axe":{
+		"name":	"Carapace Axe",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"bone_axe",
+		"recipe":{
+			"barroth_claw":	1,
+			"barroth_shell":4,
+			"barroth_ridge":2
+		},
+		"damage":{
+			"1":	6,
+			"3":	2,
+			"4":	2
+		},
+		"remove":{
+			"side_slash":	"2"
+		},
+		"add":{
+			"pulverising_slash":	"2"
+		}
+	},
+	"barroth_grinder":{
+		"name":	"Barroth Grinder",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"carapace_axe",
+		"recipe":{
+			"barroth_claw":	2,
+			"barroth_cara":	3,
+			"barroth_ridge":3,
+			"fertile_mud":	2
+		},
+		"damage":{
+			"1":	6,
+			"3":	4,
+			"4":	2
+		},
+		"remove":{
+			"side_slash":	"2",
+			"double_slash_a":	"3"
+		},
+		"add":{
+			"pulverising_slash":	"2",
+			"brutal_slash":			"3"
+		}
+	},
+	"diablos_axe":{
+		"name":	"Diablos Axe",
+		"icon":	"axe_green.png",
+		"type":	"weapon",
+		"pre":	"bone_axe",
+		"recipe":{
+			"twisted_horn":	1,
+			"diablos_fang":	2,
+			"diablos_shell":4,
+			"bone_large":	2
+		},
+		"damage":{
+			"1":	7,
+			"3":	2,
+			"4":	3
+		},
+		"remove":{
+			"rising_slash_a":	"2"
+		},
+		"add":{
+			"crippling_slash":	"2"
+		}
+	},
+	"axe_semper_tyrannis":{
+		"name":	"Axe Semper Tyrannis",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"diablos_axe",
+		"recipe":{
+			"majestic_horn":	2,
+			"diablos_cara":		2,
+			"diablos_ridge":	2,
+			"diablos_medulla":	1
+		},
+		"damage":{
+			"1":	8,
+			"4":	6
+		},
+		"remove":{
+			"rising_slash_a":	"2",
+			"element_discharge":"1",
+			"any":				"1"
+		},
+		"add":{
+			"crippling_slash":	"2",
+			"power_discharge":	"2"
+		}
+	},
+	"teostra_arx":{
+		"name":	"Teostra's Arx",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"proto_iron_axe",
+		"recipe":{
+			"teo_claw":	1,
+			"teo_mane":	1,
+			"teo_cara":	2,
+			"teo_powder":1
+		},
+		"damage":{
+			"1":	6,
+			"3":	2,
+			"4":	5,
+			"5":	1
+		},
+		"remove":{
+			"wild_swing":	"4"
+		},
+		"add":{
+			"concussive_swing":	"4"
+		}
+	},
+	"teostra_castle":{
+		"name":	"Teostra's Castle",
+		"icon":	"axe_orange.png",
+		"type":	"weapon",
+		"pre":	"teostra_arx",
+		"recipe":{
+			"teo_horn":	3,
+			"teo_claw":	2,
+			"teo_gem":	1
+		},
+		"damage":{
+			"1":	8,
+			"4":	6,
+			"5":	2
+		},
+		"remove":{
+			"wild_swing":	"4",
+			"heavenward_flurry":	"2"
+		},
+		"add":{
+			"concussive_swing":	"4",
+			"explosive_flurry":	"2"
+		}
+	},
+	"nergal_gash":{
+		"name":	"Nergal Gash",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"proto_iron_axe",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"damage":{
+			"1":	5,
+			"3":	4,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"side_slash":	"2"
+		},
+		"add":{
+			"claw_slash":	"2"
+		}
+	},
+	"dying_light":{
+		"name":	"Dying Light",
+		"icon":	"axe_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_gash",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"damage":{
+			"1":	7,
+			"3":	1,
+			"4":	3,
+			"5":	3
+		},
+		"remove":{
+			"side_slash":	"2",
+			"side_rising_slash":	"2"
+		},
+		"add":{
+			"claw_slash":	"2",
+			"dragon_rising_slash":	"2"
+		}
+	},
+	"peal":{
+		"name":	"Peal",
+		"icon":	"axe_purple.png",
+		"type":	"weapon",
+		"pre":	"bone_axe",
+		"recipe":{
+			"kirin_thorn":	3,
+			"kirin_hide":	3,
+			"kirin_tail":	1,
+			"lightcrystal":	1
+		},
+		"damage":{
+			"1":	5,
+			"3":	5,
+			"4":	2
+		},
+		"remove":{
+			"wild_swing":	"4"
+		},
+		"add":{
+			"thunderous_swing":	"4"
+		}
+	},
+	"kirin_thunderpeal":{
+		"name":	"Kirin Thunderpeal",
+		"icon":	"axe_orange.png",
+		"type":	"weapon",
+		"pre":	"peal",
+		"recipe":{
+			"kirin_ahorn":	2,
+			"kirin_hide":	2,
+			"kirin_mane":	2,
+			"dragonvein":	2
+		},
+		"damage":{
+			"1":	5,
+			"3":	6,
+			"4":	3
+		},
+		"remove":{
+			"wild_swing":	"4",
+			"overhead_slash_a":	"2"
+		},
+		"add":{
+			"thunderous_swing":	"4",
+			"lightning_slash":	"2"
 		}
 	}
 }

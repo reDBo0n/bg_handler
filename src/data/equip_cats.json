@@ -849,7 +849,7 @@
 				"equip":[
 					"bone_gunlance",
 					"bone_cannon",
-					"great_bone_cannon"
+					"great_bone_gunlance"
 				]
 			},
 			"jagras":{
@@ -906,6 +906,84 @@
 					"iron_gunlance",
 					"nergal_ram",
 					"eradication_flame"
+				]
+			}
+		}
+	},
+	"axe":{
+		"name":	"Switch Axe",
+		"icon":	"axe_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"proto_iron_axe",
+					"improved_steel_axe",
+					"perfected_alloy_axe"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_axe",
+					"bone_smasher",
+					"power_smasher"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"bone_axe",
+					"flammenbeil",
+					"gnashing_flammenbeil"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"proto_iron_axe",
+					"rathalos_axe",
+					"rathbringer_axe"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_axe",
+					"carapace_axe",
+					"barroth_grinder"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_axe",
+					"diablos_axe",
+					"axe_semper_tyrannis"
+				]
+			},
+			"teostra":{
+				"icon":	"teostra.png",
+				"equip":[
+					"proto_iron_axe",
+					"teostra_arx",
+					"teostra_castle"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"proto_iron_axe",
+					"nergal_gash",
+					"dying_light"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_axe",
+					"peal",
+					"kirin_thunderpeal"
 				]
 			}
 		}

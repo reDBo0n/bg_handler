@@ -269,7 +269,7 @@
 			"amnt":	"1"
 		}
 	},
-	"double_slash":{
+	"double_slash_d":{
 		"name":		"Double Slash",
 		"agility":	"2",
 		"stamina":	"normal",
@@ -1260,7 +1260,7 @@
 			"amnt":	"2"
 		}
 	},
-	"overhead_slash":{
+	"overhead_slash_l":{
 		"name":		"Overhead Slash",
 		"agility":	"1",
 		"mechanic":	"spirit_white.png",
@@ -1271,7 +1271,7 @@
 		"break":	"1",
 		"combo":	"0"
 	},
-	"enhanced_overhead_slash":{
+	"enhanced_overhead_slash_l":{
 		"name":		"Enhanced Overhead Slash",
 		"agility":	"2",
 		"mechanic":	"spirit_white.png",
@@ -3382,5 +3382,368 @@
 		"range":	"1",
 		"break":	"0",
 		"combo":	"1"
+	},
+	"overhead_slash_a":{
+		"name":		"Overhead Slash",
+		"agility":	"0",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"enhanced_overhead_slash_a":{
+		"name":		"Enhanced Overhead Slash",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"wild_swing":{
+		"name":		"Wild Swing",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"savage_swing":{
+		"name":		"Savage Swing",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores 2 monster armour.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"forward_slash":{
+		"name":		"Forward Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"leaping_slash":{
+		"name":		"Leaping Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"2"
+		}
+	},
+	"heavenward_flurry":{
+		"name":		"Heavenward Flurry",
+		"agility":	"0",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1"
+	},
+	"heavenward_combo":{
+		"name":		"Heavenward Combo",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1"
+	},
+	"charging_slash":{
+		"name":		"Charging Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"3"
+		},
+		"special":	"fire.png"
+	},
+	"blazing_slash":{
+		"name":		"Blazing Slash",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"fire.png"
+	},
+	"burning_swing":{
+		"name":		"Burning Swing",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"hellward_flurry":{
+		"name":		"Hellward Flurry",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"special":	"fire.png"
+	},
+	"side_slash":{
+		"name":		"Side Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"pulverising_slash":{
+		"name":		"Pulverising Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		},
+		"special":	"para.png"
+	},
+	"double_slash_a":{
+		"name":		"Double Slash",
+		"agility":	"0",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each other Double Slash you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"brutal_slash":{
+		"name":		"Brutal Slash",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: for each other Brutal Double Slash you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"water.png"
+	},
+	"rising_slash_a":{
+		"name":		"Rising Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"crippling_slash":{
+		"name":		"Crippling Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"element_discharge":{
+		"name":		"Element Discharge",
+		"agility":	"0",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"3",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"power_discharge":{
+		"name":		"Power Discharge",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"concussive_swing":{
+		"name":		"Concussive Swing",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"explosive_flurry":{
+		"name":		"Explosive Flurry",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"special":	"blast.png"
+	},
+	"claw_slash":{
+		"name":		"Claw Slash",
+		"agility":	"2",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		},
+		"special":	"dragon.png"
+	},
+	"side_rising_slash":{
+		"name":		"Side Rising Slash",
+		"agility":	"0",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"dragon_rising_slash":{
+		"name":		"Dragon Rising Slash",
+		"agility":	"2",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"If this card is placed on the fifth slot of your stamina board, place +1 :stun:",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"dragon.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"thunderous_swing":{
+		"name":		"Thunderous Swing",
+		"agility":	"3",
+		"mechanic":	"axe_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"lightning_slash":{
+		"name":		"Lightning Slash",
+		"agility":	"1",
+		"mechanic":	"sword_box.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Draw +1 :damage: if you've already played another :thunder: elemental attack card this turn. You may discard this attack card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"thunder.png"
 	}
 }

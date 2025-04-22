@@ -186,11 +186,13 @@ import expansions from "@/data/expansions.json"
 const exp: Expansion = expansions;
 
 export function isMonsterHuntable(monster: string) {
+	if(["leather", "chain", "alloy", "ore", "bone", "common", "other"].includes(monster)) {
+		return true;
+	}
+
 	for(const e in exp){
-		console.log("Expansion: %s", e);
 		for(const m of exp[e].ids) {
 			if(m === monster) {
-				console.log("Found it");
 				return expansionHandler.get(e);
 			}
 		}
