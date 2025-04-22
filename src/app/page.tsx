@@ -171,7 +171,7 @@ export default function Home() {
 						<div className="grid grid-cols-1">
 							<div className="flex items-center space-x-2">
 								<Checkbox id="stamina-box" disabled/>
-								<label htmlFor="stamina-box">Use new stamina rules</label>
+								<label htmlFor="stamina-box"><s>Use new stamina rules</s></label>
 							</div>
 							<Separator />
 							<h2>Weapons:</h2>

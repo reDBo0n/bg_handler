@@ -832,6 +832,84 @@
 			}
 		}
 	},
+	"gunlance":{
+		"name":	"Gunlance",
+		"icon":	"gunlance_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_gunlance",
+					"steel_gunlance",
+					"chrome_gunlance"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_gunlance",
+					"bone_cannon",
+					"great_bone_cannon"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"bone_gunlance",
+					"jagras_gunlance",
+					"glutton_gunlance"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"iron_gunlance",
+					"rath_gunlance",
+					"red_rock"
+				]
+			},
+			"barroth":{
+				"icon":	"barroth.png",
+				"equip":[
+					"bone_gunlance",
+					"carapace_cannon",
+					"barroth_blaster"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"iron_gunlance",
+					"madness_gunlance",
+					"jyura_buster"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"bone_gunlance",
+					"girros_gunlance",
+					"deathfang_cannon"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"iron_gunlance",
+					"icesteel_gunlance",
+					"daora_brigia"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_gunlance",
+					"nergal_ram",
+					"eradication_flame"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",

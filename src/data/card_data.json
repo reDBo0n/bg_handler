@@ -996,7 +996,7 @@
 		"break":	"0",
 		"combo":	"0"
 	},
-	"swarm_slash":{
+	"swarm_slash_g":{
 		"name":		"Swarm Slash",
 		"agility":	"2",
 		"stamina":	"normal",
@@ -2738,7 +2738,7 @@
 			"amnt":	"1"
 		}
 	},
-	"overhead_smash":{
+	"overhead_smash_h":{
 		"name":		"Overhead Smash",
 		"agility":	"1",
 		"mechanic":	"note_blue_box.png",
@@ -3072,5 +3072,315 @@
 		"range":	"1",
 		"break":	"0",
 		"combo":	"0"
+	},
+	"full_burst":{
+		"name":		"Full Burst",
+		"agility":	"0",
+		"mechanic":	"shell_2.png",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"improved_full_burst":{
+		"name":		"Improved Full Burst",
+		"agility":	"2",
+		"mechanic":	"shell_3.png",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"lunging_upthrust":{
+		"name":		"Lunging Upthrust",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"closer",
+			"amnt":	"1"
+		}
+	},
+	"improved_lunging_upthrust":{
+		"name":		"Improved Lunging Upthrust",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: if this is the first attack card you played this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"away",
+			"amnt":	"2"
+		}
+	},
+	"charged_shell":{
+		"name":		"Charged Shell",
+		"agility":	"1",
+		"mechanic":	"shell_1.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"This attack card can't be played if you've already played another attack card this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"improved_charged_shell":{
+		"name":		"Improved Charged Shell",
+		"agility":	"2",
+		"mechanic":	"shell_1.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"overhead_smash_gl":{
+		"name":		"Overhead Smash",
+		"agility":	"1",
+		"mechanic":	"shell_1.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"improved_overhead_smash":{
+		"name":		"Improved Overhead Smash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"2"
+		}
+	},
+	"rising_slash_gl":{
+		"name":		"Rising Slash",
+		"agility":	"1",
+		"mechanic":	"shell_1.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"gluttonous_rising_slash":{
+		"name":		"Gluttonous Rising Slash",
+		"agility":	"2",
+		"mechanic":	"shell_1.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"knock_out_full_burst":{
+		"name":		"Knock Out Full Burst",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"sleep.png"
+	},
+	"flaming_charged_shell":{
+		"name":		"Flaming Charged Shell",
+		"agility":	"2",
+		"mechanic":	"shell_1.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"This attack card can't be played if you've already played another attack card this turn.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"lateral_thrust":{
+		"name":		"Lateral Thrust",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Before this attack card is resolved your hunter may move to an adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"blazing_lateral_thrust":{
+		"name":		"Blazing Lateral Thrust",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Before this attack card is resolved your hunter may move to an adjacent node the same distance away from the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"wyrmstake_cannon":{
+		"name":		"Wyrmstake Cannon",
+		"agility":	"1",
+		"mechanic":	"shell_1.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1"
+	},
+	"brutal_wyrmstake_cannon":{
+		"name":		"Brutal Wyrmstake Cannon",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"stun.png"
+	},
+	"crippling_rising_slash":{
+		"name":		"Crippling Rising Slash",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"para.png"
+	},
+	"burst":{
+		"name":		"Burst",
+		"agility":	"1",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"rules":	"This attack ignores 1 monster armour. You may discard this card after placing it on your stamina board.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"water_burst":{
+		"name":		"Water Burst",
+		"agility":	"2",
+		"mechanic":	"shell_3.png",
+		"stamina":	"normal",
+		"rules":	"This attack ignores 1 monster armour. You may discard this card after placing it on your stamina board.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"water.png"
+	},
+	"tidal_wyrmstake_cannon":{
+		"name":		"Tidal Wyrmstake Cannon",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"water.png"
+	},
+	"freezing_rising_slash":{
+		"name":		"Freezing Rising Slash",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"ice.png"
+	},
+	"frozen_charged_shell":{
+		"name":		"Frozen Charged Shell",
+		"agility":	"2",
+		"mechanic":	"shell_1.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"dragon_burst":{
+		"name":		"Dragon Burst",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"rules":	"This attack ignores 1 monster armour. You may discard this card after placing it on your stamina board.",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"dragon.png"
+	},
+	"dragon_wyrmstake_cannon":{
+		"name":		"Dragon Wyrmstake Cannon",
+		"agility":	"2",
+		"mechanic":	"shell_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"1",
+		"special":	"dragon.png"
+	},
+	"paralysing_burst":{
+		"name":		"Paralysing Burst",
+		"agility":	"1",
+		"mechanic":	"shell_2.png",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each other hunter adjacent to the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"para.png"
+	},
+	"swarm_slash_gl":{
+		"name":		"Swarm Slash",
+		"agility":	"2",
+		"mechanic":	"shell_1.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After resolving this attack, another hunter may move 1 node.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
 	}
 }
