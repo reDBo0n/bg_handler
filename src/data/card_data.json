@@ -3427,7 +3427,7 @@
 		"break":	"0",
 		"combo":	"0"
 	},
-	"forward_slash":{
+	"forward_slash_s":{
 		"name":		"Forward Slash",
 		"agility":	"2",
 		"mechanic":	"axe_box.png",
@@ -3613,7 +3613,7 @@
 		"combo":	"0",
 		"special":	"stun.png"
 	},
-	"element_discharge":{
+	"element_discharge_a":{
 		"name":		"Element Discharge",
 		"agility":	"0",
 		"mechanic":	"sword_box.png",
@@ -3745,5 +3745,308 @@
 		"break":	"0",
 		"combo":	"1",
 		"special":	"thunder.png"
+	},
+	"return_stroke":{
+		"name":		"Return Stroke",
+		"agility":	"1",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"powered_stroke":{
+		"name":		"Powered Stroke",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"shield_block":{
+		"name":		"Shield Block",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+2",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
+	},
+	"solid_block":{
+		"name":		"Solid Block",
+		"agility":	"2",
+		"stamina":	"normal",
+		"armor":	"+3",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
+	},
+	"charged_rising_slash":{
+		"name":		"Charged Rising Slash",
+		"agility":	"1",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"quick_rising_slash":{
+		"name":		"Quick Rising Slash",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"forward_slash_c":{
+		"name":		"Forward Slash",
+		"agility":	"1",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"lunging_slash":{
+		"name":		"Lunging Slash",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"gluttonous_slash":{
+		"name":		"Gluttonous Slash",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"water.png"
+	},
+	"ravenous_slash":{
+		"name":		"Ravenous Slash",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		},
+		"special":	"stun.png"
+	},
+	"lightning_reflex_block":{
+		"name":		"Lightning Reflex Block",
+		"agility":	"3",
+		"rules":	"Discard this attack card when attacked by the monster to gain +3 :armor and double your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances for the duration of the behaviour."
+	},
+	"thunder_stroke":{
+		"name":		"Thunder Stroke",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"elemental_round_slash":{
+		"name":		"Elemental Round Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"While this attack card is face up on your stamina board, your hunter gains +1 :armor:.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"slippery_round_slash":{
+		"name":		"Slippery Round Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"While this attack card is face up on your stamina board, your hunter gains +1 :armor:.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"water.png"
+	},
+	"amped_element_discharge":{
+		"name":		"Amped Element Discharge",
+		"agility":	"0",
+		"mechanic":	"phial_empty.png",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"3",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"water_element_discharge":{
+		"name":		"Water Element Discharge",
+		"agility":	"1",
+		"mechanic":	"phial_empty.png",
+		"stamina":	"finisher",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"3",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		},
+		"special":	"water.png"
+	},
+	"weak_slash":{
+		"name":		"Weak Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"deft_slash":{
+		"name":		"Deft Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"element_discharge_c":{
+		"name":		"Element Discharge",
+		"agility":	"0",
+		"mechanic":	"phial_empty.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2"
+	},
+	"crippling_discharge":{
+		"name":		"Crippling Discharge",
+		"agility":	"1",
+		"mechanic":	"phial_empty.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"freezing_stroke":{
+		"name":		"Freezing Stroke",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"gliding_slash":{
+		"name":		"Gliding Slash",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png",
+		"move":{
+			"when":	"post",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"savage_round_slash":{
+		"name":		"Savage Round Slash",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +2 :damage: if the selected body part has at least 3 :break: or is broken.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"dragon.png"
+	},
+	"dragon_block":{
+		"name":		"Dragon Block",
+		"agility":	"3",
+		"stamina":	"normal",
+		"armor":	"+4",
+		"rules":	"While this attack card is face up on your stamina board, your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
+	},
+	"paralysing_slash_pb_cb":{
+		"name":		"Paralysing Slash",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage for each other hunter adjacent to the monster.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"para.png"
+	},
+	"swarm_stroke":{
+		"name":		"Swarm Stroke",
+		"agility":	"2",
+		"mechanic":	"phial_full.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"After resolving this attack, another hunter may move 1 node.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
 	}
 }

@@ -6638,7 +6638,7 @@
 			"3":	3
 		},
 		"remove":{
-			"forward_slash":	"2"
+			"forward_slash_s":	"2"
 		},
 		"add":{
 			"leaping_slash":	"2"
@@ -6660,7 +6660,7 @@
 			"4":	1
 		},
 		"remove":{
-			"forward_slash":	"2",
+			"forward_slash_s":	"2",
 			"heavenward_flurry":"2"
 		},
 		"add":{
@@ -6685,7 +6685,7 @@
 			"4":	2
 		},
 		"remove":{
-			"forward_slash":	"2"
+			"forward_slash_s":	"2"
 		},
 		"add":{
 			"charging_slash":	"2"
@@ -6707,7 +6707,7 @@
 			"4":	3
 		},
 		"remove":{
-			"forward_slash":	"2",
+			"forward_slash_s":	"2",
 			"overhead_slash_a":	"2"
 		},
 		"add":{
@@ -6850,7 +6850,7 @@
 		},
 		"remove":{
 			"rising_slash_a":	"2",
-			"element_discharge":"1",
+			"element_discharge_a":"1",
 			"any":				"1"
 		},
 		"add":{
@@ -7001,6 +7001,484 @@
 		"add":{
 			"thunderous_swing":	"4",
 			"lightning_slash":	"2"
+		}
+	},
+	"proto_commission_axe":{
+		"name":	"Proto Commission Axe",
+		"icon":	"blade_white.png",
+		"type":	"weapon",
+		"recipe":{
+
+		},
+		"damage":{
+			"1":	8,
+			"2":	4
+		}
+	},
+	"elite_commission_axe":{
+		"name":	"Elite Commission Axe",
+		"icon":	"blade_yellow.png",
+		"type":	"weapon",
+		"pre":	"proto_commission_axe",
+		"recipe":{
+			"dragonite":	1,
+			"machalite":	1,
+			"bone_medium":	1
+		},
+		"damage":{
+			"1":	8,
+			"2":	3,
+			"3":	1
+		},
+		"remove":{
+			"return_stroke":	"3"
+		},
+		"add":{
+			"powered_stroke":	"3"
+		}
+	},
+	"chrome_guardian":{
+		"name":	"Chrome Guardian",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"elite_commission_axe",
+		"recipe":{
+			"fucium":	2,
+			"carbalite":2,
+			"dragonite":3,
+			"dragonvein":2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	5,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"return_stroke":	"3",
+			"shield_block":		"3"
+		},
+		"add":{
+			"powered_stroke":	"3",
+			"solid_block":		"3"
+		}
+	},
+	"bone_strongarm":{
+		"name":	"Bone Strongarm",
+		"icon":	"blade_white.png",
+		"type":	"weapon",
+		"recipe":{
+			"bone_small":	1
+		},
+		"damage":{
+			"1":	5,
+			"2":	5
+		}
+	},
+	"hard_bone_strongarm":{
+		"name":	"Hard Bone Strongarm",
+		"icon":	"blade_yellow.png",
+		"type":	"weapon",
+		"pre":	"bone_strongarm",
+		"recipe":{
+			"bone_large":	1,
+			"bone_medium":	1,
+			"boulder_bone":	1
+		},
+		"damage":{
+			"1":	4,
+			"2":	5,
+			"3":	1
+		},
+		"remove":{
+			"charged_rising_slash":	"2"
+		},
+		"add":{
+			"quick_rising_slash":	"2"
+		}
+	},
+	"mighty_strongarm":{
+		"name":	"Mighty Strongarm",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"hard_bone_strongarm",
+		"recipe":{
+			"hardbone":	2,
+			"keenbone":	2,
+			"quality_bone":	3
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"charged_rising_slash":	"2",
+			"forward_slash_c":		"2"
+		},
+		"add":{
+			"quick_rising_slash":	"2",
+			"lunging_slash":		"2"
+		}
+	},
+	"jagras_strongarm":{
+		"name":	"Jagras Strongarm",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"bone_strongarm",
+		"recipe":{
+			"jagras_claw":	1,
+			"jagras_hide":	1,
+			"jagras_scale":	3,
+			"sharp_claw":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	3,
+			"3":	4
+		},
+		"remove":{
+			"charged_rising_slash":	"2"
+		},
+		"add":{
+			"gluttonous_slash":		"2"
+		}
+	},
+	"jagras_escudo":{
+		"name":	"Jagras Escudo",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"jagras_strongarm",
+		"recipe":{
+			"jagras_scale":	2,
+			"jagras_claw":	2,
+			"jagras_mane":	2,
+			"piercing_claw":1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	4,
+			"3":	5,
+			"4":	1
+		},
+		"remove":{
+			"charged_rising_slash":	"2",
+			"forward_slash_c":		"2"
+		},
+		"add":{
+			"gluttonous_slash":		"2",
+			"ravenous_slash":		"2"
+		}
+	},
+	"pulsar_strongarm":{
+		"name":	"Pulsar Strongarm",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"bone_strongarm",
+		"recipe":{
+			"tobi_claw":	1,
+			"tobi_scale":	3,
+			"tobi_pelt":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	2,
+			"4":	1
+		},
+		"remove":{
+			"shield_block":	"3"
+		},
+		"add":{
+			"lightning_reflex_block":	"3"
+		}
+	},
+	"kadachi_kaina":{
+		"name":	"Kadachi Kaina",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"pulsra_strongarm",
+		"recipe":{
+			"tobi_claw":	2,
+			"tobi_scale":	2,
+			"tobi_pelt":	2,
+			"dragonvein":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	6,
+			"3":	3,
+			"4":	2
+		},
+		"remove":{
+			"shield_block":	"3",
+			"return_stroke":"3"
+		},
+		"add":{
+			"lightning_reflex_block":	"3",
+			"thunder_stroke":			"3"
+		}
+	},
+	"mudslide_blade":{
+		"name":	"Mudslide Blade",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"proto_commission_axe",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_shell":	2,
+			"jyura_scale":	3,
+			"aqua_sac":		1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	5
+		},
+		"remove":{
+			"elemental_round_slash":	"2"
+		},
+		"add":{
+			"slippery_round_slash":		"2"
+		}
+	},
+	"jyura_depth":{
+		"name":	"Jyura Depth",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"mudslide_blade",
+		"recipe":{
+			"jyura_fin":	1,
+			"jyura_cara":	2,
+			"jyura_scale":	2,
+			"aqua_sac":		1,
+			"gajau_scale":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	6,
+			"3":	5,
+			"4":	2
+		},
+		"remove":{
+			"elemental_round_slash":	"2",
+			"amped_element_discharge":	"2"
+		},
+		"add":{
+			"slippery_round_slash":		"2",
+			"water_element_discharge":	"2"
+		}
+	},
+	"diablos_wall":{
+		"name":	"Diablos Wall",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"bone_strongarm",
+		"recipe":{
+			"twisted_horn":	1,
+			"diablos_fang":	2,
+			"diablos_shell":4,
+			"bone_large":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	1,
+			"2":	7,
+			"3":	1,
+			"4":	1
+		},
+		"remove":{
+			"weak_slash":	"2"
+		},
+		"add":{
+			"deft_slash":	"2"
+		}
+	},
+	"diablos_tyrannis":{
+		"name":	"Diablos Tyrannis",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"diablos_wall",
+		"recipe":{
+			"majestic_horn":	2,
+			"diablos_cara":		2,
+			"diablos_ridge":	2,
+			"diablos_medulla":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	2,
+			"4":	3
+		},
+		"remove":{
+			"weak_slash":	"2",
+			"element_discharge_c":	"2"
+		},
+		"add":{
+			"deft_slash":	"2",
+			"crippling_discharge":	"2"
+		}
+	},
+	"daora_casca":{
+		"name":	"Daora's Casca",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"proto_commission_axe",
+		"recipe":{
+			"daora_claw":	1,
+			"daora_web":	2,
+			"nerg_cara":	1,
+			"daora_tail":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	8,
+			"3":	2,
+			"4":	3,
+			"5":	1
+		},
+		"remove":{
+			"return_stroke":	"3"
+		},
+		"add":{
+			"freezing_stroke":	"3"
+		}
+	},
+	"daora_thwartoise":{
+		"name":	"Daora's Thwartoise",
+		"icon":	"blade_orange.png",
+		"type":	"weapon",
+		"pre":	"daora_casca",
+		"recipe":{
+			"daora_horn":	4,
+			"daora_claw":	3,
+			"daora_gem":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	8,
+			"3":	2,
+			"4":	4,
+			"5":	2
+		},
+		"remove":{
+			"return_stroke":	"3",
+			"weak_slash":		"2"
+		},
+		"add":{
+			"freezing_stroke":	"3",
+			"gliding_slash":	"2"
+		}
+	},
+	"nergal_lacerator":{
+		"name":	"Nergal Lacerator",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"proto_commission_axe",
+		"recipe":{
+			"nerg_talon":	1,
+			"nerg_replate":	1,
+			"nerg_tail":	2,
+			"nerg_cara":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	2,
+			"2":	5,
+			"3":	2,
+			"4":	2,
+			"5":	1
+		},
+		"remove":{
+			"elemental_round_slash":	"2"
+		},
+		"add":{
+			"savage_round_slash":		"2"
+		}
+	},
+	"devastation_thorns":{
+		"name":	"Devastation's Thorns",
+		"icon":	"blade_orange.png",
+		"type":	"weapon",
+		"pre":	"nergal_lacerator",
+		"recipe":{
+			"nerg_horn":	4,
+			"nerg_talon":	3,
+			"nerg_gem":		2
+		},
+		"armor":	"1",
+		"damage":{
+			"2":	7,
+			"3":	2,
+			"4":	3,
+			"5":	2
+		},
+		"remove":{
+			"elemental_round_slash":	"2",
+			"shield_block":				"3"
+		},
+		"add":{
+			"savage_round_slash":		"2",
+			"dragon_block":				"3"
+		}
+	},
+	"girros_strongarm":{
+		"name":	"Girros Strongarm",
+		"icon":	"blade_green.png",
+		"type":	"weapon",
+		"pre":	"bone_strongarm",
+		"recipe":{
+			"ggirros_fang":	3,
+			"ggirros_scale":4,
+			"girros_fang":	2
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	3,
+			"2":	4,
+			"3":	3
+		},
+		"remove":{
+			"weak_slash":	"2"
+		},
+		"add":{
+			"paralysing_slash_pb_cb":	"2"
+		}
+	},
+	"girros_nadja":{
+		"name":	"Girros Nadja",
+		"icon":	"blade_purple.png",
+		"type":	"weapon",
+		"pre":	"girros_strongarm",
+		"recipe":{
+			"ggirros_fang":	2,
+			"ggirros_scale":2,
+			"ggirros_tail":	2,
+			"girros_scale":	1
+		},
+		"armor":	"1",
+		"damage":{
+			"1":	5,
+			"2":	4,
+			"3":	1,
+			"4":	2
+		},
+		"remove":{
+			"weak_slash":	"2",
+			"return_stroke":"3"
+		},
+		"add":{
+			"paralysing_slash_pb_cb":	"2",
+			"swarm_stroke":				"3"
 		}
 	}
 }

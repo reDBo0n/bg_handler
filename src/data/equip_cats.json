@@ -988,6 +988,84 @@
 			}
 		}
 	},
+	"blade":{
+		"name":	"Charge Blade",
+		"icon":	"blade_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"proto_commission_axe",
+					"elite_commission_axe",
+					"chrome_guardian"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_strongarm",
+					"hard_bone_strongarm",
+					"mighty_strongarm"
+				]
+			},
+			"jagras":{
+				"icon":	"jagras.png",
+				"equip":[
+					"bone_strongarm",
+					"jagras_strongarm",
+					"jagras_escudo"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"bone_strongarm",
+					"pulsar_strongarm",
+					"kadachi_kaina"
+				]
+			},
+			"jyuratodus":{
+				"icon":	"jyuratodus.png",
+				"equip":[
+					"proto_commission_axe",
+					"mudslide_blade",
+					"jyura_depth"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_strongarm",
+					"diablos_wall",
+					"diablos_tyrannis"
+				]
+			},
+			"girros":{
+				"icon":	"girros.png",
+				"equip":[
+					"bone_strongarm",
+					"girros_strongarm",
+					"girros_nadja"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"proto_commission_axe",
+					"daora_casca",
+					"daora_thwartoise"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"proto_commission_axe",
+					"nergal_lacerator",
+					"devastation_thorns"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",
