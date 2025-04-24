@@ -4,7 +4,7 @@
 		"agility":	"?",
 		"rules":	"Choose any card of your deck."
 	},
-	"jumping_slash":{
+	"jumping_slash_g":{
 		"name":		"Jumping Slash",
 		"agility":	"1",
 		"stamina":	"finisher",
@@ -1314,7 +1314,7 @@
 			"amnt":	"2"
 		}
 	},
-	"thrust":{
+	"thrust_l":{
 		"name":		"Thrust",
 		"agility":	"2",
 		"mechanic":	"spirit_white.png",
@@ -4048,5 +4048,334 @@
 		"range":	"1",
 		"break":	"0",
 		"combo":	"0"
+	},
+	"wide_sweep":{
+		"name":		"Wide Sweep",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"arced_sweep":{
+		"name":		"Arced Sweep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"thrust_i":{
+		"name":		"Thrust",
+		"agility":	"1",
+		"mechanic":	"insect_1.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"vicious_thrust":{
+		"name":		"Vicious Thrust",
+		"agility":	"2",
+		"mechanic":	"insect_1.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"jumping_slash_i":{
+		"name":		"Jumping Slash",
+		"agility":	"2",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"bounding_slash":{
+		"name":		"Bounding Slash",
+		"agility":	"3",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"reaping_slash":{
+		"name":		"Reaping Slash",
+		"agility":	"0",
+		"mechanic":	"insect_3.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"deadly_slash":{
+		"name":		"Deadly Slash",
+		"agility":	"2",
+		"mechanic":	"insect_3.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"vault":{
+		"name":		"Vault",
+		"agility":	"2",
+		"rules":	"Discard this card to move your hunter 1 node."
+	},
+	"charging_vault":{
+		"name":		"Charging Vault",
+		"agility":	"3",
+		"rules":	"Discard this card to move your hunter up to 2 nodes."
+	},
+	"jump_advancing_slash":{
+		"name":		"Jump Advancing Slash",
+		"agility":	"2",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"blaze_advancing_slash":{
+		"name":		"Blaze Advancing Slash",
+		"agility":	"3",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"fire.png"
+	},
+	"burning_slash":{
+		"name":		"Burning Slash",
+		"agility":	"3",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"1",
+		"special":	"fire.png"
+	},
+	"molten_thrust":{
+		"name":		"Molten Thrust",
+		"agility":	"2",
+		"mechanic":	"insect_1.png",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"rising_slash_combo":{
+		"name":		"Rising Slash Combo",
+		"agility":	"2",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"poisoned_slash_combo":{
+		"name":		"Poisoned Slash Combo",
+		"agility":	"3",
+		"mechanic":	"insect_2.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"descending_slash":{
+		"name":		"Descending Slash",
+		"agility":	"1",
+		"mechanic":	"insect_3.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"poisoned_slash":{
+		"name":		"Poisoned Slash",
+		"agility":	"1",
+		"mechanic":	"insect_3.png",
+		"stamina":	"finisher",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"2",
+		"special":	"poison.png"
+	},
+	"brutal_sweep":{
+		"name":		"Brutal Sweep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"1",
+		"combo":	"0",
+		"special":	"stun.png"
+	},
+	"tornado_slash":{
+		"name":		"Tornado Slash",
+		"agility":	"0",
+		"mechanic":	"insect_1.png",
+		"stamina":	"finisher",
+		"daamge":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"annihilating_tornado_slash":{
+		"name":		"Annihilating Tornado Slash",
+		"agility":	"1",
+		"mechanic":	"insect_1.png",
+		"stamina":	"finisher",
+		"daamge":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2",
+		"special":	"stun.png"
+	},
+	"reaching_slash":{
+		"name":		"Reaching Slash",
+		"agility":	"2",
+		"mechanic":	"insect_3.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"1"
+	},
+	"random_sweep":{
+		"name":		"Random Sweep",
+		"agility":	"2",
+		"mechanic":	"insect_3.png",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"white_kinsect_harvest_extract":{
+		"name":		"Kinsect: Harvest Extract",
+		"mechanic":	"insect_2.png",
+		"rules":	"Attack cards with :insect2: gain +1 :break: or you may move your hunter 1 node before drawing damage cards."
+	},
+	"kushala_daora_kinsect_harvest_extract":{
+		"name":		"Kushala Daora Kinsect: Harvest Extract",
+		"mechanic":	"insect_2.png",
+		"rules":	"Attack cards with :insect2: gain +1 :ice: or you may move your hunter 1 node before drawing damage cards."
+	},
+	"brittle_slash":{
+		"name":		"Brittle Slash",
+		"agility":	"2",
+		"mechanic":	"insect_3.png",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"ice.png"
+	},
+	"nergigante_kinsect_harvest_extract":{
+		"name":		"Kinsect: Harvest Extract",
+		"mechanic":	"insect_2.png",
+		"rules":	"Attack cards with :insect2: gain +1 :dragon: or you may move your hunter 1 node before drawing damage cards."
+	},
+	"crushing_sweep":{
+		"name":		"Crushing Sweep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"1",
+		"break":	"2",
+		"combo":	"0"
+	},
+	"flash_sweep":{
+		"name":		"Flash Sweep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"flash_slash":{
+		"name":		"Flash Slash",
+		"agility":	"1",
+		"mechanic":	"insect_1.png",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"If this attack card is placed on the fifth slot of your stamina board, gain +1 :stun:.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"2"
+	},
+	"thunder_sweep":{
+		"name":		"Thunder Sweep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"Gain +1 :break: if you've already played another :thunder: elemental attack card this turn.",
+		"range":	"1",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"thunder.png"
+	},
+	"lightning_step":{
+		"name":		"Lightning Step",
+		"agility":	"3",
+		"rules":	"Discard this card to move your hunter 2 nodes. If you do, and you've already played another :thunder: elemental attack card this turn, the next attack card you play this turn which inflicts damage gains +1 :damage:."
 	}
 }

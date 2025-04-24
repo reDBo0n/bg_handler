@@ -1066,6 +1066,100 @@
 			}
 		}
 	},
+	"glaive":{
+		"name":	"Insect Glaive",
+		"icon":	"glaive_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_blade",
+					"steel_blade",
+					"chrome_blade"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"bone_rod",
+					"hard_bone_rod",
+					"aerial_magus"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"bone_rod",
+					"flammenkaefer",
+					"gnashing_flammensucher"
+				]
+			},
+			"rathalos":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"iron_blade",
+					"flame_glaive",
+					"rathmaul"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"iron_blade",
+					"blooming_glaive",
+					"datura_blade"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"bone_rod",
+					"diablos_rod",
+					"tyrannis_glaive"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"bone_rod",
+					"kulu_blade",
+					"ya_ku_wrath"
+				]
+			},
+			"tzitzi":{
+				"icon":	"tzitzi.png",
+				"equip":[
+					"iron_blade",
+					"luminous_blade",
+					"destroyer_bo"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"bone_rod",
+					"daora_entom",
+					"daora_tethidine"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"bone_rod",
+					"nergal_reaper",
+					"catastrophe_light"
+				]
+			},
+			"kirin":{
+				"icon":	"kirin.png",
+				"equip":[
+					"bone_rod",
+					"azure_bolt",
+					"verdant_levin"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",
