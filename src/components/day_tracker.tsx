@@ -31,11 +31,11 @@ export default function DayTracḱer() {
 		<div className="grid justify-center">
 			Current days:
 			<div className="flex justify-center">
-				<Button size="sm" variant="ghost" onClick={subOne}>-</Button>
+				<Button size="sm" variant="ghost" onClick={subOne} className="cursor-pointer">-</Button>
 				<span className="mt-1.5">
 					{days}
 				</span>
-				<Button size="sm" variant="ghost" onClick={addOne}>+</Button>
+				<Button size="sm" variant="ghost" onClick={addOne} className="cursor-pointer">+</Button>
 			</div>
 		</div>
 	);

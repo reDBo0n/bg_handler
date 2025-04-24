@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogHeader, DialogDescription } from "./ui/dialog";
+import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogHeader, DialogDescription, DialogClose } from "./ui/dialog";
 import { Button } from "./ui/button";
 
 import { questHandler, QuestType } from "@/lib/handlers";
@@ -98,42 +98,50 @@ export default function QuestTracker({ id, name, image, max_diff }: QuestTracker
 				</DialogHeader>
 				<div className="grid gap-4 justify-center">
 					{firstTime() && (
-						<Button onClick={() => handleChoice(QuestType.assigned)}>
-							<Image
-								src="/bg_handler/mh/1star.png"
-								alt="1star"
-								width={30}
-								height={30}
-							/>
-							Assigned
-						</Button>
+						<DialogClose asChild>
+							<Button onClick={() => handleChoice(QuestType.assigned)} className="cursor-pointer">
+								<Image
+									src="/bg_handler/mh/1star.png"
+									alt="1star"
+									width={30}
+									height={30}
+								/>
+								Assigned
+							</Button>
+						</DialogClose>
 					)}
 					{!firstTime() && !isFull() && (
 						<div className="flex gap-4">
-							<Button onClick={() => handleChoice(QuestType.investigation)}>
-								<Image
-									src="/bg_handler/mh/2star.png"
-									alt="2star"
-									width={30}
-									height={30}
-								/>
-								Investigation
-							</Button>
-							<Button onClick={() => handleChoice(QuestType.tempered)}>
-								<Image
-									src={"/bg_handler/mh/".concat(max_diff.toString(), "star.png")}
-									alt={max_diff.toString().concat("star")}
-									width={30}
-									height={30}
-								/>
-								Tempered Investigation
-							</Button>
+							<DialogClose asChild>
+								<Button onClick={() => handleChoice(QuestType.investigation)} className="cursor-pointer">
+									<Image
+										src="/bg_handler/mh/2star.png"
+										alt="2star"
+										width={30}
+										height={30}
+									/>
+									Investigation
+								</Button>
+							</DialogClose>
+							<DialogClose asChild>
+								<Button onClick={() => handleChoice(QuestType.tempered)} className="cursor-pointer">
+									<Image
+										src={"/bg_handler/mh/".concat(max_diff.toString(), "star.png")}
+										alt={max_diff.toString().concat("star")}
+										width={30}
+										height={30}
+									/>
+									Tempered Investigation
+								</Button>
+							</DialogClose>
 						</div>
 					)}
 					{!firstTime() && (
-						<Button onClick={() => deleteLast()}>
-							Remove
-						</Button>
+						<DialogClose asChild>
+							<Button onClick={() => deleteLast()} className="cursor-pointer">
+								Remove
+							</Button>
+						</DialogClose>
 					)}
 				</div>
 			</DialogContent>

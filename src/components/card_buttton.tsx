@@ -42,7 +42,7 @@ export default function CardButton({ id }: CardButtonProps) {
 	return (
 		<Dialog>
 			<DialogTrigger>
-				<span className="text-blue-600 hover:underline">
+				<span className="text-blue-600 hover:underline cursor-pointer">
 					{data[id].name}
 				</span>
 			</DialogTrigger>

@@ -51,7 +51,7 @@ export default function PotionButtons() {
 						key={idx}
 						onClick={() => toggle(idx)}
 						variant="ghost"
-						className="rounded-lg p-2"
+						className="rounded-lg p-2 cursor-pointer"
 					>
 						<Image
 							src={src}

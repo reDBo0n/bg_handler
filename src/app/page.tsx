@@ -116,7 +116,7 @@ export default function Home() {
 			<div className="flex justify-end">
 				<AlertDialog><Dialog>
 					<DropdownMenu>
-						<DropdownMenuTrigger>
+						<DropdownMenuTrigger className="cursor-pointer">
 							<MoreVertical className="w-5 h-5"/>
 						</DropdownMenuTrigger>
 						<DropdownMenuContent>
@@ -157,8 +157,8 @@ export default function Home() {
 							</AlertDialogDescription>
 						</AlertDialogHeader>
 						<AlertDialogFooter>
-							<AlertDialogCancel>Cancel</AlertDialogCancel>
-							<AlertDialogAction onClick={resetData}>Delete Data</AlertDialogAction>
+							<AlertDialogCancel className="cursor-pointer">Cancel</AlertDialogCancel>
+							<AlertDialogAction onClick={resetData} className="cursor-pointer">Delete Data</AlertDialogAction>
 						</AlertDialogFooter>
 					</AlertDialogContent>
 					{/* Settings Dialog */}
@@ -173,22 +173,26 @@ export default function Home() {
 								<Checkbox id="stamina-box" disabled/>
 								<label htmlFor="stamina-box"><s>Use new stamina rules</s></label>
 							</div>
+							<div className="flex items-center space-x-2">
+								<Checkbox id="time-box" disabled/>
+								<label htmlFor="time-box"><s>Automatically manage time</s></label>
+							</div>
 							<Separator />
 							<h2>Weapons:</h2>
 							{Object.entries(equip)
 								.filter(([id]) => id !== "armor")
 								.map(([id, entry]) => (
 								<div key={id} className="flex items-center space-x-2">
-									<Checkbox id={id} checked={expansionHandler.get(id)} onCheckedChange={(val) => expansionHandler.set(id, val === true)}/>
-									<label htmlFor={id}>{entry.name}</label>
+									<Checkbox id={id} checked={expansionHandler.get(id)} onCheckedChange={(val) => expansionHandler.set(id, val === true)} className="cursor-pointer"/>
+									<label htmlFor={id} className="cursor-pointer">{entry.name}</label>
 								</div>
 							))}
 							<Separator />
 							<h2>Expansions:</h2>
 							{Object.entries(exp).map(([id, entry]) => (
 								<div key={id} className="flex items-center space-x-2">
-									<Checkbox id={id} checked={expansionHandler.get(id)} onCheckedChange={(val) => expansionHandler.set(id, val === true)}/>
-									<label htmlFor={id}>{entry.name}</label>
+									<Checkbox id={id} checked={expansionHandler.get(id)} onCheckedChange={(val) => expansionHandler.set(id, val === true)} className="cursor-pointer"/>
+									<label htmlFor={id} className="cursor-pointer">{entry.name}</label>
 								</div>
 							))}
 						</div>

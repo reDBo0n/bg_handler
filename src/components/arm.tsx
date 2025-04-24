@@ -253,7 +253,7 @@ export default function Arm({ id }: ArmProps) {
 
 	return (
 		<Dialog>
-			<DialogTrigger asChild>
+			<DialogTrigger asChild className="cursor-pointer">
 				<div className="relative">
 					<Image
 						src={"/bg_handler/mh/".concat(eData[id].icon)}
@@ -289,10 +289,10 @@ export default function Arm({ id }: ArmProps) {
 							height={20}
 							className="object-contain"
 						/>
-						<Checkbox checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)}/>
+						<Checkbox checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)} className="cursor-pointer"/>
 					</div>
 					{isCraftable() && (
-						<Button onClick={() => craftItem()}>CRAFT</Button>
+						<Button onClick={() => craftItem()} className="cursor-pointer">CRAFT</Button>
 					)}
 				</div>
 				<DialogFooter>

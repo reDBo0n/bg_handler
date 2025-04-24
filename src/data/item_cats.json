@@ -39,22 +39,22 @@
 		"items":[
 			"jagras_claw",
 			"jagras_hide",
-			"jagras_scale",
 			"jagras_mane",
-			"sharp_claw",
-			"piercing_claw"
+			"jagras_scale",
+			"piercing_claw",
+			"sharp_claw"
 		]
 	},
 	"tobi":{
 		"name":	"Tobi-Kadachi",
 		"icon":	"tobi.png",
 		"items":[
+			"tobi_claw",
+			"tobi_electrode",
+			"tobi_membrane",
 			"tobi_pelt",
 			"tobi_scale",
 			"electro_sac",
-			"tobi_electrode",
-			"tobi_membrane",
-			"tobi_claw",
 			"thunder_sac"
 		]
 	},
@@ -62,11 +62,11 @@
 		"name":	"Anjanath",
 		"icon":	"anjanath.png",
 		"items":[
-			"anja_scale",
-			"anja_pelt",
-			"anja_nose",
-			"anja_tail",
 			"anja_fang",
+			"anja_nose",
+			"anja_pelt",
+			"anja_scale",
+			"anja_tail",
 			"flame_sac",
 			"inferno_sac"
 		]
@@ -75,16 +75,16 @@
 		"name":	"Rathalos",
 		"icon":	"rathalos.png",
 		"items":[
-			"rath_talon",
-			"rath_scale",
-			"rath_web",
-			"rath_tail",
-			"rath_marrow",
-			"rath_plate",
-			"rath_wing",
 			"rath_cara",
-			"rath_shell",
+			"rath_marrow",
 			"rath_medulla",
+			"rath_plate",
+			"rath_scale",
+			"rath_shell",
+			"rath_tail",
+			"rath_talon",
+			"rath_web",
+			"rath_wing",
 			"inferno_sac"
 		]
 	},
@@ -92,13 +92,13 @@
 		"name":	"Azure Rathalos",
 		"icon":	"a-rathalos.png",
 		"items":[
-			"arath_talon",
-			"arath_scale",
-			"arath_wing",
-			"arath_plate",
-			"arath_marrow",
-			"arath_tail",
 			"arath_cara",
+			"arath_marrow",
+			"arath_plate",
+			"arath_scale",
+			"arath_tail",
+			"arath_talon",
+			"arath_wing",
 			"inferno_sac"
 		]
 	},
@@ -106,22 +106,22 @@
 		"name":	"Barroth",
 		"icon":	"barroth.png",
 		"items":[
+			"barroth_cara",
 			"barroth_claw",
 			"barroth_ridge",
-			"barroth_shell",
-			"barroth_cara"
+			"barroth_shell"
 		]
 	},
 	"pukei":{
 		"name":	"Pukei-Pukei",
 		"icon":	"pukei.png",
 		"items":[
-			"pukei_wing",
-			"pukei_scale",
-			"pukei_quill",
 			"pukei_cara",
-			"poison_sac",
+			"pukei_quill",
+			"pukei_scale",
 			"pukei_tail",
+			"pukei_wing",
+			"poison_sac",
 			"toxic_sac"
 		]
 	},
@@ -129,12 +129,12 @@
 		"name":	"Jyuratodus",
 		"icon":	"jyuratodus.png",
 		"items":[
-			"jyura_fin",
-			"aqua_sac",
-			"jyura_scale",
-			"jyura_shell",
 			"jyura_cara",
 			"jyura_fang",
+			"jyura_fin",
+			"jyura_scale",
+			"jyura_shell",
+			"aqua_sac",
 			"gajau_scale"
 		]
 	},
@@ -142,25 +142,25 @@
 		"name":	"Diablos",
 		"icon":	"diablos.png",
 		"items":[
-			"diablos_shell",
 			"diablos_cara",
-			"twisted_horn",
-			"majestic_horn",
 			"diablos_fang",
+			"diablos_medulla",
 			"diablos_ridge",
-			"diablos_medulla"
+			"diablos_shell",
+			"majestic_horn",
+			"twisted_horn"
 		]
 	},
 	"b-diablos":{
 		"name":	"Black Diablos",
 		"icon":	"b-diablos.png",
 		"items":[
-			"novacrystal",
 			"bdiablos_cara",
 			"bdiablos_horn",
-			"majestic_horn",
 			"bdiablos_ridge",
 			"diablos_medulla",
+			"majestic_horn",
+			"novacrystal",
 			"wyvern_gem"
 		]
 	},
@@ -168,94 +168,94 @@
 		"name":	"Kulu-Ya-Ku",
 		"icon":	"kulu.png",
 		"items":[
-			"kulu_plume",
 			"kulu_beak",
-			"earth_crystal",
-			"kulu_scale",
 			"kulu_hide",
-			"bird_gem"
+			"kulu_plume",
+			"kulu_scale",
+			"bird_gem",
+			"earth_crystal"
 		]
 	},
 	"tzitzi":{
 		"name":	"Tzitzi-Ya-Ku",
 		"icon":	"tzitzi.png",
 		"items":[
-			"tzitzi_photo",
 			"tzitzi_claw",
-			"tzitzi_scale",
-			"tzitzi_hide"
+			"tzitzi_hide",
+			"tzitzi_photo",
+			"tzitzi_scale"
 		]
 	},
 	"girros":{
 		"name":	"Great Girros",
 		"icon":	"girros.png",
 		"items":[
-			"girros_scale",
-			"girros_fang",
-			"para_sac",
 			"ggirros_fang",
-			"ggirros_scale",
 			"ggirros_hide",
-			"ggirros_tail"
+			"ggirros_scale",
+			"ggirros_tail",
+			"girros_fang",
+			"girros_scale",
+			"para_sac"
 		]
 	},
 	"radobaan":{
 		"name":	"Radobaan",
 		"icon":	"radobaan.png",
 		"items":[
-			"coma_sac",
 			"rado_cara",
-			"sleep_sac",
 			"rado_scale",
+			"rado_shell",
 			"bonemass",
-			"rado_shell"
+			"coma_sac",
+			"sleep_sac"
 		]
 	},
 	"kushala":{
 		"name":	"Kushala Daora",
 		"icon":	"kushala.png",
 		"items":[
-			"daora_web",
-			"daora_gem",
-			"daora_claw",
-			"daora_scale",
 			"daora_cara",
+			"daora_claw",
+			"daora_gem",
 			"daora_horn",
+			"daora_scale",
 			"daora_tail",
-			"dragon_bone",
-			"dragon_blood"
+			"daora_web",
+			"dragon_blood",
+			"dragon_bone"
 		]
 	},
 	"nergigante":{
 		"name":	"Nergigante",
 		"icon":	"nergigante.png",
 		"items":[
-			"nerg_scale",
-			"nerg_talon",
 			"nerg_cara",
-			"nerg_replate",
+			"nerg_gem",
 			"nerg_horn",
+			"nerg_replate",
+			"nerg_scale",
 			"nerg_tail",
-			"dragon_bone",
+			"nerg_talon",
 			"dragon_blood",
-			"nerg_gem"
+			"dragon_bone"
 		]
 	},
 	"teostra":{
 		"name":	"Teostra",
 		"icon":	"teostra.png",
 		"items":[
-			"teo_scale",
-			"teo_horn",
-			"teo_web",
-			"teo_gem",
-			"teo_powder",
 			"teo_cara",
-			"novacrystal",
-			"firecell",
 			"teo_claw",
+			"teo_gem",
+			"teo_horn",
 			"teo_mane",
-			"teo_tail"
+			"teo_powder",
+			"teo_scale",
+			"teo_tail",
+			"teo_web",
+			"firecell",
+			"novacrystal"
 		]
 	},
 	"kirin":{
@@ -263,10 +263,10 @@
 		"icon":	"kirin.png",
 		"items":[
 			"kirin_ahorn",
-			"kirin_thorn",
-			"kirin_mane",
 			"kirin_hide",
-			"kirin_tail"
+			"kirin_mane",
+			"kirin_tail",
+			"kirin_thorn"
 		]
 	}
 }

@@ -31,7 +31,7 @@ export default function EquipmentListing() {
 				.filter(([id]) => (expansionHandler.get(id)))
 				.map(([id, entry]) => (
 				<AccordionItem key={id} value={id}>
-					<AccordionTrigger>
+					<AccordionTrigger className="cursor-pointer">
 						<div>
 							<Image
 								src={"/bg_handler/mh/".concat(entry.icon)}

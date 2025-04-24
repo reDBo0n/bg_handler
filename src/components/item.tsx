@@ -23,7 +23,7 @@ export default function Item({ id, name, icon }: ItemProps) {
 
 	return (
 			<div className="flex justify-start m-1">
-				<Button size="sm" variant="ghost" onClick={subOne}>-</Button>
+				<Button size="sm" variant="ghost" onClick={subOne} className="cursor-pointer">-</Button>
 				<div className="relative">
 					<Image
 						src={"/bg_handler/mh/".concat(icon)}
@@ -35,7 +35,7 @@ export default function Item({ id, name, icon }: ItemProps) {
 						{inventoryHandler.get(id)}
 					</span>
 				</div>
-				<Button size="sm" variant="ghost" onClick={addOne}>+</Button>
+				<Button size="sm" variant="ghost" onClick={addOne} className="cursor-pointer">+</Button>
 				<div className="text-xs mt-2 text-center">{name}</div>
 			</div>
 	);
