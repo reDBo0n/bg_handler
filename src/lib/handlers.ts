@@ -190,6 +190,10 @@ export function isMonsterHuntable(monster: string) {
 		return true;
 	}
 
+	if(monster === "rath_bone") {
+		return expansionHandler.get("forest") && expansionHandler.get("bones")
+	}
+
 	for(const e in exp){
 		for(const m of exp[e].ids) {
 			if(m === monster) {

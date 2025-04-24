@@ -4377,5 +4377,287 @@
 		"name":		"Lightning Step",
 		"agility":	"3",
 		"rules":	"Discard this card to move your hunter 2 nodes. If you do, and you've already played another :thunder: elemental attack card this turn, the next attack card you play this turn which inflicts damage gains +1 :damage:."
+	},
+	"feint":{
+		"name":		"Feint",
+		"agility":	"2",
+		"rules":	"Discard this card to discard any 2 attack cards from your stamina board."
+	},
+	"skilled_feint":{
+		"name":		"Skilled Feint",
+		"agility":	"3",
+		"rules":	"Discard this card to discard any 2 attack cards from your stamina board."
+	},
+	"charged_shot":{
+		"name":		"Charged Shot",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If your hunter is within 1 :range: of the monster, draw +1 :damage:.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"enhanced_charged_shot":{
+		"name":		"Enhanced Charged Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If your hunter is within 1 :range: of the monster, draw +2 :damage:.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"power_coating":{
+		"name":		"Power Coating",
+		"agility":	"1",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage: and gain +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"poison_coating":{
+		"name":		"Poison Coating",
+		"agility":	"1",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :poison:, and +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"paralysis_coating":{
+		"name":		"Paralysis Coating",
+		"agility":	"1",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :para:, and +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"shot":{
+		"name":		"Shot",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"enhanced_shot":{
+		"name":		"Enhanced Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"arc_shot":{
+		"name":		"Arc Shot",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores monster armour.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"strong_arc_shot":{
+		"name":		"Strong Arc Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"This attack ignores monster armour.",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"0"
+	},
+	"high_power_coating":{
+		"name":		"High Power Coating",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :thunder:, and +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"dragon_piercer":{
+		"name":		"Dragon Piercer",
+		"agility":	"0",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"3",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"away",
+			"amnt":	"1"
+		}
+	},
+	"striking_dragon_piercer":{
+		"name":		"Striking Dragon Piercer",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"1",
+		"move":{
+			"when":	"pre",
+			"type":	"away",
+			"amnt":	"1"
+		},
+		"special":	"thunder.png"
+	},
+	"blast_coating":{
+		"name":		"Blast Coating",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :break: and ignore monster armour for the next attack card you play this turn which inflicts damage."
+	},
+	"blazing_charged_shot":{
+		"name":		"Blazing Charged Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If your hunter is within 1 :range: of the monster, draw +1 :damage: and place +1 :stun:.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png"
+	},
+	"poisoned_shot":{
+		"name":		"Poisoned Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"poison.png"
+	},
+	"flared_shot":{
+		"name":		"Flared Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"If your hunter is within 1 :range: of the monster, draw +1 :damage:.",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"rending_arrows":{
+		"name":		"Rending Arrows",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"Draw +1 :damage: for each empty attack card slot on your stamina board.",
+		"range":	"2",
+		"break":	"1",
+		"combo":	"2"
+	},
+	"charge_sidestep":{
+		"name":		"Charge Sidestep",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage: for the next attack card you play this turn which inflicts damage.",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"rapid_dash":{
+		"name":		"Rapid Dash",
+		"agility":	"3",
+		"stamina":	"normal",
+		"rules":	"Draw +2 :damage: and gain +1 :stun: for the next attack card you play this turn which inflicts damage.",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"2"
+		}
+	},
+	"sleep_coating":{
+		"name":		"Sleep Coating",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :sleep:, and +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"blast_charged_shot":{
+		"name":		"Blast Charged Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"2",
+		"rules":	"If your hunter is within 1 :range: of the monster, draw +1 :damage:.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"blast.png"
+	},
+	"frost_coating":{
+		"name":		"Frost Coating",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :ice:, and +1 :range: for the next attack card you play this turn which inflicts damage."
+	},
+	"ice_piercer":{
+		"name":		"Ice Piercer",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"3",
+		"break":	"1",
+		"combo":	"2",
+		"move":{
+			"when":	"post",
+			"type":	"away",
+			"amnt":	"2"
+		},
+		"special":	"ice.png"
+	},
+	"dragon_coating":{
+		"name":		"Dragon Coating",
+		"agility":	"2",
+		"stamina":	"normal",
+		"rules":	"Draw +1 :damage:, gain +1 :dragon:, and +1 :break: for the next attack card you play this turn which inflicts damage."
+	},
+	"razor_shot":{
+		"name":		"Razor Shot",
+		"agility":	"1",
+		"stamina":	"normal",
+		"damage":	"3",
+		"rules":	"If your hunter is within 1 :range: of the monster, gain +2 :break:.",
+		"range":	"3",
+		"break":	"0",
+		"combo":	"0"
+	},
+	"flame_shot":{
+		"name":		"Flame Shot",
+		"agility":	"2",
+		"stamina":	"normal",
+		"damage":	"1",
+		"rules":	"",
+		"range":	"2",
+		"break":	"0",
+		"combo":	"0",
+		"special":	"fire.png",
+		"move":{
+			"when":	"pre",
+			"type":	"free",
+			"amnt":	"1"
+		}
+	},
+	"dragon_fire":{
+		"name":		"Dragon's Fire",
+		"agility":	"1",
+		"stamina":	"finisher",
+		"damage":	"3",
+		"rules":	"",
+		"range":	"3",
+		"break":	"2",
+		"combo":	"2",
+		"move":{
+			"when":	"pre",
+			"type":	"free1",
+			"amnt":	"1"
+		},
+		"special":	"fire.png"
 	}
 }

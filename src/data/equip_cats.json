@@ -1160,6 +1160,92 @@
 			}
 		}
 	},
+	"bow":{
+		"name":	"Bow",
+		"icon":	"bow_white.png",
+		"cat":{
+			"ore":{
+				"icon":	"cboh.png",
+				"equip":[
+					"iron_bow",
+					"steel_bow",
+					"alloy_bow"
+				]
+			},
+			"bone":{
+				"icon":	"bone_yellow.png",
+				"equip":[
+					"hunter_bow",
+					"hunter_stoutbow",
+					"hunter_proudbow"
+				]
+			},
+			"tobi":{
+				"icon":	"tobi.png",
+				"equip":[
+					"hunter_bow",
+					"pulsar_bow",
+					"flying_kadachi_strikebow"
+				]
+			},
+			"anjanath":{
+				"icon":	"anjanath.png",
+				"equip":[
+					"hunter_bow",
+					"blazing_bow",
+					"anja_arch"
+				]
+			},
+			"rath_bone":{
+				"icon":	"rathalos.png",
+				"equip":[
+					"iron_bow",
+					"rathslinger_1",
+					"rathslinger_2"
+				]
+			},
+			"pukei":{
+				"icon":	"pukei.png",
+				"equip":[
+					"hunter_bow",
+					"blooming_arch",
+					"datura_string"
+				]
+			},
+			"diablos":{
+				"icon":	"diablos.png",
+				"equip":[
+					"hunter_bow",
+					"diablos_bow",
+					"diablos_coilbender"
+				]
+			},
+			"kulu":{
+				"icon":	"kulu.png",
+				"equip":[
+					"iron_bow",
+					"kulu_arrow",
+					"archer_dance"
+				]
+			},
+			"kushala":{
+				"icon":	"kushala.png",
+				"equip":[
+					"iron_bow",
+					"icesteel_bow",
+					"daora_sagittarii"
+				]
+			},
+			"nergigante":{
+				"icon":	"nergigante.png",
+				"equip":[
+					"iron_bow",
+					"nergal_whisper",
+					"doom_shaft"
+				]
+			}
+		}
+	},
 	"l-bowgun":{
 		"name":	"Light Bowgun",
 		"icon":	"l-bowgun_white.png",
