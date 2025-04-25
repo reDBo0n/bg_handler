@@ -142,13 +142,6 @@ class ArmoryHandler {
 	}
 
 	getSolo(equip: string) {
-		if(equip === "twin_nails_t" || equip === "twin_nails_k") {
-			equip = "twin_nails";
-		}
-		else if(equip === "fire_and_ice_t" || equip === "fire_and_ice_k") {
-			equip = "fire_and_ice";
-		}
-
 		if(!(equip in this.soloArm)) {
 			this.soloArm[equip] = 0;
 		}
@@ -157,13 +150,6 @@ class ArmoryHandler {
 	}
 
 	setSolo(equip:string, amnt: number) {
-		if(equip === "twin_nails_t" || equip === "twin_nails_k") {
-			equip = "twin_nails";
-		}
-		else if(equip === "fire_and_ice_t" || equip === "fire_and_ice_k") {
-			equip = "fire_and_ice";
-		}
-
 		amnt = Math.min(Math.max(amnt, 0), 4);
 		this.soloArm[equip] = amnt;
 
@@ -182,8 +168,6 @@ class ExpansionHandler {
 	private exp: LocalExpansion = {};
 	private updateCallback: (() => void) | null = null;
 
-	private soloMode: boolean = false;
-
 	constructor() {
 		if(typeof(window) !== "undefined") {
 			const savedState = localStorage.getItem(this.storageKey);
@@ -201,7 +185,11 @@ class ExpansionHandler {
 
 	get(expansion: string) {
 		if(!(expansion in this.exp)) {
-			this.exp[expansion] = true;
+			if(expansion === "_solo" || expansion === "_stamina") {
+				this.exp[expansion] = false;
+			}else {
+				this.exp[expansion] = true;
+			}
 		}
 
 		return this.exp[expansion];
