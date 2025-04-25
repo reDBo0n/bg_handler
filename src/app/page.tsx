@@ -162,13 +162,17 @@ export default function Home() {
 						</AlertDialogFooter>
 					</AlertDialogContent>
 					{/* Settings Dialog */}
-					<DialogContent>
+					<DialogContent className="max-h-[90vh] overflow-y-auto scroll-smooth overscroll-contain">
 						<DialogHeader>
 							<DialogTitle>
 								Settings
 							</DialogTitle>
 						</DialogHeader>
 						<div className="grid grid-cols-1">
+							<div className="flex items-center space-x-2">
+								<Checkbox id="solo-box" checked={expansionHandler.get("_solo")} onCheckedChange={(val) => expansionHandler.set("_solo", val === true)} className="cursor-pointer"/>
+								<label htmlFor="solo-box" className="cursor-pointer">Manage multiple hunters</label>
+							</div>
 							<div className="flex items-center space-x-2">
 								<Checkbox id="stamina-box" disabled/>
 								<label htmlFor="stamina-box"><s>Use new stamina rules</s></label>

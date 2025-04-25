@@ -5,7 +5,7 @@ import { Checkbox } from "./ui/checkbox";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils"
 
-import { armoryHandler, inventoryHandler } from "@/lib/handlers";
+import { armoryHandler, expansionHandler, inventoryHandler } from "@/lib/handlers";
 import CardButton from "./card_buttton";
 
 import equip_data from "@/data/equip_data.json"
@@ -251,6 +251,33 @@ export default function Arm({ id }: ArmProps) {
 		armoryHandler.set(id, true);
 	};
 
+	const isCraftableSolo = () => {
+		let tmp = armoryHandler.getSolo(id) < 4;
+
+		for(const item in eData[id].recipe) {
+			if(eData[id].recipe[item] > inventoryHandler.get(item)) {
+				tmp = false;
+			}
+		}
+
+		return tmp;
+	};
+
+	const craftItemSolo = () => {
+		for(const item in eData[id].recipe) {
+			inventoryHandler.set(item, inventoryHandler.get(item)-eData[id].recipe[item]);
+		}
+		armoryHandler.setSolo(id, armoryHandler.getSolo(id)+1);
+	};
+
+	const removeItemSolo = () => {
+		armoryHandler.setSolo(id, armoryHandler.getSolo(id)-1);
+	}
+
+	const addItemSolo = () => {
+		armoryHandler.setSolo(id, armoryHandler.getSolo(id)+1);
+	}
+
 	return (
 		<Dialog>
 			<DialogTrigger asChild className="cursor-pointer">
@@ -262,13 +289,26 @@ export default function Arm({ id }: ArmProps) {
 						height={30}
 						className="shrink-0"
 					/>
-					{(isCraftable() || armoryHandler.get(id)) && (
+					{(!expansionHandler.get("_solo") || eData[id].type === "weapon") && (isCraftable() || armoryHandler.get(id)) && (
 						<div
 							className={cn(
 								"absolute bottom-0 right-0 h-3 w-3 rounded-full border border-white",
 								armoryHandler.get(id) ? "bg-green-500" : "bg-yellow-400"
 							)}
 						/>
+					)}
+					{expansionHandler.get("_solo") && !(eData[id].type === "weapon") && (isCraftableSolo() || armoryHandler.getSolo(id) !== 0) && (
+						<div className="relative">
+							<div
+								className={cn(
+									"absolute bottom-0 right-0 h-3 w-3 rounded-full border border-white",
+									isCraftableSolo() ? "bg-yellow-400" : "bg-green-500"
+								)}
+							/>
+							<span className="absolute bottom-[-1] right-0 text-black text-xs px-0.5">
+								{armoryHandler.getSolo(id)}
+							</span>
+						</div>
 					)}
 				</div>
 			</DialogTrigger>
@@ -280,21 +320,37 @@ export default function Arm({ id }: ArmProps) {
 					</DialogDescription>
 				</DialogHeader>
 				{createEntry()}
-				<div className="flex justify-center gap-20">
-					<div className="flex justify-center">
-						<Image
-							src="/bg_handler/mh/box.png"
-							alt="box"
-							width={20}
-							height={20}
-							className="object-contain"
-						/>
-						<Checkbox checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)} className="cursor-pointer"/>
+				{/* normal mode, only 1 per armor */}
+				{(!expansionHandler.get("_solo") || eData[id].type === "weapon") && (
+					<div className="flex justify-center gap-20">
+						<div className="flex justify-center">
+							<Image
+								src="/bg_handler/mh/box.png"
+								alt="box"
+								width={20}
+								height={20}
+								className="object-contain"
+							/>
+							<Checkbox checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)} className="cursor-pointer"/>
+						</div>
+						{isCraftable() && (
+							<Button onClick={() => craftItem()} className="cursor-pointer">CRAFT</Button>
+						)}
 					</div>
-					{isCraftable() && (
-						<Button onClick={() => craftItem()} className="cursor-pointer">CRAFT</Button>
-					)}
-				</div>
+				)}
+				{/* solo mode, multiple cnts of armor possible */}
+				{expansionHandler.get("_solo") && !(eData[id].type === "weapon") && (
+					<div className="flex justify-center gap-20">
+						<div className="flex justify-center">
+							<Button size="sm" variant="ghost" onClick={() => removeItemSolo()} className="cursor-pointer">-</Button>
+							<span className="mt-1.5">{armoryHandler.getSolo(id)}</span>
+							<Button size="sm" variant="ghost" onClick={() => addItemSolo()} className="cursor-pointer">+</Button>
+						</div>
+						{isCraftableSolo() && (
+							<Button onClick={() => craftItemSolo()} className="cursor-pointer">CRAFT</Button>
+						)}
+					</div>
+				)}
 				<DialogFooter>
 					
 				</DialogFooter>

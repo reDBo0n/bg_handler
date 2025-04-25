@@ -83,15 +83,23 @@ type LocalArm = {
 	[id: string]:	boolean;
 }
 
+type LocalSoloArm = {
+	[id: string]:	number;
+}
+
 class ArmoryHandler {
 	private storageKey: string = "mhw.arm";
 	private arm: LocalArm = {};
+	private soloArm: LocalSoloArm = {};
 	private updateCallback: (() => void) | null = null;
 
 	constructor() {
 		if(typeof window !== "undefined") {
 			const savedState = localStorage.getItem(this.storageKey);
 			this.arm = savedState ? JSON.parse(savedState) : {};
+
+			const savedSoloState = localStorage.getItem(this.storageKey.concat("_solo"));
+			this.soloArm = savedSoloState ? JSON.parse(savedSoloState) : {};
 		}
 	}
 
@@ -132,6 +140,37 @@ class ArmoryHandler {
 
 		this.notifyUpdate();
 	}
+
+	getSolo(equip: string) {
+		if(equip === "twin_nails_t" || equip === "twin_nails_k") {
+			equip = "twin_nails";
+		}
+		else if(equip === "fire_and_ice_t" || equip === "fire_and_ice_k") {
+			equip = "fire_and_ice";
+		}
+
+		if(!(equip in this.soloArm)) {
+			this.soloArm[equip] = 0;
+		}
+
+		return this.soloArm[equip];
+	}
+
+	setSolo(equip:string, amnt: number) {
+		if(equip === "twin_nails_t" || equip === "twin_nails_k") {
+			equip = "twin_nails";
+		}
+		else if(equip === "fire_and_ice_t" || equip === "fire_and_ice_k") {
+			equip = "fire_and_ice";
+		}
+
+		amnt = Math.min(Math.max(amnt, 0), 4);
+		this.soloArm[equip] = amnt;
+
+		localStorage.setItem(this.storageKey.concat("_solo"), JSON.stringify(this.soloArm));
+
+		this.notifyUpdate();
+	}
 }
 
 type LocalExpansion = {
@@ -143,10 +182,12 @@ class ExpansionHandler {
 	private exp: LocalExpansion = {};
 	private updateCallback: (() => void) | null = null;
 
+	private soloMode: boolean = false;
+
 	constructor() {
 		if(typeof(window) !== "undefined") {
 			const savedState = localStorage.getItem(this.storageKey);
-			this.exp = savedState ? JSON.parse(savedState) : {};
+			this.exp = savedState ? JSON.parse(savedState) : { "_solo":	false };
 		}
 	}
 
