@@ -2472,7 +2472,7 @@
 		"name":	"Daora's Hornet",
 		"icon":	"l-bowgun_orange.png",
 		"type":	"weapon",
-		"pre":	"daora_hornet",
+		"pre":	"icesteel_wasp",
 		"recipe":{
 			"daora_horn":	4,
 			"daora_claw":	3,
@@ -2499,7 +2499,7 @@
 		"name":	"Nergal Spitter",
 		"icon":	"l-bowgun_purple.png",
 		"type":	"weapon",
-		"pre":	"cahin_blitz",
+		"pre":	"chain_blitz",
 		"recipe":{
 			"nerg_talon":	1,
 			"nerg_replate":	1,
@@ -2592,7 +2592,7 @@
 			"dragonite":	3,
 			"dragonvein":	2
 		},
-		"dev":	"dev_yellow",
+		"dev":	"dev_yellow.png",
 		"damage":{
 			"1":	5,
 			"2":	4,
@@ -2681,7 +2681,7 @@
 			"jagras_scale":	3,
 			"sharp_claw":	1
 		},
-		"dev":	"dev_green-png",
+		"dev":	"dev_green.png",
 		"damage":{
 			"1":	4,
 			"2":	4,
@@ -2905,7 +2905,7 @@
 		"name":	"Teostra's Flames",
 		"icon":	"h-bowgun_orange.png",
 		"type":	"weapon",
-		"pre":	"tepstra_artillery",
+		"pre":	"teostra_artillery",
 		"recipe":{
 			"teo_horn":	3,
 			"teo_claw":	2,
@@ -3268,7 +3268,7 @@
 		},
 		"remove":{
 			"rapid_spin":	"2",
-			"_d":	"2",
+			"double_slash_d":	"2",
 			"bladed_fangs":	"2"
 		},
 		"add":{
@@ -3468,7 +3468,7 @@
 			"foresight_slash":	"2"
 		},
 		"add":{
-			"enhanced_forsight_slash":	"2"
+			"enhanced_foresight_slash":	"2"
 		}
 	},
 	"bone_reaper":{
@@ -4270,7 +4270,7 @@
 		"name":	"Dazzling Flash",
 		"icon":	"l-sword_purple.png",
 		"type":	"weapon",
-		"pre":	"flickering_flash",
+		"pre":	"flickering_glow",
 		"recipe":{
 			"tzitzi_claw":	2,
 			"tzitzi_photo":	1,
@@ -7201,7 +7201,7 @@
 		"name":	"Kadachi Kaina",
 		"icon":	"blade_purple.png",
 		"type":	"weapon",
-		"pre":	"pulsra_strongarm",
+		"pre":	"pulsar_strongarm",
 		"recipe":{
 			"tobi_claw":	2,
 			"tobi_scale":	2,
