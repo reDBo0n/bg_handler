@@ -4,17 +4,21 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
 
-const potions = [
-	{ id: "0", alt:	"Potion 1" },
-	{ id: "1", alt:	"Potion 2" },
-	{ id: "2", alt:	"Potion 3" },
-];
+interface ResourceButtonsProps {
+	icon:	string;
+	storage:string;
+}
 
-const src = "/bg_handler/mh/potion.png";
-const storageKey = "mhw.potions";
+export default function ResourceButtons({ icon, storage }: ResourceButtonsProps) {
+	const storageKey = "mhw.".concat(storage);
+	const resources = [
+		{ id: "0", alt:	icon.concat(" 1") },
+		{ id: "1", alt:	icon.concat(" 2") },
+		{ id: "2", alt:	icon.concat(" 3") },
+	];
 
-export default function PotionButtons() {
 	const [active, setActive] = useState<boolean[]>([false, false, false]);
+
 
 	useEffect(() => {
 		const savedState = localStorage.getItem(storageKey)
@@ -44,7 +48,7 @@ export default function PotionButtons() {
 
 	return (
 		<div className="flex gap-4 justify-center">
-			{potions.map((potion, idx) => {
+			{resources.map((resource, idx) => {
 				const isActive = active[idx];
 				return (
 					<Button
@@ -54,8 +58,8 @@ export default function PotionButtons() {
 						className="rounded-lg p-2 cursor-pointer"
 					>
 						<Image
-							src={src}
-							alt={potion.alt}
+							src={"/bg_handler/mh/".concat(icon)}
+							alt={resource.alt}
 							width={36}
 							height={36}
 							className={isActive ? '' : 'grayscale opacity-50'}

@@ -174,8 +174,8 @@ export default function Home() {
 								<label htmlFor="solo-box" className="cursor-pointer">Manage multiple hunters</label>
 							</div>
 							<div className="flex items-center space-x-2">
-								<Checkbox id="stamina-box" disabled/>
-								<label htmlFor="stamina-box"><s>Use new stamina rules</s></label>
+								<Checkbox id="stamina-box" checked={expansionHandler.get("_stamina")} onCheckedChange={(val) => expansionHandler.set("_stamina", val === true)} className="cursor-pointer"/>
+								<label htmlFor="stamina-box">Use new stamina rules</label>
 							</div>
 							<div className="flex items-center space-x-2">
 								<Checkbox id="time-box" disabled/>

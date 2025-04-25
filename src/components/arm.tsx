@@ -32,6 +32,7 @@ interface Armor extends BaseEquip {
 		set?:	boolean;
 		name:	string;
 		desc:	string;
+		alt?:	string;
 	}
 }
 
@@ -144,9 +145,24 @@ export default function Arm({ id }: ArmProps) {
 						)}
 						{(eData[id] as Armor).skill.name}
 					</div>
-					<div>
-						{(eData[id] as Armor).skill.desc}
-					</div>
+					{!(id === "jagras_helmet" && expansionHandler.get("_stamina")) && (
+						<div>
+							{(eData[id] as Armor).skill.desc}
+						</div>
+					)}
+					{id === "jagras_helmet" && expansionHandler.get("_stamina") && (
+						<div className="grid grid-cols-1 justify-start gap-1">
+							<div>
+								Does nothing under new Stamina rules
+							</div>
+							<div>
+								<i>Alternative Iceborne Effect</i>
+							</div>
+							<div>
+								{(eData[id] as Armor).skill.alt}
+							</div>
+						</div>
+					)}
 				</div>
 			</div>
 		);

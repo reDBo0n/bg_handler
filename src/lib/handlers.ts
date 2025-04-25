@@ -187,7 +187,7 @@ class ExpansionHandler {
 	constructor() {
 		if(typeof(window) !== "undefined") {
 			const savedState = localStorage.getItem(this.storageKey);
-			this.exp = savedState ? JSON.parse(savedState) : { "_solo":	false };
+			this.exp = savedState ? JSON.parse(savedState) : { "_solo": false, "_stamina": false };
 		}
 	}
 
