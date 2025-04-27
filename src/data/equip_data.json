@@ -119,7 +119,7 @@
 		},
 		"skill":	{
 			"name":	"Poison Resistance",
-			"desc":	"You are immune to the poison status."
+			"desc":	"This hunter can't suffer the :poison: status ailment."
 		}
 	},
 	"bone_helmet":{
@@ -147,7 +147,7 @@
 		},
 		"skill":	{
 			"name":	"Slugger",
-			"desc":	"Once per queste, apply +1 stun token."
+			"desc":	"Once per quest, when this hunter uses a :stun: status ailment attack card, place +1 :stun: token."
 		}
 	},
 	"bone_greaves":{
@@ -180,7 +180,7 @@
 		},
 		"skill":	{
 			"name":	"Guard",
-			"desc":	"Gain +1 armor when playing attacks that grant armor."
+			"desc":	"When this hunter plays an attack card that grants additional armour, the card gains +1 :armor:."
 		}
 	},
 	"barroth_mail":{
@@ -220,7 +220,7 @@
 		},
 		"skill":	{
 			"name":	"Stun Resistance",
-			"desc":	"You're immune to the stun status ailment."
+			"desc":	"This hunter can't suffer the :stun: status ailment."
 		}
 	},
 	"jagras_helmet":{
@@ -240,7 +240,7 @@
 		},
 		"skill":	{
 			"name":	"Speed Eating",
-			"desc":	"Once per quest, you may use combat actions and preparation actions during the same turn.",
+			"desc":	"Once per quest, this hunter may use combat actions and preparation actions during the same turn.",
 			"alt":	"Once per quest, if you play a potion or ration item card, resolve its effect at the end of this turn instead of at the start of your next turn."
 		}
 	},
@@ -261,7 +261,7 @@
 		},
 		"skill":	{
 			"name":	"Palico Rally",
-			"desc":	"You may use your Palico ability twice per quest."
+			"desc":	"This hunter may use their Palico ability twice per quest."
 		}
 	},
 	"jagras_greaves":{
@@ -299,7 +299,7 @@
 		},
 		"skill":	{
 			"name":	"Weakness Exploit",
-			"desc":	"Attack cards with 2+ combo draw +1 damage."
+			"desc":	"When you play an attack card with :combo: of 2 or more, draw +1 :damage:."
 		}
 	},
 	"kulu_mail":{
@@ -318,7 +318,7 @@
 		},
 		"skill":	{
 			"name":	"Critical Eye",
-			"desc":	"When you draw damage, draw +1, then choose 1 to place on top of your damage deck before inflicting damage."
+			"desc":	"When you draw :damage:, draw +1 :damage:, then choose 1 :damage: to place on top of your damage deck before inflicting damage to the monster."
 		}
 	},
 	"kulu_greaves":{
@@ -357,7 +357,7 @@
 		},
 		"skill":	{
 			"name":	"Sporepuff Expert",
-			"desc":	"When you recover health from anything that isn't a potion, recover 1 additional health."
+			"desc":	"When this hunter recovers health from anything that isn't a potion, recover 1 additional health."
 		}
 	},
 	"pukei_mail":{
@@ -376,7 +376,7 @@
 		},
 		"skill":	{
 			"name":	"Botanist",
-			"desc":	"During the gathering phase, when the hunters gain a potion, they may all immediately recover to full health."
+			"desc":	"During the gathering phase, when the hunters gain a potion they may all immediately recover to full health without spending a potion."
 		}
 	},
 	"pukei_greaves":{
@@ -396,7 +396,7 @@
 		},
 		"skill":	{
 			"name":	"Poison Resistance",
-			"desc":	"You are immune to the poison status."
+			"desc":	"This hunter can't suffer the :poison: status ailment."
 		}
 	},
 	"tobi_helmet":{
@@ -415,7 +415,7 @@
 		},
 		"skill":	{
 			"name":	"Constitution",
-			"desc":	"Once per quest, discard attack cards when dodging."
+			"desc":	"Once per quest when this hunter successfully dodges a monster attack, discard your attack cards instead of placing them on your stamina board."
 		}
 	},
 	"tobi_mail":{
@@ -435,7 +435,7 @@
 		},
 		"skill":	{
 			"name":	"Evade Extender",
-			"desc":	"Move +1 when dodging."
+			"desc":	"When this hunter successfully dodges a monster attack, they may move 1 additional node."
 		}
 	},
 	"tobi_greaves":{
@@ -454,7 +454,7 @@
 		},
 		"skill":	{
 			"name":	"Thunder Attack",
-			"desc":	"Draw +1 damage card on thunder attacks."
+			"desc":	"When this hunter plays a :thunder: elemental attack card, draw +1 :damage:."
 		}
 	},
 	"anja_helmet":{
@@ -473,7 +473,7 @@
 		},
 		"skill":	{
 			"name":	"Fire Attack",
-			"desc":	"Draw +1 damage card on fire attacks."
+			"desc":	"When this hunter plays a :fire: elemental attack, draw +1 :damage:."
 		}
 	},
 	"anja_mail":{
@@ -492,7 +492,7 @@
 		},
 		"skill":	{
 			"name":	"Marathon Runner",
-			"desc":	"Move 2 instead of 1 when walking."
+			"desc":	"When this hunter walks, they move up to 2 nodes instead of 1."
 		}
 	},
 	"anja_greaves":{
@@ -532,7 +532,7 @@
 		},
 		"skill":	{
 			"name":	"Aquatic Expert",
-			"desc":	"Gain immunity to pond nodes."
+			"desc":	"When this hunter moves onto pond nodes they don't discard damage cards."
 		}
 	},
 	"jyura_mail":{
@@ -552,7 +552,7 @@
 		},
 		"skill":	{
 			"name":	"Water Attack",
-			"desc":	"Draw +1 damage card on water attacks."
+			"desc":	"When this hunter plays a :water: elemental attack card, draw +1 :damage:."
 		}
 	},
 	"jyura_greaves":{
@@ -591,7 +591,7 @@
 		},
 		"skill":	{
 			"name":	"Intimidator",
-			"desc":	"You can't suffer damage durin the gathering phase."
+			"desc":	"This hunter can't suffer damage during the gathering phase."
 		}
 	},
 	"arath_mail":{
@@ -611,7 +611,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Azure Rathalos Mastery",
-			"desc":	"When resolving elemental damage, draw 3 and pick one."
+			"desc":	"When this hunter would draw an elemental damage card, draw 3 cards before choosing 1 to resolve."
 		}
 	},
 	"arath_greaves":{
@@ -630,7 +630,7 @@
 		},
 		"skill":	{
 			"name":	"Focus",
-			"desc":	"Reduce combo icons by 1. (Minimum of 1)"
+			"desc":	"When this hunter uses an attack card with :combo:, reduce the :combo: value by 1 to a minimum of 1."
 		}
 	},
 	"bdiablos_helmet":{
@@ -651,7 +651,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Black Diablos Mastery",
-			"desc":	"Draw +1 damage card on non-elemental attacks"
+			"desc":	"When this hunter plays an attack card without an elemental damage symbol, draw +1 :damage:."
 		}
 	},
 	"bdiablos_mail":{
@@ -670,7 +670,7 @@
 		},
 		"skill":	{
 			"name":	"Resentment",
-			"desc":	"If you recovered health during your previous turn, the first attack you play this turn gains +2 damage."
+			"desc":	"If this hunter recovered health during your previous turn, the first attack card you play this turn gains +2 :damage:."
 		}
 	},
 	"bdiablos_greaves":{
@@ -690,7 +690,7 @@
 		},
 		"skill":	{
 			"name":	"Part Breaker",
-			"desc":	"Cards with break gain +1 break."
+			"desc":	"When this hunter plays an attack card with 1 or more :break:, the card gains +1 :break:."
 		}
 	},
 	"diablos_helmet":{
@@ -710,7 +710,7 @@
 		},
 		"skill":	{
 			"name":	"Heroics",
-			"desc":	"While at 2 health or less, draw +1 damage on non-elemental attacks."
+			"desc":	"While this hunter has 2 health or less, when this hunter plays an attack card without an elemental damage symbol, draw +1 :damage:."
 		}
 	},
 	"diablos_mail":{
@@ -730,7 +730,7 @@
 		},
 		"skill":	{
 			"name":	"Slugger",
-			"desc":	"Once per quest, apply +1 stun token."
+			"desc":	"Once per quest, when this hunter uses a :stun: status ailment attack card, place +1 :stun: token."
 		}
 	},
 	"diablos_greaves":{
@@ -750,7 +750,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Diablos Mastery",
-			"desc":	"Draw +1 damage card on non-elemental attacks."
+			"desc":	"When this hunter plays an attack card without an elemental damage symbol, draw +1 :damage:."
 		}
 	},
 	"rath_helmet":{
@@ -770,7 +770,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Rathalos Mastery",
-			"desc":	"When applying fire, draw an elemental damage card instead of placing a fire token."
+			"desc":	"When this hunter plays a :fire: elemental attack card, instead of placing an elemental token draw 1 elemental damage card. This doesn't effect monster with immunity :fire:."
 		}
 	},
 	"rath_mail":{
@@ -789,7 +789,7 @@
 		},
 		"skill":	{
 			"name":	"Rathalos Power",
-			"desc":	"Once per quest, you may swap your hunter token with another player, maintaining token facing."
+			"desc":	"Once per quest, this player may swap their hunter token with another player. The facing of the hunter token each player now has should match the facing of their previous token."
 		}
 	},
 	"rath_greaves":{
@@ -808,7 +808,7 @@
 		},
 		"skill":	{
 			"name":	"Sleep Resistance",
-			"desc":	"You're immune to the sleep status."
+			"desc":	"This hunter can't suffer the :sleep: status ailment."
 		}
 	},
 	"kush_helmet":{
@@ -828,7 +828,7 @@
 		},
 		"skill":	{
 			"name":	"Ice Attack",
-			"desc":	"Draw +1 damage card on ice attacks."
+			"desc":	"When this hunter plays a :ice: elemental attack card, draw +1 :damage:."
 		}
 	},
 	"kush_mail":{
@@ -849,7 +849,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Kushala Daora Flight",
-			"desc":	"Gain +1 agility when dodging or sprinting."
+			"desc":	"When this hunter plays 1 or more attack cards to dodge monster attacks or sprint, add +1 :agility: to their agility total."
 		}
 	},
 	"kush_greaves":{
@@ -869,7 +869,7 @@
 		},
 		"skill":	{
 			"name":	"Handicraft",
-			"desc":	"Once per quest, reshuffle your empty damage dack during an attack."
+			"desc":	"Once per quest, if your damage deck becomes empty while resolving an attack card, you may immediately sharpen and continue to resolve the attack."
 		}
 	},
 	"nerg_helmet":{
@@ -889,7 +889,7 @@
 		},
 		"skill":	{
 			"name":	"Maximum Might",
-			"desc":	"Draw +2 damage cards, but return 2 to the deck."
+			"desc":	"When you draw :damage:, draw +2 :damage:, then choose 2 :damage: to place back on top of your damage deck before inflicting damage to the monster."
 		}
 	},
 	"nerg_mail":{
@@ -908,7 +908,7 @@
 		},
 		"skill":	{
 			"name":	"Agitator",
-			"desc":	"Draw +1 damage against broken parts."
+			"desc":	"When you select a broken body part to attack, your attack cards which inflict damage gain +1 :damage:."
 		}
 	},
 	"nerg_greaves":{
@@ -929,7 +929,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Nergigante Hunter",
-			"desc":	"If you inflict damage to the monster during your turn, recover 1 health."
+			"desc":	"If your hunter inflicts 1 or more damage to the monster during your turn, recover 1 health."
 		}
 	},
 	"teo_helmet":{
@@ -949,7 +949,7 @@
 		},
 		"skill":	{
 			"name":	"Latent Power",
-			"desc":	"Draw +1 damage on your first attack if you suffered damage last monster turn."
+			"desc":	"If this hunter suffered damage during the monster's last turn, draw +1 :damage: for the first attack card you play this turn which inflicts damage."
 		}
 	},
 	"teo_mail":{
@@ -969,7 +969,7 @@
 		"skill":	{
 			"set":	true,
 			"name":	"Teostra Technique",
-			"desc":	"Once per quest, shuffle the damage cards from an attack back into the damage deck."
+			"desc":	"Once per quest when this hunter plays an attack card, shuffle any :damage: you draw into your damage deck instead of discarding them."
 		}
 	},
 	"teo_greaves":{
@@ -987,7 +987,7 @@
 		},
 		"skill":	{
 			"name":	"Weakness Exploit",
-			"desc":	"Attack cards with 2+ combo draw +1 damage."
+			"desc":	"When this hunter plays an attack card with :combo: of 2 or more, draw +1 :damage:."
 		}
 	},
 	"tzitzi_helmet":{
@@ -1002,7 +1002,7 @@
 		},
 		"skill":	{
 			"name":	"Stun Resistance",
-			"desc":	"This hunter can't suffer the Stun staus ailment."
+			"desc":	"This hunter can't suffer the :stun: staus ailment."
 		}
 	},
 	"tzitzi_mail":{
@@ -1018,7 +1018,7 @@
 		},
 		"skill":	{
 			"name":	"Water Attack",
-			"desc":	"When this hunter plays a water elemental attack card, draw 1 additional Damge Card."
+			"desc":	"When this hunter plays a :water: elemental attack card, draw +1 :damage:."
 		}
 	},
 	"tzitzi_greaves":{
@@ -1032,7 +1032,7 @@
 		},
 		"skill":	{
 			"name":	"Sleep Resistance",
-			"desc":	"This hunter can't suffer the Sleep status ailment."
+			"desc":	"This hunter can't suffer the :sleep: status ailment."
 		}
 	},
 	"girros_helmet":{
@@ -1051,7 +1051,7 @@
 		},
 		"skill":	{
 			"name":	"Horn Maestro",
-			"desc":	"When this hunter plays a song, that song gains 1 additional Range."
+			"desc":	"When this hunter plays a song, that song gains +1 :range:."
 		}
 	},
 	"girros_mail":{
@@ -1070,7 +1070,7 @@
 		},
 		"skill":	{
 			"name":	"Lesser Paralysis Resistance",
-			"desc":	"When this hunter suffers the Paralysis status ailment, discard down to 3 cards in your hand instead of 2."
+			"desc":	"When this hunter suffers the :para: status ailment, discard down to 3 cards in your hand instead of 2."
 		}
 	},
 	"girros_greaves":{
@@ -1089,7 +1089,7 @@
 		},
 		"skill":	{
 			"name":	"Paralysis Attack",
-			"desc":	"Once per quest, when this hunter uses a Paralysis status ailment attack card, place 1 additional Paralysis token."
+			"desc":	"Once per quest, when this hunter uses a :para: status ailment attack card, place +1 :para: token."
 		}
 	},
 	"radobaan_helmet":{
@@ -1107,7 +1107,7 @@
 		},
 		"skill":	{
 			"name":	"Slugger",
-			"desc":	"Once per quest, when this hunter uses a Stun status ailment attack card, place 1 additional Stun token."
+			"desc":	"Once per quest, when this hunter uses a :stun: status ailment attack card, place +1 :stun: token."
 		}
 	},
 	"radobaan_mail":{
@@ -1126,7 +1126,7 @@
 		},
 		"skill":	{
 			"name":	"Sleep Attack",
-			"desc":	"Once per quest, when this hunter uses a Sleep status ailment attack card, place 1 additional Sleep token."
+			"desc":	"Once per quest, when this hunter uses a :sleep: status ailment attack card, place +1 :sleep: token."
 		}
 	},
 	"radobaan_greaves":{
@@ -1144,7 +1144,7 @@
 		},
 		"skill":	{
 			"name":	"Guard",
-			"desc":	"When this hunter plays an attack card which grant additional armour, the card gains 1 addtional Armour."
+			"desc":	"When this hunter plays an attack card which grant additional armour, the card gains +1 :armor:."
 		}
 	},
 	"kirin_helmet":{
@@ -1182,7 +1182,7 @@
 		},
 		"skill":	{
 			"name":	"Thunder Attack",
-			"desc":	"When this hunter plays a Thunder attack card, dra 1 additional Damage Card."
+			"desc":	"When this hunter plays a :thunder: attack card, draw +1 :damage:."
 		}
 	},
 	"kirin_greaves":{

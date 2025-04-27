@@ -12,6 +12,7 @@ import equip_data from "@/data/equip_data.json"
 import item_data from "@/data/item_data.json"
 import { ItemData } from "./item_listing";
 import SongButton from "./song_button";
+import { parseIconText } from "./icon";
 
 interface BaseEquip {
 	name:	string;
@@ -147,7 +148,7 @@ export default function Arm({ id }: ArmProps) {
 					</div>
 					{!(id === "jagras_helmet" && expansionHandler.get("_stamina")) && (
 						<div>
-							{(eData[id] as Armor).skill.desc}
+							{parseIconText((eData[id] as Armor).skill.desc)}
 						</div>
 					)}
 					{id === "jagras_helmet" && expansionHandler.get("_stamina") && (

@@ -24,7 +24,13 @@ const iconMap: Record<string, string> = {
 	":red:":		"/bg_handler/mh/note_red.png",
 	":blue:":		"/bg_handler/mh/note_blue.png",
 	":range:":		"/bg_handler/mh/range_icon.png",
-	":insect2:":	"/bg_handler/mh/insect_2_icon.png"
+	":insect2:":	"/bg_handler/mh/insect_2_icon.png",
+	":combo:":		"/bg_handler/mh/combo_icon.png",
+	":fire:":		"/bg_handler/mh/fire.png",
+	":water:":		"/bg_handler/mh/water.png",
+	":para:":		"/bg_handler/mh/para.png",
+	":sleep:":		"/bg_handler/mh/sleep.png",
+	":agility:":	"/bg_handler/mh/agil.png"
 }
 
 export function parseIconText(text: string) {
