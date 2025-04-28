@@ -100,7 +100,10 @@
 		"name":		"Strong Charge Up",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +2 :break: for the next attack card you play this turn which inflicts damage."
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +2 :break: for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"blazing_slam":{
 		"name":		"Blazing Slam",
@@ -110,7 +113,8 @@
 		"rules":	"Draw +1 :damage: for each other Blazing Slam you played this turn.",
 		"range":	"1",
 		"break":	"0",
-		"combo":	"0"
+		"combo":	"0",
+		"special":	"fire.png"
 	},
 	"crushing_slash":{
 		"name":		"Crushing Slash",
@@ -140,19 +144,26 @@
 		"rules":	"If this card is placed on the fifth slot of your stamina board, draw +2 :damage:.",
 		"range":	"1",
 		"break":	"0",
-		"combo":	"2"
+		"combo":	"2",
+		"special":	"poison.png"
 	},
 	"charge_up":{
 		"name":		"Charge Up",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: for the next attack card you play this turn which inflicts damage."
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"poisoned_charge_up":{
 		"name":		"Poisoned Charge Up",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :poison: for the next attack card you play this turn which inflicts damage."
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :poison: for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"greatsword_block":{
 		"name":		"Greatsword Block",
@@ -177,9 +188,12 @@
 	},
 	"frozen_charge_up":{
 		"name":		"Frozen Charge Up",
-		"agility":	"2",
+		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :ice: for the next attack card you play this turn which inflicts damage."
+		"rules":	"Playing this attack card doesn't count towards the maximum allowed by the :attacks:. Gain +1 :break: and +1 :ice: for the next attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"frostbite_slam":{
 		"name":		"Frostbite Slam",
@@ -196,7 +210,7 @@
 		"name":		"Dreaded Cleave",
 		"agility":	"2",
 		"stamina":	"normal",
-		"damage":	"2",
+		"damage":	"1",
 		"rules":	"Draw +2 :damage: of the selected body part has at least 3 :break: or is broken.",
 		"range":	"1",
 		"break":	"0",
@@ -207,6 +221,7 @@
 		"name":		"Dragon Charged Slash",
 		"agility":	2,
 		"stamina":	"finisher",
+		"damage":	"2",
 		"rules":	"If this card is placed on the fifth slot of your stamina board, draw +3 :damage:.",
 		"range":	"1",
 		"break":	"1",
@@ -233,7 +248,7 @@
 		"agility":	"2",
 		"stamina":	"normal",
 		"damage":	"2",
-		"rules":	"Draw 1 :damage: if this is the first attack card you played this turn.",
+		"rules":	"Draw +1 :damage: if this is the first attack card you played this turn.",
 		"range":	"1",
 		"break":	"0",
 		"combo":	"0",
@@ -340,13 +355,19 @@
 		"name":		"Demon Mode",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +2 :damage: for each other attack card you play this turn which inflicts damage."
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +2 :damage: for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"enhanced_demon_mode":{
 		"name":		"Enhanced Demon Mode",
 		"agility":	"3",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: for each other attack card you play this turn which inflicts damage."
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"six_fold_slash":{
 		"name":		"Six Fold Slash",
@@ -416,7 +437,10 @@
 		"name":		"Brutal Demon Mode",
 		"agility":	"2",
 		"stamina":	"normal",
-		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: and gain +1 :break: for each other attack card you play this turn which inflicts damage."
+		"rules":	"If this attack card is placed on the first slot of your stamina board, draw +3 :damage: and gain +1 :break: for each other attack card you play this turn which inflicts damage.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"evasive_stab":{
 		"name":		"Evasive Stab",
@@ -520,7 +544,7 @@
 	"normal_2_l":{
 		"name":		"Normal Ammo 2",
 		"agility":	"2",
-		"stmaina":	"normal",
+		"stamina":	"normal",
 		"damage":	"2",
 		"rules":	"",
 		"range":	"2",
@@ -535,7 +559,7 @@
 	"normal_3_l":{
 		"name":		"Normal Ammo 3",
 		"agility":	"2",
-		"stmaina":	"normal",
+		"stamina":	"normal",
 		"damage":	"3",
 		"rules":	"",
 		"range":	"2",
@@ -973,12 +997,15 @@
 		"agility":	"2",
 		"stamina":	"normal",
 		"armor":	"+3",
-		"rules":	"Your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card."
+		"rules":	"Your :fire_res::water_res::ice_res::thunder_res::dragon_res: resistances are doubled. At the start of your next turn, discard this card.",
+		"range":	"0",
+		"break":	"0",
+		"combo":	"0"
 	},
 	"nergal_wyvernheart_h":{
 		"name":		"Nergal Wyvernheart",
 		"agility":	"1",
-		"stamina":	"normal",
+		"stamina":	"finisher",
 		"damage":	"1",
 		"rules":	"Draw +1 :damage: for each other face up attack card on your stamina board.",
 		"range":	"3",

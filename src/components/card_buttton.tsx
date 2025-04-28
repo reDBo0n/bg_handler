@@ -186,7 +186,7 @@ export default function CardButton({ id }: CardButtonProps) {
 
 					{/* text */}
 					<div className="absolute inset-0 top-[40%] flex items-center justify-center text-white text-center z-5">
-						<div>
+						<div className="mx-10">
 							{parseIconText(data[id].rules)}
 						</div>
 					</div>
