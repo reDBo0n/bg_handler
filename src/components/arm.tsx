@@ -119,7 +119,7 @@ export default function Arm({ id }: ArmProps) {
 							fill
 							className="object-contain"
 						/>
-						<span className="absolute inset-0 flex items-center justify-center text-white text-sm font-bold rounded">
+						<span className="absolute inset-0 flex items-center justify-center text-white text-sm font-bold rounded" style={{ WebkitTextStroke: "0.6px black" }}>
 							{eData[id].armor}
 						</span>
 					</div>
@@ -131,7 +131,7 @@ export default function Arm({ id }: ArmProps) {
 								fill
 								className="object-contain"
 							/>
-							<span className="absolute inset-0 flex items-center justify-center text-white text-sm font-bold rounded">
+							<span className="absolute inset-0 flex items-center justify-center text-white text-sm font-bold rounded" style={{ WebkitTextStroke: "0.6px black" }}>
 								{(eData[id] as Armor).res?.amnt}
 							</span>
 						</div>
@@ -173,7 +173,7 @@ export default function Arm({ id }: ArmProps) {
 		return (
 			<div>
 				{/* damage section */}
-				<div className="flex justify-center gap-4">
+				<div className="flex justify-center items-center gap-2">
 					{(eData[id] as Weapon).armor && (
 						<div className="relative w-8 h-8">
 							<Image
@@ -339,16 +339,18 @@ export default function Arm({ id }: ArmProps) {
 				{createEntry()}
 				{/* normal mode, only 1 per armor */}
 				{(!expansionHandler.get("_solo") || eData[id].type === "weapon") && (
-					<div className="flex justify-center gap-20">
+					<div className="flex justify-center items-center gap-20">
 						<div className="flex justify-center">
-							<Image
-								src="/bg_handler/mh/box.png"
-								alt="box"
-								width={20}
-								height={20}
-								className="object-contain"
-							/>
-							<Checkbox checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)} className="cursor-pointer"/>
+							<label htmlFor="check">
+								<Image
+									src="/bg_handler/mh/box.png"
+									alt="box"
+									width={20}
+									height={20}
+									className="object-contain cursor-pointer w-5 h-5"
+								/>
+							</label>
+							<Checkbox id="check" checked={armoryHandler.get(id)} onCheckedChange={(val) => armoryHandler.set(id, val === true)} className="cursor-pointer w-5 h-5"/>
 						</div>
 						{isCraftable() && (
 							<Button onClick={() => craftItem()} className="cursor-pointer">CRAFT</Button>
@@ -357,7 +359,7 @@ export default function Arm({ id }: ArmProps) {
 				)}
 				{/* solo mode, multiple cnts of armor possible */}
 				{expansionHandler.get("_solo") && !(eData[id].type === "weapon") && (
-					<div className="flex justify-center gap-20">
+					<div className="flex justify-center items-center gap-20">
 						<div className="flex justify-center">
 							<Button size="sm" variant="ghost" onClick={() => removeItemSolo()} className="cursor-pointer">-</Button>
 							<span className="mt-1.5">{armoryHandler.getSolo(id)}</span>
